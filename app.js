@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
+const ejsMate = require('ejs-mate');
 const methodOverride = require('method-override');
 const campground = require('./models/campground');
 
@@ -14,6 +15,7 @@ db.once("open", () => {
 
 const app = express();
 
+app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
@@ -55,7 +57,7 @@ app.get('/campgrounds/:id/edit', async (req, res) => {
 app.put('/campgrounds/:id', async (req, res) => {
     // below req.body.campground is the object(in ejs files see name is campgrond[...])
     // and "..." is used to spread the object 
-    const camp = await campground.findByIdAndUpdate(req.params.id, {...req.body.campground});
+    const camp = await campground.findByIdAndUpdate(req.params.id, { ...req.body.campground });
     res.redirect(`/campgrounds/${camp._id}`)
 })
 
