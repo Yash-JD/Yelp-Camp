@@ -6,7 +6,8 @@ const { campgroundSchema } = require('./schemas.js');
 const catchAsync = require('./utils/catchAsync');   // client-side error validation
 const ExpressError = require('./utils/ExpressError');   // client-side error validation
 const methodOverride = require('method-override');
-const campground = require('./models/campground');
+const Campground = require('./models/campground');
+const Review = require('./models/review.js');
 
 mongoose.connect('mongodb://localhost:27017/yelp-camp');
 
@@ -43,7 +44,7 @@ app.get('/', (req, res) => {
 
 // show all camps
 app.get('/campgrounds', async (req, res) => {
-    const campgrounds = await campground.find({});
+    const campgrounds = await Campground.find({});
     res.render('campgrounds/index.ejs', { campgrounds });
 })
 
@@ -52,34 +53,44 @@ app.get('/campgrounds/new', (req, res) => {
     res.render('campgrounds/new.ejs');
 })
 app.post('/campgrounds', validateCampground, catchAsync(async (req, res, next) => {
-    const newCampground = new campground(req.body.campground);
+    const newCampground = new Campground(req.body.campground);
     await newCampground.save();
     res.redirect(`/campgrounds/${newCampground._id}`)
 }))
 
 // view particular camp
 app.get('/campgrounds/:id', catchAsync(async (req, res) => {
-    const camp = await campground.findById(req.params.id);
+    const camp = await Campground.findById(req.params.id);
     res.render('campgrounds/show.ejs', { camp });
 }))
 
 // to edit/update a camp
 app.get('/campgrounds/:id/edit', catchAsync(async (req, res) => {
-    const camp = await campground.findById(req.params.id);
+    const camp = await Campground.findById(req.params.id);
     res.render('campgrounds/edit.ejs', { camp });
 }))
 app.put('/campgrounds/:id', validateCampground, catchAsync(async (req, res) => {
     // below req.body.campground is the object(in ejs files see name is campgrond[...])
     // and "..." is used to spread the object 
-    const camp = await campground.findByIdAndUpdate(req.params.id, { ...req.body.campground });
+    const camp = await Campground.findByIdAndUpdate(req.params.id, { ...req.body.campground });
     res.redirect(`/campgrounds/${camp._id}`)
 }))
 
 // to delele a camp
 app.delete('/campgrounds/:id', catchAsync(async (req, res) => {
-    await campground.findByIdAndDelete(req.params.id);
+    await Campground.findByIdAndDelete(req.params.id);
     res.redirect(`/campgrounds`)
 }))
+
+// to submit the review to server
+app.post('/campgrounds/:id/reviews', catchAsync(async (req, res) => {
+    const camp = await Campground.findById(req.params.id);
+    const review = new Review(req.body.review);
+    camp.reviews.push(review);
+    await review.save();
+    await camp.save();
+    res.redirect(`/campgrounds/${camp.id}`)
+}));
 
 // error handler for any user route error
 app.all('*', (req, res, next) => {
