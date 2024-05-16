@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const ejsMate = require('ejs-mate');
-const { campgroundSchema } = require('./schemas.js');
+const { campgroundSchema, reveiwSchema } = require('./schemas.js');
 const catchAsync = require('./utils/catchAsync');   // client-side error validation
 const ExpressError = require('./utils/ExpressError');   // client-side error validation
 const methodOverride = require('method-override');
@@ -26,9 +26,18 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.urlencoded({ extended: true })) // tell the express to parse url encoded to json body
 app.use(methodOverride('_method'));
 
-// define a Joi validation middleware funciton
+// define a Joi validation middleware funciton (server-side validation)
 const validateCampground = (req, res, next) => {
     const { error } = campgroundSchema.validate(req.body);
+    if (error) {
+        const msg = error.details.map(el => el.message).join(',')
+        throw new ExpressError(msg, 400)    // this will redirect to server side route handler
+    } else {
+        next();
+    }
+}
+const validateReview = (req, res, next) => {
+    const { error } = reveiwSchema.validate(req.body);
     if (error) {
         const msg = error.details.map(el => el.message).join(',')
         throw new ExpressError(msg, 400)    // this will redirect to server side route handler
@@ -60,7 +69,7 @@ app.post('/campgrounds', validateCampground, catchAsync(async (req, res, next) =
 
 // view particular camp
 app.get('/campgrounds/:id', catchAsync(async (req, res) => {
-    const camp = await Campground.findById(req.params.id);
+    const camp = await Campground.findById(req.params.id).populate('reviews');
     res.render('campgrounds/show.ejs', { camp });
 }))
 
@@ -83,7 +92,7 @@ app.delete('/campgrounds/:id', catchAsync(async (req, res) => {
 }))
 
 // to submit the review to server
-app.post('/campgrounds/:id/reviews', catchAsync(async (req, res) => {
+app.post('/campgrounds/:id/reviews', validateReview, catchAsync(async (req, res) => {
     const camp = await Campground.findById(req.params.id);
     const review = new Review(req.body.review);
     camp.reviews.push(review);
@@ -91,6 +100,14 @@ app.post('/campgrounds/:id/reviews', catchAsync(async (req, res) => {
     await camp.save();
     res.redirect(`/campgrounds/${camp.id}`)
 }));
+
+// to delete a review in a particular campground
+app.delete('/campgrounds/:id/reviews/:reviewId', catchAsync(async (req, res) => {
+    const { id, reviewId } = req.params;
+    await Campground.findByIdAndUpdate(id, { $pull: { reviews: reviewId } });   // pull operator is used to remove all existing instances of values that match a condition 
+    await Review.findByIdAndDelete(reviewId);
+    res.redirect(`/campgrounds/${id}`);
+}))
 
 // error handler for any user route error
 app.all('*', (req, res, next) => {

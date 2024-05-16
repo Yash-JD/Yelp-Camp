@@ -1,7 +1,9 @@
 <% layout('layouts/boilerplate') %>
 
   <div class="row">
-    <div class="col-6 offset-3">
+
+    <div class="col-6">
+      <!-- show the complete detail of the camp -->
       <div class="card mb-3">
         <img src="<%= camp.image %>" class="card-img-top" alt="..." />
         <div class="card-body">
@@ -21,12 +23,17 @@
         <div class="card-body">
           <a class="card-link btn btn-info" href="/campgrounds/<%= camp._id %>/edit">Edit
           </a>
+          <!-- delete a particular camp -->
           <form class="d-inline" action="/campgrounds/<%= camp._id %>?_method=DELETE" method="POST">
             <button class="btn btn-danger">Delete</button>
           </form>
         </div>
         <div class="card-footer text-muted">2 days ago</div>
       </div>
+    </div>
+
+    <!-- review section -->
+    <div class="col-6">
 
       <h3>Leave a Reveiw</h3>
       <form action="/campgrounds/<%= camp._id %>/reviews" method="POST" class="mb-3 validated-form" novalidate>
@@ -36,10 +43,30 @@
         </div>
         <div class="mb-3">
           <label class="form-label" for="body">Review</label>
-          <textarea class="form-control" name="reveiw[body]" id="body" cols="30" rows="3" required></textarea>
+          <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
           <div class="valid-feedback">Look's Good!</div>
         </div>
         <button class="btn btn-success">Submit</button>
       </form>
+
+      <!-- display review -->
+      <% for(let review of camp.reviews) { %>
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">
+              Rating: <%= review.rating %>
+            </h5>
+            <p class="card-text">
+              Reveiw: <%= review.body %>
+            </p>
+            <!-- delete a particular review -->
+            <form action="/campgrounds/<%= camp._id %>/reviews/<%= review._id %>?_method=DELETE" method="POST">
+              <button class="btn btn-sm btn-danger">Delete</button>
+            </form>
+          </div>
+        </div>
+        <% } %>
+
     </div>
+
   </div>
