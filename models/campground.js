@@ -20,7 +20,7 @@ const campgroundSchema = new Schema({
 // these is used reason when we delete camp it should also remove all its reviews
 campgroundSchema.post('findOneAndDelete', async (doc) => {
     if (doc) {  // if some camp is deleted (doc)
-        await Review.remove({
+        await Review.deleteMany({
             _id: {  // remove the field id in Review db
                 $in: doc.reviews    // in the deleted reviews array
             }
