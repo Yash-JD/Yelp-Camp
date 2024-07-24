@@ -2,11 +2,12 @@ const express = require('express');
 const router = express.Router();
 
 const { campgroundSchema } = require('../schemas.js'); // joi schema
+const { isLoggedIn } = require('../middleware.js'); // authentication middleware
 
-const catchAsync = require('../utils/catchAsync');   // client-side error validation
-const ExpressError = require('../utils/ExpressError');   // client-side error validation
+const catchAsync = require('../utils/catchAsync.js');   // client-side error validation
+const ExpressError = require('../utils/ExpressError.js');   // client-side error validation
 
-const Campground = require('../models/campground');
+const Campground = require('../models/campground.js');
 
 // define a Joi validation middleware funciton (server-side validation)
 const validateCampground = (req, res, next) => {
@@ -26,10 +27,10 @@ router.get('/', catchAsync(async (req, res) => {
 }))
 
 // to create a new camp
-router.get('/new', (req, res) => {
+router.get('/new', isLoggedIn, (req, res) => {
     res.render('campgrounds/new.ejs');
 })
-router.post('/', validateCampground, catchAsync(async (req, res, next) => {
+router.post('/', isLoggedIn, validateCampground, catchAsync(async (req, res, next) => {
     const newCampground = new Campground(req.body.campground);
     await newCampground.save();
     req.flash('success', 'Successfully made a new campground');
@@ -47,7 +48,7 @@ router.get('/:id', catchAsync(async (req, res) => {
 }))
 
 // to edit/update a camp
-router.get('/:id/edit', catchAsync(async (req, res) => {
+router.get('/:id/edit', isLoggedIn, catchAsync(async (req, res) => {
     const camp = await Campground.findById(req.params.id);
     if (!camp) {
         req.flash('error', 'Cannot find that campground');
@@ -55,7 +56,7 @@ router.get('/:id/edit', catchAsync(async (req, res) => {
     }
     res.render('campgrounds/edit.ejs', { camp });
 }))
-router.put('/:id', validateCampground, catchAsync(async (req, res) => {
+router.put('/:id', isLoggedIn, validateCampground, catchAsync(async (req, res) => {
     // below req.body.campground is the object(in ejs files see name is campgrond[...])
     // and "..." is used to spread the object 
     const camp = await Campground.findByIdAndUpdate(req.params.id, { ...req.body.campground });
@@ -64,7 +65,7 @@ router.put('/:id', validateCampground, catchAsync(async (req, res) => {
 }))
 
 // to delele a camp
-router.delete('/:id', catchAsync(async (req, res) => {
+router.delete('/:id', isLoggedIn, catchAsync(async (req, res) => {
     await Campground.findByIdAndDelete(req.params.id);
     req.flash('success', 'Successfully deleted campground');
     res.redirect(`/campgrounds`)
