@@ -18,54 +18,64 @@
           <li class="list-group-item text-muted">
             <%= camp.location %>
           </li>
-          <li class="list-group-item">$<%= camp.price %>/night</li>
-        </ul>
-        <div class="card-body">
-          <a class="card-link btn btn-info" href="/campgrounds/<%= camp._id %>/edit">Edit
-          </a>
-          <!-- delete a particular camp -->
-          <form class="d-inline" action="/campgrounds/<%= camp._id %>?_method=DELETE" method="POST">
-            <button class="btn btn-danger">Delete</button>
-          </form>
-        </div>
-        <div class="card-footer text-muted">2 days ago</div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Submitted by <%= camp.author.username %>
+            </li>
+            <li class="list-group-item">$<%= camp.price %>/night</li>
+          </ul>
+          <% if(currentUser && camp.author.equals(currentUser._id)) { %>
+            <div class="card-body">
+              <a class="card-link btn btn-info" href="/campgrounds/<%= camp._id %>/edit">Edit
+              </a>
+              <!-- delete a particular camp -->
+              <form class="d-inline" action="/campgrounds/<%= camp._id %>?_method=DELETE" method="POST">
+                <button class="btn btn-danger">Delete</button>
+              </form>
+            </div>
+            <% } %>
+              <div class="card-footer text-muted">2 days ago</div>
       </div>
     </div>
 
     <!-- review section -->
     <div class="col-6">
-
-      <h3>Leave a Reveiw</h3>
-      <form action="/campgrounds/<%= camp._id %>/reviews" method="POST" class="mb-3 validated-form" novalidate>
-        <div class="mb-3">
-          <label class="form-label" for="rating">Rating</label>
-          <input class="form-range" type="range" min="1" max="5" name="review[rating]" id="ratng">
-        </div>
-        <div class="mb-3">
-          <label class="form-label" for="body">Review</label>
-          <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
-          <div class="valid-feedback">Look's Good!</div>
-        </div>
-        <button class="btn btn-success">Submit</button>
-      </form>
-
-      <!-- display review -->
-      <% for(let review of camp.reviews) { %>
-        <div class="card mb-3">
-          <div class="card-body">
-            <h5 class="card-title">
-              Rating: <%= review.rating %>
-            </h5>
-            <p class="card-text">
-              Reveiw: <%= review.body %>
-            </p>
-            <!-- delete a particular review -->
-            <form action="/campgrounds/<%= camp._id %>/reviews/<%= review._id %>?_method=DELETE" method="POST">
-              <button class="btn btn-sm btn-danger">Delete</button>
-            </form>
+      <% if(currentUser) { %>
+        <h3>Leave a Reveiw</h3>
+        <form action="/campgrounds/<%= camp._id %>/reviews" method="POST" class="mb-3 validated-form" novalidate>
+          <div class="mb-3">
+            <label class="form-label" for="rating">Rating</label>
+            <input class="form-range" type="range" min="1" max="5" name="review[rating]" id="ratng">
           </div>
-        </div>
+          <div class="mb-3">
+            <label class="form-label" for="body">Review</label>
+            <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
+            <div class="valid-feedback">Look's Good!</div>
+          </div>
+          <button class="btn btn-success">Submit</button>
+        </form>
         <% } %>
+          <!-- display review -->
+          <% for(let review of camp.reviews) { %>
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Rating: <%= review.rating %>
+                </h5>
+                <h6 class="card-subtitle mb-2 text-muted">By <%= review.author.username %>
+                </h6>
+                <p class="card-text">
+                  Reveiw: <%= review.body %>
+                </p>
+                <!-- delete a particular review -->
+                <% if(currentUser && review.author.equals(currentUser._id)) { %>
+                  <form action="/campgrounds/<%= camp._id %>/reviews/<%= review._id %>?_method=DELETE" method="POST">
+                    <button class="btn btn-sm btn-danger">Delete</button>
+                  </form>
+                  <% } %>
+              </div>
+            </div>
+            <% } %>
 
     </div>
 
