@@ -243,7 +243,7 @@ module.exports = [
         state: "Oklahoma",
     },
     {
-        city: "Louisville/Jefferson County",
+        city: "Louisville/Jefferson state",
         growth_from_2000_to_2013: "10.0%",
         latitude: 38.2526647,
         longitude: -85.7584557,
@@ -1062,7 +1062,7 @@ module.exports = [
         state: "Arkansas",
     },
     {
-        city: "Augusta-Richmond County",
+        city: "Augusta-Richmond state",
         growth_from_2000_to_2013: "1.1%",
         latitude: 33.4734978,
         longitude: -82.0105148,
@@ -1989,7 +1989,7 @@ module.exports = [
         state: "Texas",
     },
     {
-        city: "Athens-Clarke County",
+        city: "Athens-Clarke state",
         growth_from_2000_to_2013: "19.0%",
         latitude: 33.9519347,
         longitude: -83.357567,
@@ -4770,4227 +4770,6 @@ module.exports = [
         state: "California",
     },
     {
-        city: "Maple Grove",
-        growth_from_2000_to_2013: "27.3%",
-        latitude: 45.0724642,
-        longitude: -93.4557877,
-        population: "65415",
-        rank: "531",
-        state: "Minnesota",
-    },
-    {
-        city: "Youngstown",
-        growth_from_2000_to_2013: "-20.2%",
-        latitude: 41.0997803,
-        longitude: -80.6495194,
-        population: "65184",
-        rank: "532",
-        state: "Ohio",
-    },
-    {
-        city: "Skokie",
-        growth_from_2000_to_2013: "2.8%",
-        latitude: 42.0324025,
-        longitude: -87.7416246,
-        population: "65176",
-        rank: "533",
-        state: "Illinois",
-    },
-    {
-        city: "Kissimmee",
-        growth_from_2000_to_2013: "32.6%",
-        latitude: 28.2919557,
-        longitude: -81.40757099999999,
-        population: "65173",
-        rank: "534",
-        state: "Florida",
-    },
-    {
-        city: "Johnson City",
-        growth_from_2000_to_2013: "16.2%",
-        latitude: 36.3134397,
-        longitude: -82.3534727,
-        population: "65123",
-        rank: "535",
-        state: "Tennessee",
-    },
-    {
-        city: "Victoria",
-        growth_from_2000_to_2013: "7.5%",
-        latitude: 28.8052674,
-        longitude: -97.0035982,
-        population: "65098",
-        rank: "536",
-        state: "Texas",
-    },
-    {
-        city: "San Clemente",
-        growth_from_2000_to_2013: "28.6%",
-        latitude: 33.4269728,
-        longitude: -117.6119925,
-        population: "65040",
-        rank: "537",
-        state: "California",
-    },
-    {
-        city: "Bayonne",
-        growth_from_2000_to_2013: "5.1%",
-        latitude: 40.6687141,
-        longitude: -74.1143091,
-        population: "65028",
-        rank: "538",
-        state: "New Jersey",
-    },
-    {
-        city: "Laguna Niguel",
-        growth_from_2000_to_2013: "2.8%",
-        latitude: 33.5225261,
-        longitude: -117.7075526,
-        population: "64652",
-        rank: "539",
-        state: "California",
-    },
-    {
-        city: "East Orange",
-        growth_from_2000_to_2013: "-7.4%",
-        latitude: 40.767323,
-        longitude: -74.2048677,
-        population: "64544",
-        rank: "540",
-        state: "New Jersey",
-    },
-    {
-        city: "Shawnee",
-        growth_from_2000_to_2013: "32.2%",
-        latitude: 39.02284849999999,
-        longitude: -94.7151865,
-        population: "64323",
-        rank: "541",
-        state: "Kansas",
-    },
-    {
-        city: "Homestead",
-        growth_from_2000_to_2013: "100.7%",
-        latitude: 25.4687224,
-        longitude: -80.4775569,
-        population: "64079",
-        rank: "542",
-        state: "Florida",
-    },
-    {
-        city: "Rockville",
-        growth_from_2000_to_2013: "34.0%",
-        latitude: 39.0839973,
-        longitude: -77.1527578,
-        population: "64072",
-        rank: "544",
-        state: "Maryland",
-    },
-    {
-        city: "Delray Beach",
-        growth_from_2000_to_2013: "6.1%",
-        latitude: 26.4614625,
-        longitude: -80.0728201,
-        population: "64072",
-        rank: "543",
-        state: "Florida",
-    },
-    {
-        city: "Janesville",
-        growth_from_2000_to_2013: "5.6%",
-        latitude: 42.6827885,
-        longitude: -89.0187222,
-        population: "63820",
-        rank: "545",
-        state: "Wisconsin",
-    },
-    {
-        city: "Conway",
-        growth_from_2000_to_2013: "46.1%",
-        latitude: 35.0886963,
-        longitude: -92.4421011,
-        population: "63816",
-        rank: "546",
-        state: "Arkansas",
-    },
-    {
-        city: "Pico Rivera",
-        growth_from_2000_to_2013: "0.4%",
-        latitude: 33.9830688,
-        longitude: -118.096735,
-        population: "63771",
-        rank: "547",
-        state: "California",
-    },
-    {
-        city: "Lorain",
-        growth_from_2000_to_2013: "-7.2%",
-        latitude: 41.452819,
-        longitude: -82.1823746,
-        population: "63710",
-        rank: "548",
-        state: "Ohio",
-    },
-    {
-        city: "Montebello",
-        growth_from_2000_to_2013: "2.0%",
-        latitude: 34.0165053,
-        longitude: -118.1137535,
-        population: "63495",
-        rank: "549",
-        state: "California",
-    },
-    {
-        city: "Lodi",
-        growth_from_2000_to_2013: "10.1%",
-        latitude: 38.1341477,
-        longitude: -121.2722194,
-        population: "63338",
-        rank: "550",
-        state: "California",
-    },
-    {
-        city: "New Braunfels",
-        growth_from_2000_to_2013: "64.0%",
-        latitude: 29.7030024,
-        longitude: -98.1244531,
-        population: "63279",
-        rank: "551",
-        state: "Texas",
-    },
-    {
-        city: "Marysville",
-        growth_from_2000_to_2013: "115.7%",
-        latitude: 48.0517637,
-        longitude: -122.1770818,
-        population: "63269",
-        rank: "552",
-        state: "Washington",
-    },
-    {
-        city: "Tamarac",
-        growth_from_2000_to_2013: "12.9%",
-        latitude: 26.2128609,
-        longitude: -80.2497707,
-        population: "63155",
-        rank: "553",
-        state: "Florida",
-    },
-    {
-        city: "Madera",
-        growth_from_2000_to_2013: "44.4%",
-        latitude: 36.9613356,
-        longitude: -120.0607176,
-        population: "63105",
-        rank: "554",
-        state: "California",
-    },
-    {
-        city: "Conroe",
-        growth_from_2000_to_2013: "61.9%",
-        latitude: 30.3118769,
-        longitude: -95.45605119999999,
-        population: "63032",
-        rank: "555",
-        state: "Texas",
-    },
-    {
-        city: "Santa Cruz",
-        growth_from_2000_to_2013: "12.5%",
-        latitude: 36.9741171,
-        longitude: -122.0307963,
-        population: "62864",
-        rank: "556",
-        state: "California",
-    },
-    {
-        city: "Eden Prairie",
-        growth_from_2000_to_2013: "13.3%",
-        latitude: 44.8546856,
-        longitude: -93.47078599999999,
-        population: "62603",
-        rank: "557",
-        state: "Minnesota",
-    },
-    {
-        city: "Cheyenne",
-        growth_from_2000_to_2013: "16.9%",
-        latitude: 41.1399814,
-        longitude: -104.8202462,
-        population: "62448",
-        rank: "558",
-        state: "Wyoming",
-    },
-    {
-        city: "Daytona Beach",
-        growth_from_2000_to_2013: "-2.3%",
-        latitude: 29.2108147,
-        longitude: -81.0228331,
-        population: "62316",
-        rank: "559",
-        state: "Florida",
-    },
-    {
-        city: "Alpharetta",
-        growth_from_2000_to_2013: "33.6%",
-        latitude: 34.0753762,
-        longitude: -84.2940899,
-        population: "62298",
-        rank: "560",
-        state: "Georgia",
-    },
-    {
-        city: "Hamilton",
-        growth_from_2000_to_2013: "2.7%",
-        latitude: 39.3995008,
-        longitude: -84.5613355,
-        population: "62258",
-        rank: "561",
-        state: "Ohio",
-    },
-    {
-        city: "Waltham",
-        growth_from_2000_to_2013: "5.0%",
-        latitude: 42.3764852,
-        longitude: -71.2356113,
-        population: "62227",
-        rank: "562",
-        state: "Massachusetts",
-    },
-    {
-        city: "Coon Rapids",
-        growth_from_2000_to_2013: "0.6%",
-        latitude: 45.1732394,
-        longitude: -93.30300629999999,
-        population: "62103",
-        rank: "563",
-        state: "Minnesota",
-    },
-    {
-        city: "Haverhill",
-        growth_from_2000_to_2013: "5.0%",
-        latitude: 42.7762015,
-        longitude: -71.0772796,
-        population: "62088",
-        rank: "564",
-        state: "Massachusetts",
-    },
-    {
-        city: "Council Bluffs",
-        growth_from_2000_to_2013: "6.2%",
-        latitude: 41.2619444,
-        longitude: -95.8608333,
-        population: "61969",
-        rank: "565",
-        state: "Iowa",
-    },
-    {
-        city: "Taylor",
-        growth_from_2000_to_2013: "-6.3%",
-        latitude: 42.240872,
-        longitude: -83.2696509,
-        population: "61817",
-        rank: "566",
-        state: "Michigan",
-    },
-    {
-        city: "Utica",
-        growth_from_2000_to_2013: "2.2%",
-        latitude: 43.100903,
-        longitude: -75.232664,
-        population: "61808",
-        rank: "567",
-        state: "New York",
-    },
-    {
-        city: "Ames",
-        growth_from_2000_to_2013: "21.3%",
-        latitude: 42.034722,
-        longitude: -93.61999999999999,
-        population: "61792",
-        rank: "568",
-        state: "Iowa",
-    },
-    {
-        city: "La Habra",
-        growth_from_2000_to_2013: "3.6%",
-        latitude: 33.9319578,
-        longitude: -117.9461734,
-        population: "61653",
-        rank: "569",
-        state: "California",
-    },
-    {
-        city: "Encinitas",
-        growth_from_2000_to_2013: "5.8%",
-        latitude: 33.0369867,
-        longitude: -117.2919818,
-        population: "61588",
-        rank: "570",
-        state: "California",
-    },
-    {
-        city: "Bowling Green",
-        growth_from_2000_to_2013: "24.1%",
-        latitude: 36.9685219,
-        longitude: -86.4808043,
-        population: "61488",
-        rank: "571",
-        state: "Kentucky",
-    },
-    {
-        city: "Burnsville",
-        growth_from_2000_to_2013: "1.9%",
-        latitude: 44.7677424,
-        longitude: -93.27772259999999,
-        population: "61434",
-        rank: "572",
-        state: "Minnesota",
-    },
-    {
-        city: "Greenville",
-        growth_from_2000_to_2013: "8.2%",
-        latitude: 34.85261759999999,
-        longitude: -82.3940104,
-        population: "61397",
-        rank: "573",
-        state: "South Carolina",
-    },
-    {
-        city: "West Des Moines",
-        growth_from_2000_to_2013: "29.8%",
-        latitude: 41.5772115,
-        longitude: -93.711332,
-        population: "61255",
-        rank: "574",
-        state: "Iowa",
-    },
-    {
-        city: "Cedar Park",
-        growth_from_2000_to_2013: "134.3%",
-        latitude: 30.505198,
-        longitude: -97.8202888,
-        population: "61238",
-        rank: "575",
-        state: "Texas",
-    },
-    {
-        city: "Tulare",
-        growth_from_2000_to_2013: "33.3%",
-        latitude: 36.2077288,
-        longitude: -119.3473379,
-        population: "61170",
-        rank: "576",
-        state: "California",
-    },
-    {
-        city: "Monterey Park",
-        growth_from_2000_to_2013: "1.5%",
-        latitude: 34.0625106,
-        longitude: -118.1228476,
-        population: "61085",
-        rank: "577",
-        state: "California",
-    },
-    {
-        city: "Vineland",
-        growth_from_2000_to_2013: "9.3%",
-        latitude: 39.4863773,
-        longitude: -75.02596369999999,
-        population: "61050",
-        rank: "578",
-        state: "New Jersey",
-    },
-    {
-        city: "Terre Haute",
-        growth_from_2000_to_2013: "2.5%",
-        latitude: 39.4667034,
-        longitude: -87.41390919999999,
-        population: "61025",
-        rank: "579",
-        state: "Indiana",
-    },
-    {
-        city: "North Miami",
-        growth_from_2000_to_2013: "2.0%",
-        latitude: 25.8900949,
-        longitude: -80.1867138,
-        population: "61007",
-        rank: "580",
-        state: "Florida",
-    },
-    {
-        city: "Mansfield",
-        growth_from_2000_to_2013: "114.2%",
-        latitude: 32.5631924,
-        longitude: -97.1416768,
-        population: "60872",
-        rank: "581",
-        state: "Texas",
-    },
-    {
-        city: "West Allis",
-        growth_from_2000_to_2013: "-0.6%",
-        latitude: 43.0166806,
-        longitude: -88.0070315,
-        population: "60697",
-        rank: "582",
-        state: "Wisconsin",
-    },
-    {
-        city: "Bristol",
-        growth_from_2000_to_2013: "0.4%",
-        latitude: 41.67176480000001,
-        longitude: -72.9492703,
-        population: "60568",
-        rank: "583",
-        state: "Connecticut",
-    },
-    {
-        city: "Taylorsville",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 40.66772479999999,
-        longitude: -111.9388258,
-        population: "60519",
-        rank: "584",
-        state: "Utah",
-    },
-    {
-        city: "Malden",
-        growth_from_2000_to_2013: "7.4%",
-        latitude: 42.4250964,
-        longitude: -71.066163,
-        population: "60509",
-        rank: "585",
-        state: "Massachusetts",
-    },
-    {
-        city: "Meriden",
-        growth_from_2000_to_2013: "3.7%",
-        latitude: 41.5381535,
-        longitude: -72.80704349999999,
-        population: "60456",
-        rank: "586",
-        state: "Connecticut",
-    },
-    {
-        city: "Blaine",
-        growth_from_2000_to_2013: "32.8%",
-        latitude: 45.1607987,
-        longitude: -93.23494889999999,
-        population: "60407",
-        rank: "587",
-        state: "Minnesota",
-    },
-    {
-        city: "Wellington",
-        growth_from_2000_to_2013: "55.0%",
-        latitude: 26.6617635,
-        longitude: -80.2683571,
-        population: "60202",
-        rank: "588",
-        state: "Florida",
-    },
-    {
-        city: "Cupertino",
-        growth_from_2000_to_2013: "14.3%",
-        latitude: 37.3229978,
-        longitude: -122.0321823,
-        population: "60189",
-        rank: "589",
-        state: "California",
-    },
-    {
-        city: "Springfield",
-        growth_from_2000_to_2013: "12.4%",
-        latitude: 44.0462362,
-        longitude: -123.0220289,
-        population: "60177",
-        rank: "590",
-        state: "Oregon",
-    },
-    {
-        city: "Rogers",
-        growth_from_2000_to_2013: "50.6%",
-        latitude: 36.3320196,
-        longitude: -94.1185366,
-        population: "60112",
-        rank: "591",
-        state: "Arkansas",
-    },
-    {
-        city: "St. Clair Shores",
-        growth_from_2000_to_2013: "-4.6%",
-        latitude: 42.4974085,
-        longitude: -82.89636039999999,
-        population: "60070",
-        rank: "592",
-        state: "Michigan",
-    },
-    {
-        city: "Gardena",
-        growth_from_2000_to_2013: "3.4%",
-        latitude: 33.8883487,
-        longitude: -118.3089624,
-        population: "59957",
-        rank: "593",
-        state: "California",
-    },
-    {
-        city: "Pontiac",
-        growth_from_2000_to_2013: "-11.4%",
-        latitude: 42.6389216,
-        longitude: -83.29104679999999,
-        population: "59887",
-        rank: "594",
-        state: "Michigan",
-    },
-    {
-        city: "National City",
-        growth_from_2000_to_2013: "10.1%",
-        latitude: 32.6781085,
-        longitude: -117.0991967,
-        population: "59834",
-        rank: "595",
-        state: "California",
-    },
-    {
-        city: "Grand Junction",
-        growth_from_2000_to_2013: "30.9%",
-        latitude: 39.0638705,
-        longitude: -108.5506486,
-        population: "59778",
-        rank: "596",
-        state: "Colorado",
-    },
-    {
-        city: "Rocklin",
-        growth_from_2000_to_2013: "60.3%",
-        latitude: 38.7907339,
-        longitude: -121.2357828,
-        population: "59738",
-        rank: "597",
-        state: "California",
-    },
-    {
-        city: "Chapel Hill",
-        growth_from_2000_to_2013: "24.1%",
-        latitude: 35.9131996,
-        longitude: -79.0558445,
-        population: "59635",
-        rank: "598",
-        state: "North Carolina",
-    },
-    {
-        city: "Casper",
-        growth_from_2000_to_2013: "19.9%",
-        latitude: 42.866632,
-        longitude: -106.313081,
-        population: "59628",
-        rank: "599",
-        state: "Wyoming",
-    },
-    {
-        city: "Broomfield",
-        growth_from_2000_to_2013: "50.3%",
-        latitude: 39.9205411,
-        longitude: -105.0866504,
-        population: "59471",
-        rank: "600",
-        state: "Colorado",
-    },
-    {
-        city: "Petaluma",
-        growth_from_2000_to_2013: "8.4%",
-        latitude: 38.232417,
-        longitude: -122.6366524,
-        population: "59440",
-        rank: "601",
-        state: "California",
-    },
-    {
-        city: "South Jordan",
-        growth_from_2000_to_2013: "100.1%",
-        latitude: 40.5621704,
-        longitude: -111.929658,
-        population: "59366",
-        rank: "602",
-        state: "Utah",
-    },
-    {
-        city: "Springfield",
-        growth_from_2000_to_2013: "-9.8%",
-        latitude: 39.9242266,
-        longitude: -83.8088171,
-        population: "59357",
-        rank: "603",
-        state: "Ohio",
-    },
-    {
-        city: "Great Falls",
-        growth_from_2000_to_2013: "3.9%",
-        latitude: 47.4941836,
-        longitude: -111.2833449,
-        population: "59351",
-        rank: "604",
-        state: "Montana",
-    },
-    {
-        city: "Lancaster",
-        growth_from_2000_to_2013: "4.5%",
-        latitude: 40.0378755,
-        longitude: -76.3055144,
-        population: "59325",
-        rank: "605",
-        state: "Pennsylvania",
-    },
-    {
-        city: "North Port",
-        growth_from_2000_to_2013: "154.6%",
-        latitude: 27.044224,
-        longitude: -82.2359254,
-        population: "59212",
-        rank: "606",
-        state: "Florida",
-    },
-    {
-        city: "Lakewood",
-        growth_from_2000_to_2013: "1.1%",
-        latitude: 47.1717649,
-        longitude: -122.518458,
-        population: "59097",
-        rank: "607",
-        state: "Washington",
-    },
-    {
-        city: "Marietta",
-        growth_from_2000_to_2013: "-3.8%",
-        latitude: 33.95260200000001,
-        longitude: -84.5499327,
-        population: "59089",
-        rank: "608",
-        state: "Georgia",
-    },
-    {
-        city: "San Rafael",
-        growth_from_2000_to_2013: "5.0%",
-        latitude: 37.9735346,
-        longitude: -122.5310874,
-        population: "58994",
-        rank: "609",
-        state: "California",
-    },
-    {
-        city: "Royal Oak",
-        growth_from_2000_to_2013: "-1.7%",
-        latitude: 42.4894801,
-        longitude: -83.1446485,
-        population: "58946",
-        rank: "610",
-        state: "Michigan",
-    },
-    {
-        city: "Des Plaines",
-        growth_from_2000_to_2013: "3.2%",
-        latitude: 42.0333623,
-        longitude: -87.88339909999999,
-        population: "58918",
-        rank: "611",
-        state: "Illinois",
-    },
-    {
-        city: "Huntington Park",
-        growth_from_2000_to_2013: "-4.1%",
-        latitude: 33.9816812,
-        longitude: -118.2250725,
-        population: "58879",
-        rank: "612",
-        state: "California",
-    },
-    {
-        city: "La Mesa",
-        growth_from_2000_to_2013: "6.9%",
-        latitude: 32.7678287,
-        longitude: -117.0230839,
-        population: "58642",
-        rank: "613",
-        state: "California",
-    },
-    {
-        city: "Orland Park",
-        growth_from_2000_to_2013: "13.9%",
-        latitude: 41.6303103,
-        longitude: -87.85394250000002,
-        population: "58590",
-        rank: "614",
-        state: "Illinois",
-    },
-    {
-        city: "Auburn",
-        growth_from_2000_to_2013: "26.4%",
-        latitude: 32.6098566,
-        longitude: -85.48078249999999,
-        population: "58582",
-        rank: "615",
-        state: "Alabama",
-    },
-    {
-        city: "Lakeville",
-        growth_from_2000_to_2013: "34.3%",
-        latitude: 44.6496868,
-        longitude: -93.24271999999999,
-        population: "58562",
-        rank: "616",
-        state: "Minnesota",
-    },
-    {
-        city: "Owensboro",
-        growth_from_2000_to_2013: "7.7%",
-        latitude: 37.7719074,
-        longitude: -87.1111676,
-        population: "58416",
-        rank: "617",
-        state: "Kentucky",
-    },
-    {
-        city: "Moore",
-        growth_from_2000_to_2013: "41.5%",
-        latitude: 35.3395079,
-        longitude: -97.48670279999999,
-        population: "58414",
-        rank: "618",
-        state: "Oklahoma",
-    },
-    {
-        city: "Jupiter",
-        growth_from_2000_to_2013: "46.2%",
-        latitude: 26.9342246,
-        longitude: -80.0942087,
-        population: "58298",
-        rank: "619",
-        state: "Florida",
-    },
-    {
-        city: "Idaho Falls",
-        growth_from_2000_to_2013: "14.0%",
-        latitude: 43.49165139999999,
-        longitude: -112.0339645,
-        population: "58292",
-        rank: "620",
-        state: "Idaho",
-    },
-    {
-        city: "Dubuque",
-        growth_from_2000_to_2013: "0.9%",
-        latitude: 42.5005583,
-        longitude: -90.66457179999999,
-        population: "58253",
-        rank: "621",
-        state: "Iowa",
-    },
-    {
-        city: "Bartlett",
-        growth_from_2000_to_2013: "31.7%",
-        latitude: 35.2045328,
-        longitude: -89.8739753,
-        population: "58226",
-        rank: "622",
-        state: "Tennessee",
-    },
-    {
-        city: "Rowlett",
-        growth_from_2000_to_2013: "28.6%",
-        latitude: 32.9029017,
-        longitude: -96.56388,
-        population: "58043",
-        rank: "623",
-        state: "Texas",
-    },
-    {
-        city: "Novi",
-        growth_from_2000_to_2013: "22.0%",
-        latitude: 42.48059,
-        longitude: -83.4754913,
-        population: "57960",
-        rank: "624",
-        state: "Michigan",
-    },
-    {
-        city: "White Plains",
-        growth_from_2000_to_2013: "8.5%",
-        latitude: 41.03398620000001,
-        longitude: -73.7629097,
-        population: "57866",
-        rank: "625",
-        state: "New York",
-    },
-    {
-        city: "Arcadia",
-        growth_from_2000_to_2013: "8.3%",
-        latitude: 34.1397292,
-        longitude: -118.0353449,
-        population: "57639",
-        rank: "626",
-        state: "California",
-    },
-    {
-        city: "Redmond",
-        growth_from_2000_to_2013: "26.0%",
-        latitude: 47.6739881,
-        longitude: -122.121512,
-        population: "57530",
-        rank: "627",
-        state: "Washington",
-    },
-    {
-        city: "Lake Elsinore",
-        growth_from_2000_to_2013: "96.5%",
-        latitude: 33.6680772,
-        longitude: -117.3272615,
-        population: "57525",
-        rank: "628",
-        state: "California",
-    },
-    {
-        city: "Ocala",
-        growth_from_2000_to_2013: "20.8%",
-        latitude: 29.1871986,
-        longitude: -82.14009229999999,
-        population: "57468",
-        rank: "629",
-        state: "Florida",
-    },
-    {
-        city: "Tinley Park",
-        growth_from_2000_to_2013: "16.3%",
-        latitude: 41.5731442,
-        longitude: -87.7932939,
-        population: "57282",
-        rank: "630",
-        state: "Illinois",
-    },
-    {
-        city: "Port Orange",
-        growth_from_2000_to_2013: "22.8%",
-        latitude: 29.1383165,
-        longitude: -80.9956105,
-        population: "57203",
-        rank: "631",
-        state: "Florida",
-    },
-    {
-        city: "Medford",
-        growth_from_2000_to_2013: "2.7%",
-        latitude: 42.4184296,
-        longitude: -71.1061639,
-        population: "57170",
-        rank: "632",
-        state: "Massachusetts",
-    },
-    {
-        city: "Oak Lawn",
-        growth_from_2000_to_2013: "3.3%",
-        latitude: 41.719978,
-        longitude: -87.7479528,
-        population: "57073",
-        rank: "633",
-        state: "Illinois",
-    },
-    {
-        city: "Rocky Mount",
-        growth_from_2000_to_2013: "-3.1%",
-        latitude: 35.9382103,
-        longitude: -77.7905339,
-        population: "56954",
-        rank: "634",
-        state: "North Carolina",
-    },
-    {
-        city: "Kokomo",
-        growth_from_2000_to_2013: "21.3%",
-        latitude: 40.486427,
-        longitude: -86.13360329999999,
-        population: "56895",
-        rank: "635",
-        state: "Indiana",
-    },
-    {
-        city: "Coconut Creek",
-        growth_from_2000_to_2013: "28.4%",
-        latitude: 26.2517482,
-        longitude: -80.17893509999999,
-        population: "56792",
-        rank: "636",
-        state: "Florida",
-    },
-    {
-        city: "Bowie",
-        growth_from_2000_to_2013: "8.6%",
-        latitude: 39.0067768,
-        longitude: -76.77913649999999,
-        population: "56759",
-        rank: "637",
-        state: "Maryland",
-    },
-    {
-        city: "Berwyn",
-        growth_from_2000_to_2013: "5.1%",
-        latitude: 41.85058739999999,
-        longitude: -87.7936685,
-        population: "56758",
-        rank: "638",
-        state: "Illinois",
-    },
-    {
-        city: "Midwest City",
-        growth_from_2000_to_2013: "4.5%",
-        latitude: 35.4495065,
-        longitude: -97.3967019,
-        population: "56756",
-        rank: "639",
-        state: "Oklahoma",
-    },
-    {
-        city: "Fountain Valley",
-        growth_from_2000_to_2013: "3.0%",
-        latitude: 33.7091847,
-        longitude: -117.9536697,
-        population: "56707",
-        rank: "640",
-        state: "California",
-    },
-    {
-        city: "Buckeye",
-        growth_from_2000_to_2013: "480.9%",
-        latitude: 33.3703197,
-        longitude: -112.5837766,
-        population: "56683",
-        rank: "641",
-        state: "Arizona",
-    },
-    {
-        city: "Dearborn Heights",
-        growth_from_2000_to_2013: "-3.0%",
-        latitude: 42.3369816,
-        longitude: -83.27326269999999,
-        population: "56620",
-        rank: "642",
-        state: "Michigan",
-    },
-    {
-        city: "Woodland",
-        growth_from_2000_to_2013: "13.8%",
-        latitude: 38.67851570000001,
-        longitude: -121.7732971,
-        population: "56590",
-        rank: "643",
-        state: "California",
-    },
-    {
-        city: "Noblesville",
-        growth_from_2000_to_2013: "88.1%",
-        latitude: 40.0455917,
-        longitude: -86.0085955,
-        population: "56540",
-        rank: "644",
-        state: "Indiana",
-    },
-    {
-        city: "Valdosta",
-        growth_from_2000_to_2013: "22.3%",
-        latitude: 30.8327022,
-        longitude: -83.2784851,
-        population: "56481",
-        rank: "645",
-        state: "Georgia",
-    },
-    {
-        city: "Diamond Bar",
-        growth_from_2000_to_2013: "0.1%",
-        latitude: 34.0286226,
-        longitude: -117.8103367,
-        population: "56449",
-        rank: "646",
-        state: "California",
-    },
-    {
-        city: "Manhattan",
-        growth_from_2000_to_2013: "22.8%",
-        latitude: 39.18360819999999,
-        longitude: -96.57166939999999,
-        population: "56143",
-        rank: "647",
-        state: "Kansas",
-    },
-    {
-        city: "Santee",
-        growth_from_2000_to_2013: "5.7%",
-        latitude: 32.8383828,
-        longitude: -116.9739167,
-        population: "56105",
-        rank: "648",
-        state: "California",
-    },
-    {
-        city: "Taunton",
-        growth_from_2000_to_2013: "0.0%",
-        latitude: 41.900101,
-        longitude: -71.0897674,
-        population: "56069",
-        rank: "649",
-        state: "Massachusetts",
-    },
-    {
-        city: "Sanford",
-        growth_from_2000_to_2013: "42.8%",
-        latitude: 28.8028612,
-        longitude: -81.269453,
-        population: "56002",
-        rank: "650",
-        state: "Florida",
-    },
-    {
-        city: "Kettering",
-        growth_from_2000_to_2013: "-3.1%",
-        latitude: 39.68950359999999,
-        longitude: -84.1688274,
-        population: "55870",
-        rank: "651",
-        state: "Ohio",
-    },
-    {
-        city: "New Brunswick",
-        growth_from_2000_to_2013: "15.5%",
-        latitude: 40.4862157,
-        longitude: -74.4518188,
-        population: "55831",
-        rank: "652",
-        state: "New Jersey",
-    },
-    {
-        city: "Decatur",
-        growth_from_2000_to_2013: "3.1%",
-        latitude: 34.6059253,
-        longitude: -86.9833417,
-        population: "55816",
-        rank: "653",
-        state: "Alabama",
-    },
-    {
-        city: "Chicopee",
-        growth_from_2000_to_2013: "1.7%",
-        latitude: 42.1487043,
-        longitude: -72.6078672,
-        population: "55717",
-        rank: "654",
-        state: "Massachusetts",
-    },
-    {
-        city: "Anderson",
-        growth_from_2000_to_2013: "-6.6%",
-        latitude: 40.1053196,
-        longitude: -85.6802541,
-        population: "55670",
-        rank: "655",
-        state: "Indiana",
-    },
-    {
-        city: "Margate",
-        growth_from_2000_to_2013: "2.7%",
-        latitude: 26.2445263,
-        longitude: -80.206436,
-        population: "55456",
-        rank: "656",
-        state: "Florida",
-    },
-    {
-        city: "Weymouth Town",
-        growth_from_2000_to_2013: "",
-        latitude: 42.2180724,
-        longitude: -70.94103559999999,
-        population: "55419",
-        rank: "657",
-        state: "Massachusetts",
-    },
-    {
-        city: "Hempstead",
-        growth_from_2000_to_2013: "4.0%",
-        latitude: 40.7062128,
-        longitude: -73.6187397,
-        population: "55361",
-        rank: "658",
-        state: "New York",
-    },
-    {
-        city: "Corvallis",
-        growth_from_2000_to_2013: "11.8%",
-        latitude: 44.5645659,
-        longitude: -123.2620435,
-        population: "55298",
-        rank: "659",
-        state: "Oregon",
-    },
-    {
-        city: "Eastvale",
-        growth_from_2000_to_2013: "",
-        latitude: 33.952463,
-        longitude: -117.5848025,
-        population: "55191",
-        rank: "660",
-        state: "California",
-    },
-    {
-        city: "Porterville",
-        growth_from_2000_to_2013: "20.1%",
-        latitude: 36.06523,
-        longitude: -119.0167679,
-        population: "55174",
-        rank: "661",
-        state: "California",
-    },
-    {
-        city: "West Haven",
-        growth_from_2000_to_2013: "5.1%",
-        latitude: 41.2705484,
-        longitude: -72.9469711,
-        population: "55046",
-        rank: "662",
-        state: "Connecticut",
-    },
-    {
-        city: "Brentwood",
-        growth_from_2000_to_2013: "122.3%",
-        latitude: 37.931868,
-        longitude: -121.6957863,
-        population: "55000",
-        rank: "663",
-        state: "California",
-    },
-    {
-        city: "Paramount",
-        growth_from_2000_to_2013: "-0.7%",
-        latitude: 33.8894598,
-        longitude: -118.1597911,
-        population: "54980",
-        rank: "664",
-        state: "California",
-    },
-    {
-        city: "Grand Forks",
-        growth_from_2000_to_2013: "11.5%",
-        latitude: 47.9252568,
-        longitude: -97.0328547,
-        population: "54932",
-        rank: "665",
-        state: "North Dakota",
-    },
-    {
-        city: "Georgetown",
-        growth_from_2000_to_2013: "91.9%",
-        latitude: 30.6332618,
-        longitude: -97.6779842,
-        population: "54898",
-        rank: "666",
-        state: "Texas",
-    },
-    {
-        city: "St. Peters",
-        growth_from_2000_to_2013: "6.5%",
-        latitude: 38.7874699,
-        longitude: -90.6298922,
-        population: "54842",
-        rank: "667",
-        state: "Missouri",
-    },
-    {
-        city: "Shoreline",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 47.7556531,
-        longitude: -122.3415178,
-        population: "54790",
-        rank: "668",
-        state: "Washington",
-    },
-    {
-        city: "Mount Prospect",
-        growth_from_2000_to_2013: "-2.5%",
-        latitude: 42.0664167,
-        longitude: -87.9372908,
-        population: "54771",
-        rank: "669",
-        state: "Illinois",
-    },
-    {
-        city: "Hanford",
-        growth_from_2000_to_2013: "30.3%",
-        latitude: 36.3274502,
-        longitude: -119.6456844,
-        population: "54686",
-        rank: "670",
-        state: "California",
-    },
-    {
-        city: "Normal",
-        growth_from_2000_to_2013: "19.7%",
-        latitude: 40.5142026,
-        longitude: -88.9906312,
-        population: "54664",
-        rank: "671",
-        state: "Illinois",
-    },
-    {
-        city: "Rosemead",
-        growth_from_2000_to_2013: "1.7%",
-        latitude: 34.0805651,
-        longitude: -118.072846,
-        population: "54561",
-        rank: "672",
-        state: "California",
-    },
-    {
-        city: "Lehi",
-        growth_from_2000_to_2013: "176.3%",
-        latitude: 40.3916172,
-        longitude: -111.8507662,
-        population: "54382",
-        rank: "673",
-        state: "Utah",
-    },
-    {
-        city: "Pocatello",
-        growth_from_2000_to_2013: "5.4%",
-        latitude: 42.8713032,
-        longitude: -112.4455344,
-        population: "54350",
-        rank: "674",
-        state: "Idaho",
-    },
-    {
-        city: "Highland",
-        growth_from_2000_to_2013: "21.0%",
-        latitude: 34.1283442,
-        longitude: -117.2086513,
-        population: "54291",
-        rank: "675",
-        state: "California",
-    },
-    {
-        city: "Novato",
-        growth_from_2000_to_2013: "13.3%",
-        latitude: 38.1074198,
-        longitude: -122.5697032,
-        population: "54194",
-        rank: "676",
-        state: "California",
-    },
-    {
-        city: "Port Arthur",
-        growth_from_2000_to_2013: "-6.0%",
-        latitude: 29.8849504,
-        longitude: -93.93994699999999,
-        population: "54135",
-        rank: "677",
-        state: "Texas",
-    },
-    {
-        city: "Carson City",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 39.1637984,
-        longitude: -119.7674034,
-        population: "54080",
-        rank: "678",
-        state: "Nevada",
-    },
-    {
-        city: "San Marcos",
-        growth_from_2000_to_2013: "48.5%",
-        latitude: 29.8832749,
-        longitude: -97.9413941,
-        population: "54076",
-        rank: "679",
-        state: "Texas",
-    },
-    {
-        city: "Hendersonville",
-        growth_from_2000_to_2013: "31.7%",
-        latitude: 36.3047735,
-        longitude: -86.6199957,
-        population: "54068",
-        rank: "680",
-        state: "Tennessee",
-    },
-    {
-        city: "Elyria",
-        growth_from_2000_to_2013: "-3.7%",
-        latitude: 41.3683798,
-        longitude: -82.10764859999999,
-        population: "53956",
-        rank: "681",
-        state: "Ohio",
-    },
-    {
-        city: "Revere",
-        growth_from_2000_to_2013: "13.4%",
-        latitude: 42.4084302,
-        longitude: -71.0119948,
-        population: "53756",
-        rank: "682",
-        state: "Massachusetts",
-    },
-    {
-        city: "Pflugerville",
-        growth_from_2000_to_2013: "123.4%",
-        latitude: 30.4393696,
-        longitude: -97.62000429999999,
-        population: "53752",
-        rank: "683",
-        state: "Texas",
-    },
-    {
-        city: "Greenwood",
-        growth_from_2000_to_2013: "46.0%",
-        latitude: 39.6136578,
-        longitude: -86.10665259999999,
-        population: "53665",
-        rank: "684",
-        state: "Indiana",
-    },
-    {
-        city: "Bellevue",
-        growth_from_2000_to_2013: "20.5%",
-        latitude: 41.1543623,
-        longitude: -95.9145568,
-        population: "53663",
-        rank: "685",
-        state: "Nebraska",
-    },
-    {
-        city: "Wheaton",
-        growth_from_2000_to_2013: "-3.4%",
-        latitude: 41.8661403,
-        longitude: -88.1070127,
-        population: "53648",
-        rank: "686",
-        state: "Illinois",
-    },
-    {
-        city: "Smyrna",
-        growth_from_2000_to_2013: "20.0%",
-        latitude: 33.8839926,
-        longitude: -84.51437609999999,
-        population: "53438",
-        rank: "687",
-        state: "Georgia",
-    },
-    {
-        city: "Sarasota",
-        growth_from_2000_to_2013: "1.4%",
-        latitude: 27.3364347,
-        longitude: -82.53065269999999,
-        population: "53326",
-        rank: "688",
-        state: "Florida",
-    },
-    {
-        city: "Blue Springs",
-        growth_from_2000_to_2013: "9.9%",
-        latitude: 39.0169509,
-        longitude: -94.2816148,
-        population: "53294",
-        rank: "689",
-        state: "Missouri",
-    },
-    {
-        city: "Colton",
-        growth_from_2000_to_2013: "10.8%",
-        latitude: 34.0739016,
-        longitude: -117.3136547,
-        population: "53243",
-        rank: "690",
-        state: "California",
-    },
-    {
-        city: "Euless",
-        growth_from_2000_to_2013: "15.1%",
-        latitude: 32.8370727,
-        longitude: -97.08195409999999,
-        population: "53224",
-        rank: "691",
-        state: "Texas",
-    },
-    {
-        city: "Castle Rock",
-        growth_from_2000_to_2013: "153.5%",
-        latitude: 39.3722121,
-        longitude: -104.8560902,
-        population: "53063",
-        rank: "692",
-        state: "Colorado",
-    },
-    {
-        city: "Cathedral City",
-        growth_from_2000_to_2013: "23.2%",
-        latitude: 33.7805388,
-        longitude: -116.4668036,
-        population: "52977",
-        rank: "693",
-        state: "California",
-    },
-    {
-        city: "Kingsport",
-        growth_from_2000_to_2013: "16.7%",
-        latitude: 36.548434,
-        longitude: -82.5618186,
-        population: "52962",
-        rank: "694",
-        state: "Tennessee",
-    },
-    {
-        city: "Lake Havasu City",
-        growth_from_2000_to_2013: "24.6%",
-        latitude: 34.483901,
-        longitude: -114.3224548,
-        population: "52844",
-        rank: "695",
-        state: "Arizona",
-    },
-    {
-        city: "Pensacola",
-        growth_from_2000_to_2013: "-6.0%",
-        latitude: 30.42130899999999,
-        longitude: -87.2169149,
-        population: "52703",
-        rank: "696",
-        state: "Florida",
-    },
-    {
-        city: "Hoboken",
-        growth_from_2000_to_2013: "35.8%",
-        latitude: 40.7439905,
-        longitude: -74.0323626,
-        population: "52575",
-        rank: "697",
-        state: "New Jersey",
-    },
-    {
-        city: "Yucaipa",
-        growth_from_2000_to_2013: "26.8%",
-        latitude: 34.033625,
-        longitude: -117.0430865,
-        population: "52536",
-        rank: "698",
-        state: "California",
-    },
-    {
-        city: "Watsonville",
-        growth_from_2000_to_2013: "12.7%",
-        latitude: 36.910231,
-        longitude: -121.7568946,
-        population: "52477",
-        rank: "699",
-        state: "California",
-    },
-    {
-        city: "Richland",
-        growth_from_2000_to_2013: "34.6%",
-        latitude: 46.2856907,
-        longitude: -119.2844621,
-        population: "52413",
-        rank: "700",
-        state: "Washington",
-    },
-    {
-        city: "Delano",
-        growth_from_2000_to_2013: "31.8%",
-        latitude: 35.7688425,
-        longitude: -119.2470536,
-        population: "52403",
-        rank: "701",
-        state: "California",
-    },
-    {
-        city: "Hoffman Estates",
-        growth_from_2000_to_2013: "5.4%",
-        latitude: 42.0629915,
-        longitude: -88.12271989999999,
-        population: "52398",
-        rank: "702",
-        state: "Illinois",
-    },
-    {
-        city: "Florissant",
-        growth_from_2000_to_2013: "-2.8%",
-        latitude: 38.789217,
-        longitude: -90.322614,
-        population: "52363",
-        rank: "703",
-        state: "Missouri",
-    },
-    {
-        city: "Placentia",
-        growth_from_2000_to_2013: "11.8%",
-        latitude: 33.8722371,
-        longitude: -117.8703363,
-        population: "52206",
-        rank: "704",
-        state: "California",
-    },
-    {
-        city: "West New York",
-        growth_from_2000_to_2013: "13.3%",
-        latitude: 40.7878788,
-        longitude: -74.0143064,
-        population: "52122",
-        rank: "705",
-        state: "New Jersey",
-    },
-    {
-        city: "Dublin",
-        growth_from_2000_to_2013: "70.0%",
-        latitude: 37.7021521,
-        longitude: -121.9357918,
-        population: "52105",
-        rank: "706",
-        state: "California",
-    },
-    {
-        city: "Oak Park",
-        growth_from_2000_to_2013: "-0.8%",
-        latitude: 41.8850317,
-        longitude: -87.7845025,
-        population: "52066",
-        rank: "707",
-        state: "Illinois",
-    },
-    {
-        city: "Peabody",
-        growth_from_2000_to_2013: "7.5%",
-        latitude: 42.5278731,
-        longitude: -70.9286609,
-        population: "52044",
-        rank: "708",
-        state: "Massachusetts",
-    },
-    {
-        city: "Perth Amboy",
-        growth_from_2000_to_2013: "9.7%",
-        latitude: 40.5067723,
-        longitude: -74.2654234,
-        population: "51982",
-        rank: "709",
-        state: "New Jersey",
-    },
-    {
-        city: "Battle Creek",
-        growth_from_2000_to_2013: "-2.8%",
-        latitude: 42.3211522,
-        longitude: -85.17971419999999,
-        population: "51848",
-        rank: "710",
-        state: "Michigan",
-    },
-    {
-        city: "Bradenton",
-        growth_from_2000_to_2013: "3.4%",
-        latitude: 27.4989278,
-        longitude: -82.5748194,
-        population: "51763",
-        rank: "711",
-        state: "Florida",
-    },
-    {
-        city: "Gilroy",
-        growth_from_2000_to_2013: "23.9%",
-        latitude: 37.0057816,
-        longitude: -121.5682751,
-        population: "51701",
-        rank: "712",
-        state: "California",
-    },
-    {
-        city: "Milford",
-        growth_from_2000_to_2013: "1.8%",
-        latitude: 41.2306979,
-        longitude: -73.064036,
-        population: "51644",
-        rank: "713",
-        state: "Connecticut",
-    },
-    {
-        city: "Albany",
-        growth_from_2000_to_2013: "25.5%",
-        latitude: 44.6365107,
-        longitude: -123.1059282,
-        population: "51583",
-        rank: "714",
-        state: "Oregon",
-    },
-    {
-        city: "Ankeny",
-        growth_from_2000_to_2013: "86.9%",
-        latitude: 41.7317884,
-        longitude: -93.6001278,
-        population: "51567",
-        rank: "715",
-        state: "Iowa",
-    },
-    {
-        city: "La Crosse",
-        growth_from_2000_to_2013: "-0.8%",
-        latitude: 43.8013556,
-        longitude: -91.23958069999999,
-        population: "51522",
-        rank: "716",
-        state: "Wisconsin",
-    },
-    {
-        city: "Burlington",
-        growth_from_2000_to_2013: "12.1%",
-        latitude: 36.0956918,
-        longitude: -79.43779909999999,
-        population: "51510",
-        rank: "717",
-        state: "North Carolina",
-    },
-    {
-        city: "DeSoto",
-        growth_from_2000_to_2013: "36.0%",
-        latitude: 32.5896998,
-        longitude: -96.8570738,
-        population: "51483",
-        rank: "718",
-        state: "Texas",
-    },
-    {
-        city: "Harrisonburg",
-        growth_from_2000_to_2013: "27.1%",
-        latitude: 38.4495688,
-        longitude: -78.8689155,
-        population: "51395",
-        rank: "719",
-        state: "Virginia",
-    },
-    {
-        city: "Minnetonka",
-        growth_from_2000_to_2013: "0.4%",
-        latitude: 44.9211836,
-        longitude: -93.4687489,
-        population: "51368",
-        rank: "720",
-        state: "Minnesota",
-    },
-    {
-        city: "Elkhart",
-        growth_from_2000_to_2013: "-2.5%",
-        latitude: 41.6819935,
-        longitude: -85.9766671,
-        population: "51265",
-        rank: "721",
-        state: "Indiana",
-    },
-    {
-        city: "Lakewood",
-        growth_from_2000_to_2013: "-9.4%",
-        latitude: 41.4819932,
-        longitude: -81.7981908,
-        population: "51143",
-        rank: "722",
-        state: "Ohio",
-    },
-    {
-        city: "Glendora",
-        growth_from_2000_to_2013: "3.1%",
-        latitude: 34.1361187,
-        longitude: -117.865339,
-        population: "51074",
-        rank: "723",
-        state: "California",
-    },
-    {
-        city: "Southaven",
-        growth_from_2000_to_2013: "72.8%",
-        latitude: 34.9889818,
-        longitude: -90.0125913,
-        population: "50997",
-        rank: "724",
-        state: "Mississippi",
-    },
-    {
-        city: "Charleston",
-        growth_from_2000_to_2013: "-4.7%",
-        latitude: 38.3498195,
-        longitude: -81.6326234,
-        population: "50821",
-        rank: "725",
-        state: "West Virginia",
-    },
-    {
-        city: "Joplin",
-        growth_from_2000_to_2013: "11.2%",
-        latitude: 37.08422710000001,
-        longitude: -94.51328099999999,
-        population: "50789",
-        rank: "726",
-        state: "Missouri",
-    },
-    {
-        city: "Enid",
-        growth_from_2000_to_2013: "8.1%",
-        latitude: 36.3955891,
-        longitude: -97.8783911,
-        population: "50725",
-        rank: "727",
-        state: "Oklahoma",
-    },
-    {
-        city: "Palm Beach Gardens",
-        growth_from_2000_to_2013: "39.6%",
-        latitude: 26.8233946,
-        longitude: -80.13865469999999,
-        population: "50699",
-        rank: "728",
-        state: "Florida",
-    },
-    {
-        city: "Brookhaven",
-        growth_from_2000_to_2013: "",
-        latitude: 33.8651033,
-        longitude: -84.3365917,
-        population: "50603",
-        rank: "729",
-        state: "Georgia",
-    },
-    {
-        city: "Plainfield",
-        growth_from_2000_to_2013: "5.7%",
-        latitude: 40.6337136,
-        longitude: -74.4073736,
-        population: "50588",
-        rank: "730",
-        state: "New Jersey",
-    },
-    {
-        city: "Grand Island",
-        growth_from_2000_to_2013: "16.0%",
-        latitude: 40.9263957,
-        longitude: -98.3420118,
-        population: "50550",
-        rank: "731",
-        state: "Nebraska",
-    },
-    {
-        city: "Palm Desert",
-        growth_from_2000_to_2013: "13.2%",
-        latitude: 33.7222445,
-        longitude: -116.3744556,
-        population: "50508",
-        rank: "732",
-        state: "California",
-    },
-    {
-        city: "Huntersville",
-        growth_from_2000_to_2013: "92.9%",
-        latitude: 35.410694,
-        longitude: -80.84285040000002,
-        population: "50458",
-        rank: "733",
-        state: "North Carolina",
-    },
-    {
-        city: "Tigard",
-        growth_from_2000_to_2013: "17.8%",
-        latitude: 45.4312294,
-        longitude: -122.7714861,
-        population: "50444",
-        rank: "734",
-        state: "Oregon",
-    },
-    {
-        city: "Lenexa",
-        growth_from_2000_to_2013: "24.6%",
-        latitude: 38.9536174,
-        longitude: -94.73357089999999,
-        population: "50344",
-        rank: "735",
-        state: "Kansas",
-    },
-    {
-        city: "Saginaw",
-        growth_from_2000_to_2013: "-18.2%",
-        latitude: 43.4194699,
-        longitude: -83.9508068,
-        population: "50303",
-        rank: "736",
-        state: "Michigan",
-    },
-    {
-        city: "Kentwood",
-        growth_from_2000_to_2013: "10.5%",
-        latitude: 42.8694731,
-        longitude: -85.64474919999999,
-        population: "50233",
-        rank: "737",
-        state: "Michigan",
-    },
-    {
-        city: "Doral",
-        growth_from_2000_to_2013: "137.6%",
-        latitude: 25.8195424,
-        longitude: -80.3553302,
-        population: "50213",
-        rank: "738",
-        state: "Florida",
-    },
-    {
-        city: "Apple Valley",
-        growth_from_2000_to_2013: "9.2%",
-        latitude: 44.7319094,
-        longitude: -93.21772000000001,
-        population: "50201",
-        rank: "739",
-        state: "Minnesota",
-    },
-    {
-        city: "Grapevine",
-        growth_from_2000_to_2013: "17.6%",
-        latitude: 32.9342919,
-        longitude: -97.0780654,
-        population: "50195",
-        rank: "740",
-        state: "Texas",
-    },
-    {
-        city: "Aliso Viejo",
-        growth_from_2000_to_2013: "25.4%",
-        latitude: 33.5676842,
-        longitude: -117.7256083,
-        population: "50175",
-        rank: "741",
-        state: "California",
-    },
-    {
-        city: "Sammamish",
-        growth_from_2000_to_2013: "44.1%",
-        latitude: 47.61626829999999,
-        longitude: -122.0355736,
-        population: "50169",
-        rank: "742",
-        state: "Washington",
-    },
-    {
-        city: "Casa Grande",
-        growth_from_2000_to_2013: "86.0%",
-        latitude: 32.8795022,
-        longitude: -111.7573521,
-        population: "50111",
-        rank: "743",
-        state: "Arizona",
-    },
-    {
-        city: "Pinellas Park",
-        growth_from_2000_to_2013: "5.9%",
-        latitude: 27.8428025,
-        longitude: -82.6995443,
-        population: "49998",
-        rank: "744",
-        state: "Florida",
-    },
-    {
-        city: "Troy",
-        growth_from_2000_to_2013: "1.5%",
-        latitude: 42.7284117,
-        longitude: -73.69178509999999,
-        population: "49974",
-        rank: "745",
-        state: "New York",
-    },
-    {
-        city: "West Sacramento",
-        growth_from_2000_to_2013: "55.6%",
-        latitude: 38.5804609,
-        longitude: -121.530234,
-        population: "49891",
-        rank: "746",
-        state: "California",
-    },
-    {
-        city: "Burien",
-        growth_from_2000_to_2013: "56.7%",
-        latitude: 47.4703767,
-        longitude: -122.3467918,
-        population: "49858",
-        rank: "747",
-        state: "Washington",
-    },
-    {
-        city: "Commerce City",
-        growth_from_2000_to_2013: "135.4%",
-        latitude: 39.8083196,
-        longitude: -104.9338675,
-        population: "49799",
-        rank: "748",
-        state: "Colorado",
-    },
-    {
-        city: "Monroe",
-        growth_from_2000_to_2013: "-6.1%",
-        latitude: 32.5093109,
-        longitude: -92.1193012,
-        population: "49761",
-        rank: "749",
-        state: "Louisiana",
-    },
-    {
-        city: "Cerritos",
-        growth_from_2000_to_2013: "-3.6%",
-        latitude: 33.8583483,
-        longitude: -118.0647871,
-        population: "49707",
-        rank: "750",
-        state: "California",
-    },
-    {
-        city: "Downers Grove",
-        growth_from_2000_to_2013: "0.0%",
-        latitude: 41.8089191,
-        longitude: -88.01117459999999,
-        population: "49670",
-        rank: "751",
-        state: "Illinois",
-    },
-    {
-        city: "Coral Gables",
-        growth_from_2000_to_2013: "16.1%",
-        latitude: 25.72149,
-        longitude: -80.2683838,
-        population: "49631",
-        rank: "752",
-        state: "Florida",
-    },
-    {
-        city: "Wilson",
-        growth_from_2000_to_2013: "10.1%",
-        latitude: 35.7212689,
-        longitude: -77.9155395,
-        population: "49628",
-        rank: "753",
-        state: "North Carolina",
-    },
-    {
-        city: "Niagara Falls",
-        growth_from_2000_to_2013: "-10.8%",
-        latitude: 43.0962143,
-        longitude: -79.0377388,
-        population: "49468",
-        rank: "754",
-        state: "New York",
-    },
-    {
-        city: "Poway",
-        growth_from_2000_to_2013: "2.4%",
-        latitude: 32.9628232,
-        longitude: -117.0358646,
-        population: "49417",
-        rank: "755",
-        state: "California",
-    },
-    {
-        city: "Edina",
-        growth_from_2000_to_2013: "4.1%",
-        latitude: 44.8896866,
-        longitude: -93.3499489,
-        population: "49376",
-        rank: "756",
-        state: "Minnesota",
-    },
-    {
-        city: "Cuyahoga Falls",
-        growth_from_2000_to_2013: "-0.2%",
-        latitude: 41.1339449,
-        longitude: -81.48455849999999,
-        population: "49267",
-        rank: "757",
-        state: "Ohio",
-    },
-    {
-        city: "Rancho Santa Margarita",
-        growth_from_2000_to_2013: "4.6%",
-        latitude: 33.640855,
-        longitude: -117.603104,
-        population: "49228",
-        rank: "758",
-        state: "California",
-    },
-    {
-        city: "Harrisburg",
-        growth_from_2000_to_2013: "0.6%",
-        latitude: 40.2731911,
-        longitude: -76.8867008,
-        population: "49188",
-        rank: "759",
-        state: "Pennsylvania",
-    },
-    {
-        city: "Huntington",
-        growth_from_2000_to_2013: "-5.0%",
-        latitude: 38.4192496,
-        longitude: -82.44515400000002,
-        population: "49177",
-        rank: "760",
-        state: "West Virginia",
-    },
-    {
-        city: "La Mirada",
-        growth_from_2000_to_2013: "4.6%",
-        latitude: 33.9172357,
-        longitude: -118.0120086,
-        population: "49133",
-        rank: "761",
-        state: "California",
-    },
-    {
-        city: "Cypress",
-        growth_from_2000_to_2013: "5.3%",
-        latitude: 33.8169599,
-        longitude: -118.0372852,
-        population: "49087",
-        rank: "762",
-        state: "California",
-    },
-    {
-        city: "Caldwell",
-        growth_from_2000_to_2013: "77.1%",
-        latitude: 43.66293839999999,
-        longitude: -116.6873596,
-        population: "48957",
-        rank: "763",
-        state: "Idaho",
-    },
-    {
-        city: "Logan",
-        growth_from_2000_to_2013: "14.5%",
-        latitude: 41.7369803,
-        longitude: -111.8338359,
-        population: "48913",
-        rank: "764",
-        state: "Utah",
-    },
-    {
-        city: "Galveston",
-        growth_from_2000_to_2013: "-15.2%",
-        latitude: 29.3013479,
-        longitude: -94.7976958,
-        population: "48733",
-        rank: "765",
-        state: "Texas",
-    },
-    {
-        city: "Sheboygan",
-        growth_from_2000_to_2013: "-3.9%",
-        latitude: 43.7508284,
-        longitude: -87.71453,
-        population: "48725",
-        rank: "766",
-        state: "Wisconsin",
-    },
-    {
-        city: "Middletown",
-        growth_from_2000_to_2013: "-5.7%",
-        latitude: 39.5150576,
-        longitude: -84.39827629999999,
-        population: "48630",
-        rank: "767",
-        state: "Ohio",
-    },
-    {
-        city: "Murray",
-        growth_from_2000_to_2013: "6.6%",
-        latitude: 40.6668916,
-        longitude: -111.8879909,
-        population: "48612",
-        rank: "768",
-        state: "Utah",
-    },
-    {
-        city: "Roswell",
-        growth_from_2000_to_2013: "7.5%",
-        latitude: 33.3942655,
-        longitude: -104.5230242,
-        population: "48611",
-        rank: "769",
-        state: "New Mexico",
-    },
-    {
-        city: "Parker",
-        growth_from_2000_to_2013: "96.4%",
-        latitude: 39.5186002,
-        longitude: -104.7613633,
-        population: "48608",
-        rank: "770",
-        state: "Colorado",
-    },
-    {
-        city: "Bedford",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 32.844017,
-        longitude: -97.1430671,
-        population: "48592",
-        rank: "771",
-        state: "Texas",
-    },
-    {
-        city: "East Lansing",
-        growth_from_2000_to_2013: "4.2%",
-        latitude: 42.7369792,
-        longitude: -84.48386540000001,
-        population: "48554",
-        rank: "772",
-        state: "Michigan",
-    },
-    {
-        city: "Methuen",
-        growth_from_2000_to_2013: "10.3%",
-        latitude: 42.7262016,
-        longitude: -71.1908924,
-        population: "48514",
-        rank: "773",
-        state: "Massachusetts",
-    },
-    {
-        city: "Covina",
-        growth_from_2000_to_2013: "3.3%",
-        latitude: 34.0900091,
-        longitude: -117.8903397,
-        population: "48508",
-        rank: "774",
-        state: "California",
-    },
-    {
-        city: "Alexandria",
-        growth_from_2000_to_2013: "4.1%",
-        latitude: 31.3112936,
-        longitude: -92.4451371,
-        population: "48426",
-        rank: "775",
-        state: "Louisiana",
-    },
-    {
-        city: "Olympia",
-        growth_from_2000_to_2013: "12.1%",
-        latitude: 47.0378741,
-        longitude: -122.9006951,
-        population: "48338",
-        rank: "776",
-        state: "Washington",
-    },
-    {
-        city: "Euclid",
-        growth_from_2000_to_2013: "-8.4%",
-        latitude: 41.5931049,
-        longitude: -81.5267873,
-        population: "48139",
-        rank: "777",
-        state: "Ohio",
-    },
-    {
-        city: "Mishawaka",
-        growth_from_2000_to_2013: "2.0%",
-        latitude: 41.6619927,
-        longitude: -86.15861559999999,
-        population: "47989",
-        rank: "778",
-        state: "Indiana",
-    },
-    {
-        city: "Salina",
-        growth_from_2000_to_2013: "4.5%",
-        latitude: 38.8402805,
-        longitude: -97.61142369999999,
-        population: "47846",
-        rank: "779",
-        state: "Kansas",
-    },
-    {
-        city: "Azusa",
-        growth_from_2000_to_2013: "6.7%",
-        latitude: 34.1336186,
-        longitude: -117.9075627,
-        population: "47842",
-        rank: "780",
-        state: "California",
-    },
-    {
-        city: "Newark",
-        growth_from_2000_to_2013: "3.1%",
-        latitude: 40.0581205,
-        longitude: -82.4012642,
-        population: "47777",
-        rank: "781",
-        state: "Ohio",
-    },
-    {
-        city: "Chesterfield",
-        growth_from_2000_to_2013: "1.9%",
-        latitude: 38.6631083,
-        longitude: -90.5770675,
-        population: "47749",
-        rank: "782",
-        state: "Missouri",
-    },
-    {
-        city: "Leesburg",
-        growth_from_2000_to_2013: "66.0%",
-        latitude: 39.1156615,
-        longitude: -77.56360149999999,
-        population: "47673",
-        rank: "783",
-        state: "Virginia",
-    },
-    {
-        city: "Dunwoody",
-        growth_from_2000_to_2013: "",
-        latitude: 33.9462125,
-        longitude: -84.3346473,
-        population: "47591",
-        rank: "784",
-        state: "Georgia",
-    },
-    {
-        city: "Hattiesburg",
-        growth_from_2000_to_2013: "3.1%",
-        latitude: 31.3271189,
-        longitude: -89.29033919999999,
-        population: "47556",
-        rank: "785",
-        state: "Mississippi",
-    },
-    {
-        city: "Roseville",
-        growth_from_2000_to_2013: "-1.0%",
-        latitude: 42.4972583,
-        longitude: -82.9371409,
-        population: "47555",
-        rank: "786",
-        state: "Michigan",
-    },
-    {
-        city: "Bonita Springs",
-        growth_from_2000_to_2013: "43.8%",
-        latitude: 26.339806,
-        longitude: -81.7786972,
-        population: "47547",
-        rank: "787",
-        state: "Florida",
-    },
-    {
-        city: "Portage",
-        growth_from_2000_to_2013: "5.7%",
-        latitude: 42.2011538,
-        longitude: -85.5800022,
-        population: "47523",
-        rank: "788",
-        state: "Michigan",
-    },
-    {
-        city: "St. Louis Park",
-        growth_from_2000_to_2013: "7.3%",
-        latitude: 44.9597376,
-        longitude: -93.3702186,
-        population: "47411",
-        rank: "789",
-        state: "Minnesota",
-    },
-    {
-        city: "Collierville",
-        growth_from_2000_to_2013: "43.4%",
-        latitude: 35.042036,
-        longitude: -89.6645266,
-        population: "47333",
-        rank: "790",
-        state: "Tennessee",
-    },
-    {
-        city: "Middletown",
-        growth_from_2000_to_2013: "3.6%",
-        latitude: 41.5623209,
-        longitude: -72.6506488,
-        population: "47333",
-        rank: "791",
-        state: "Connecticut",
-    },
-    {
-        city: "Stillwater",
-        growth_from_2000_to_2013: "20.1%",
-        latitude: 36.1156071,
-        longitude: -97.0583681,
-        population: "47186",
-        rank: "792",
-        state: "Oklahoma",
-    },
-    {
-        city: "East Providence",
-        growth_from_2000_to_2013: "-3.3%",
-        latitude: 41.8137116,
-        longitude: -71.3700545,
-        population: "47149",
-        rank: "793",
-        state: "Rhode Island",
-    },
-    {
-        city: "Lawrence",
-        growth_from_2000_to_2013: "20.5%",
-        latitude: 39.8386516,
-        longitude: -86.0252612,
-        population: "47135",
-        rank: "794",
-        state: "Indiana",
-    },
-    {
-        city: "Wauwatosa",
-        growth_from_2000_to_2013: "0.0%",
-        latitude: 43.0494572,
-        longitude: -88.0075875,
-        population: "47134",
-        rank: "795",
-        state: "Wisconsin",
-    },
-    {
-        city: "Mentor",
-        growth_from_2000_to_2013: "-6.6%",
-        latitude: 41.6661573,
-        longitude: -81.339552,
-        population: "46979",
-        rank: "796",
-        state: "Ohio",
-    },
-    {
-        city: "Ceres",
-        growth_from_2000_to_2013: "34.0%",
-        latitude: 37.5949316,
-        longitude: -120.9577098,
-        population: "46714",
-        rank: "797",
-        state: "California",
-    },
-    {
-        city: "Cedar Hill",
-        growth_from_2000_to_2013: "42.4%",
-        latitude: 32.5884689,
-        longitude: -96.9561152,
-        population: "46663",
-        rank: "798",
-        state: "Texas",
-    },
-    {
-        city: "Mansfield",
-        growth_from_2000_to_2013: "-10.1%",
-        latitude: 40.75839,
-        longitude: -82.5154471,
-        population: "46454",
-        rank: "799",
-        state: "Ohio",
-    },
-    {
-        city: "Binghamton",
-        growth_from_2000_to_2013: "-1.7%",
-        latitude: 42.09868669999999,
-        longitude: -75.91797380000001,
-        population: "46444",
-        rank: "800",
-        state: "New York",
-    },
-    {
-        city: "Coeur d'Alene",
-        growth_from_2000_to_2013: "32.8%",
-        latitude: 47.6776832,
-        longitude: -116.7804664,
-        population: "46402",
-        rank: "801",
-        state: "Idaho",
-    },
-    {
-        city: "San Luis Obispo",
-        growth_from_2000_to_2013: "4.4%",
-        latitude: 35.2827524,
-        longitude: -120.6596156,
-        population: "46377",
-        rank: "802",
-        state: "California",
-    },
-    {
-        city: "Minot",
-        growth_from_2000_to_2013: "26.6%",
-        latitude: 48.2329668,
-        longitude: -101.2922906,
-        population: "46321",
-        rank: "803",
-        state: "North Dakota",
-    },
-    {
-        city: "Palm Springs",
-        growth_from_2000_to_2013: "7.7%",
-        latitude: 33.8302961,
-        longitude: -116.5452921,
-        population: "46281",
-        rank: "804",
-        state: "California",
-    },
-    {
-        city: "Pine Bluff",
-        growth_from_2000_to_2013: "-16.2%",
-        latitude: 34.2284312,
-        longitude: -92.00319549999999,
-        population: "46094",
-        rank: "805",
-        state: "Arkansas",
-    },
-    {
-        city: "Texas City",
-        growth_from_2000_to_2013: "10.3%",
-        latitude: 29.383845,
-        longitude: -94.9027002,
-        population: "46081",
-        rank: "806",
-        state: "Texas",
-    },
-    {
-        city: "Summerville",
-        growth_from_2000_to_2013: "62.9%",
-        latitude: 33.0185039,
-        longitude: -80.17564809999999,
-        population: "46074",
-        rank: "807",
-        state: "South Carolina",
-    },
-    {
-        city: "Twin Falls",
-        growth_from_2000_to_2013: "31.5%",
-        latitude: 42.5629668,
-        longitude: -114.4608711,
-        population: "45981",
-        rank: "808",
-        state: "Idaho",
-    },
-    {
-        city: "Jeffersonville",
-        growth_from_2000_to_2013: "53.3%",
-        latitude: 38.2775702,
-        longitude: -85.7371847,
-        population: "45929",
-        rank: "809",
-        state: "Indiana",
-    },
-    {
-        city: "San Jacinto",
-        growth_from_2000_to_2013: "91.8%",
-        latitude: 33.7839084,
-        longitude: -116.958635,
-        population: "45851",
-        rank: "810",
-        state: "California",
-    },
-    {
-        city: "Madison",
-        growth_from_2000_to_2013: "53.7%",
-        latitude: 34.6992579,
-        longitude: -86.74833180000002,
-        population: "45799",
-        rank: "811",
-        state: "Alabama",
-    },
-    {
-        city: "Altoona",
-        growth_from_2000_to_2013: "-7.3%",
-        latitude: 40.5186809,
-        longitude: -78.3947359,
-        population: "45796",
-        rank: "812",
-        state: "Pennsylvania",
-    },
-    {
-        city: "Columbus",
-        growth_from_2000_to_2013: "16.4%",
-        latitude: 39.2014404,
-        longitude: -85.9213796,
-        population: "45775",
-        rank: "813",
-        state: "Indiana",
-    },
-    {
-        city: "Beavercreek",
-        growth_from_2000_to_2013: "19.0%",
-        latitude: 39.7092262,
-        longitude: -84.06326849999999,
-        population: "45712",
-        rank: "814",
-        state: "Ohio",
-    },
-    {
-        city: "Apopka",
-        growth_from_2000_to_2013: "63.9%",
-        latitude: 28.6934076,
-        longitude: -81.5322149,
-        population: "45587",
-        rank: "815",
-        state: "Florida",
-    },
-    {
-        city: "Elmhurst",
-        growth_from_2000_to_2013: "5.7%",
-        latitude: 41.8994744,
-        longitude: -87.9403418,
-        population: "45556",
-        rank: "816",
-        state: "Illinois",
-    },
-    {
-        city: "Maricopa",
-        growth_from_2000_to_2013: "2503.4%",
-        latitude: 33.0581063,
-        longitude: -112.0476423,
-        population: "45508",
-        rank: "817",
-        state: "Arizona",
-    },
-    {
-        city: "Farmington",
-        growth_from_2000_to_2013: "18.1%",
-        latitude: 36.72805830000001,
-        longitude: -108.2186856,
-        population: "45426",
-        rank: "818",
-        state: "New Mexico",
-    },
-    {
-        city: "Glenview",
-        growth_from_2000_to_2013: "5.2%",
-        latitude: 42.0697509,
-        longitude: -87.7878408,
-        population: "45417",
-        rank: "819",
-        state: "Illinois",
-    },
-    {
-        city: "Cleveland Heights",
-        growth_from_2000_to_2013: "-10.3%",
-        latitude: 41.5200518,
-        longitude: -81.556235,
-        population: "45394",
-        rank: "820",
-        state: "Ohio",
-    },
-    {
-        city: "Draper",
-        growth_from_2000_to_2013: "77.4%",
-        latitude: 40.5246711,
-        longitude: -111.8638226,
-        population: "45285",
-        rank: "821",
-        state: "Utah",
-    },
-    {
-        city: "Lincoln",
-        growth_from_2000_to_2013: "285.2%",
-        latitude: 38.891565,
-        longitude: -121.2930079,
-        population: "45237",
-        rank: "822",
-        state: "California",
-    },
-    {
-        city: "Sierra Vista",
-        growth_from_2000_to_2013: "19.3%",
-        latitude: 31.5455001,
-        longitude: -110.2772856,
-        population: "45129",
-        rank: "823",
-        state: "Arizona",
-    },
-    {
-        city: "Lacey",
-        growth_from_2000_to_2013: "41.7%",
-        latitude: 47.03426289999999,
-        longitude: -122.8231915,
-        population: "44919",
-        rank: "824",
-        state: "Washington",
-    },
-    {
-        city: "Biloxi",
-        growth_from_2000_to_2013: "-11.5%",
-        latitude: 30.3960318,
-        longitude: -88.88530779999999,
-        population: "44820",
-        rank: "825",
-        state: "Mississippi",
-    },
-    {
-        city: "Strongsville",
-        growth_from_2000_to_2013: "1.9%",
-        latitude: 41.3144966,
-        longitude: -81.83569,
-        population: "44730",
-        rank: "826",
-        state: "Ohio",
-    },
-    {
-        city: "Barnstable Town",
-        growth_from_2000_to_2013: "-7.1%",
-        latitude: 41.7003208,
-        longitude: -70.3002024,
-        population: "44641",
-        rank: "827",
-        state: "Massachusetts",
-    },
-    {
-        city: "Wylie",
-        growth_from_2000_to_2013: "185.2%",
-        latitude: 33.0151201,
-        longitude: -96.5388789,
-        population: "44575",
-        rank: "828",
-        state: "Texas",
-    },
-    {
-        city: "Sayreville",
-        growth_from_2000_to_2013: "9.6%",
-        latitude: 40.45940210000001,
-        longitude: -74.360846,
-        population: "44412",
-        rank: "829",
-        state: "New Jersey",
-    },
-    {
-        city: "Kannapolis",
-        growth_from_2000_to_2013: "18.6%",
-        latitude: 35.4873613,
-        longitude: -80.6217341,
-        population: "44359",
-        rank: "830",
-        state: "North Carolina",
-    },
-    {
-        city: "Charlottesville",
-        growth_from_2000_to_2013: "10.5%",
-        latitude: 38.0293059,
-        longitude: -78.47667810000002,
-        population: "44349",
-        rank: "831",
-        state: "Virginia",
-    },
-    {
-        city: "Littleton",
-        growth_from_2000_to_2013: "9.4%",
-        latitude: 39.613321,
-        longitude: -105.0166498,
-        population: "44275",
-        rank: "832",
-        state: "Colorado",
-    },
-    {
-        city: "Titusville",
-        growth_from_2000_to_2013: "7.8%",
-        latitude: 28.6122187,
-        longitude: -80.8075537,
-        population: "44206",
-        rank: "833",
-        state: "Florida",
-    },
-    {
-        city: "Hackensack",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 40.8859325,
-        longitude: -74.0434736,
-        population: "44113",
-        rank: "834",
-        state: "New Jersey",
-    },
-    {
-        city: "Newark",
-        growth_from_2000_to_2013: "3.3%",
-        latitude: 37.5296593,
-        longitude: -122.0402399,
-        population: "44096",
-        rank: "835",
-        state: "California",
-    },
-    {
-        city: "Pittsfield",
-        growth_from_2000_to_2013: "-3.6%",
-        latitude: 42.4500845,
-        longitude: -73.2453824,
-        population: "44057",
-        rank: "836",
-        state: "Massachusetts",
-    },
-    {
-        city: "York",
-        growth_from_2000_to_2013: "6.4%",
-        latitude: 39.9625984,
-        longitude: -76.727745,
-        population: "43935",
-        rank: "837",
-        state: "Pennsylvania",
-    },
-    {
-        city: "Lombard",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 41.8800296,
-        longitude: -88.00784349999999,
-        population: "43907",
-        rank: "838",
-        state: "Illinois",
-    },
-    {
-        city: "Attleboro",
-        growth_from_2000_to_2013: "4.6%",
-        latitude: 41.94454409999999,
-        longitude: -71.2856082,
-        population: "43886",
-        rank: "839",
-        state: "Massachusetts",
-    },
-    {
-        city: "DeKalb",
-        growth_from_2000_to_2013: "11.8%",
-        latitude: 41.9294736,
-        longitude: -88.75036469999999,
-        population: "43849",
-        rank: "840",
-        state: "Illinois",
-    },
-    {
-        city: "Blacksburg",
-        growth_from_2000_to_2013: "9.4%",
-        latitude: 37.2295733,
-        longitude: -80.4139393,
-        population: "43609",
-        rank: "841",
-        state: "Virginia",
-    },
-    {
-        city: "Dublin",
-        growth_from_2000_to_2013: "37.6%",
-        latitude: 40.0992294,
-        longitude: -83.1140771,
-        population: "43607",
-        rank: "842",
-        state: "Ohio",
-    },
-    {
-        city: "Haltom City",
-        growth_from_2000_to_2013: "11.4%",
-        latitude: 32.7995738,
-        longitude: -97.26918169999999,
-        population: "43580",
-        rank: "843",
-        state: "Texas",
-    },
-    {
-        city: "Lompoc",
-        growth_from_2000_to_2013: "5.5%",
-        latitude: 34.6391501,
-        longitude: -120.4579409,
-        population: "43509",
-        rank: "844",
-        state: "California",
-    },
-    {
-        city: "El Centro",
-        growth_from_2000_to_2013: "13.7%",
-        latitude: 32.792,
-        longitude: -115.5630514,
-        population: "43363",
-        rank: "845",
-        state: "California",
-    },
-    {
-        city: "Danville",
-        growth_from_2000_to_2013: "3.7%",
-        latitude: 37.8215929,
-        longitude: -121.9999606,
-        population: "43341",
-        rank: "846",
-        state: "California",
-    },
-    {
-        city: "Jefferson City",
-        growth_from_2000_to_2013: "6.7%",
-        latitude: 38.57670170000001,
-        longitude: -92.1735164,
-        population: "43330",
-        rank: "847",
-        state: "Missouri",
-    },
-    {
-        city: "Cutler Bay",
-        growth_from_2000_to_2013: "42.9%",
-        latitude: 25.5808323,
-        longitude: -80.34685929999999,
-        population: "43328",
-        rank: "848",
-        state: "Florida",
-    },
-    {
-        city: "Oakland Park",
-        growth_from_2000_to_2013: "2.7%",
-        latitude: 26.1723065,
-        longitude: -80.1319893,
-        population: "43286",
-        rank: "849",
-        state: "Florida",
-    },
-    {
-        city: "North Miami Beach",
-        growth_from_2000_to_2013: "3.6%",
-        latitude: 25.9331488,
-        longitude: -80.1625463,
-        population: "43250",
-        rank: "850",
-        state: "Florida",
-    },
-    {
-        city: "Freeport",
-        growth_from_2000_to_2013: "-1.4%",
-        latitude: 40.6576022,
-        longitude: -73.58318349999999,
-        population: "43167",
-        rank: "851",
-        state: "New York",
-    },
-    {
-        city: "Moline",
-        growth_from_2000_to_2013: "-1.9%",
-        latitude: 41.5067003,
-        longitude: -90.51513419999999,
-        population: "43116",
-        rank: "852",
-        state: "Illinois",
-    },
-    {
-        city: "Coachella",
-        growth_from_2000_to_2013: "88.4%",
-        latitude: 33.6803003,
-        longitude: -116.173894,
-        population: "43092",
-        rank: "853",
-        state: "California",
-    },
-    {
-        city: "Fort Pierce",
-        growth_from_2000_to_2013: "6.9%",
-        latitude: 27.4467056,
-        longitude: -80.3256056,
-        population: "43074",
-        rank: "854",
-        state: "Florida",
-    },
-    {
-        city: "Smyrna",
-        growth_from_2000_to_2013: "54.9%",
-        latitude: 35.9828412,
-        longitude: -86.5186045,
-        population: "43060",
-        rank: "855",
-        state: "Tennessee",
-    },
-    {
-        city: "Bountiful",
-        growth_from_2000_to_2013: "3.9%",
-        latitude: 40.8893895,
-        longitude: -111.880771,
-        population: "43023",
-        rank: "856",
-        state: "Utah",
-    },
-    {
-        city: "Fond du Lac",
-        growth_from_2000_to_2013: "1.7%",
-        latitude: 43.7730448,
-        longitude: -88.4470508,
-        population: "42970",
-        rank: "857",
-        state: "Wisconsin",
-    },
-    {
-        city: "Everett",
-        growth_from_2000_to_2013: "12.1%",
-        latitude: 42.40843,
-        longitude: -71.0536625,
-        population: "42935",
-        rank: "858",
-        state: "Massachusetts",
-    },
-    {
-        city: "Danville",
-        growth_from_2000_to_2013: "-11.0%",
-        latitude: 36.5859718,
-        longitude: -79.39502279999999,
-        population: "42907",
-        rank: "859",
-        state: "Virginia",
-    },
-    {
-        city: "Keller",
-        growth_from_2000_to_2013: "53.3%",
-        latitude: 32.9341893,
-        longitude: -97.229298,
-        population: "42907",
-        rank: "860",
-        state: "Texas",
-    },
-    {
-        city: "Belleville",
-        growth_from_2000_to_2013: "1.2%",
-        latitude: 38.5200504,
-        longitude: -89.9839935,
-        population: "42895",
-        rank: "861",
-        state: "Illinois",
-    },
-    {
-        city: "Bell Gardens",
-        growth_from_2000_to_2013: "-2.7%",
-        latitude: 33.9652918,
-        longitude: -118.1514588,
-        population: "42889",
-        rank: "862",
-        state: "California",
-    },
-    {
-        city: "Cleveland",
-        growth_from_2000_to_2013: "14.1%",
-        latitude: 35.1595182,
-        longitude: -84.8766115,
-        population: "42774",
-        rank: "863",
-        state: "Tennessee",
-    },
-    {
-        city: "North Lauderdale",
-        growth_from_2000_to_2013: "10.8%",
-        latitude: 26.217305,
-        longitude: -80.2258811,
-        population: "42757",
-        rank: "864",
-        state: "Florida",
-    },
-    {
-        city: "Fairfield",
-        growth_from_2000_to_2013: "1.2%",
-        latitude: 39.3454673,
-        longitude: -84.5603187,
-        population: "42635",
-        rank: "865",
-        state: "Ohio",
-    },
-    {
-        city: "Salem",
-        growth_from_2000_to_2013: "5.1%",
-        latitude: 42.51954,
-        longitude: -70.8967155,
-        population: "42544",
-        rank: "866",
-        state: "Massachusetts",
-    },
-    {
-        city: "Rancho Palos Verdes",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 33.7444613,
-        longitude: -118.3870173,
-        population: "42448",
-        rank: "867",
-        state: "California",
-    },
-    {
-        city: "San Bruno",
-        growth_from_2000_to_2013: "5.6%",
-        latitude: 37.6304904,
-        longitude: -122.4110835,
-        population: "42443",
-        rank: "868",
-        state: "California",
-    },
-    {
-        city: "Concord",
-        growth_from_2000_to_2013: "4.1%",
-        latitude: 43.2081366,
-        longitude: -71.5375718,
-        population: "42419",
-        rank: "869",
-        state: "New Hampshire",
-    },
-    {
-        city: "Burlington",
-        growth_from_2000_to_2013: "6.1%",
-        latitude: 44.4758825,
-        longitude: -73.21207199999999,
-        population: "42284",
-        rank: "870",
-        state: "Vermont",
-    },
-    {
-        city: "Apex",
-        growth_from_2000_to_2013: "98.8%",
-        latitude: 35.732652,
-        longitude: -78.85028559999999,
-        population: "42214",
-        rank: "871",
-        state: "North Carolina",
-    },
-    {
-        city: "Midland",
-        growth_from_2000_to_2013: "0.9%",
-        latitude: 43.6155825,
-        longitude: -84.2472116,
-        population: "42181",
-        rank: "872",
-        state: "Michigan",
-    },
-    {
-        city: "Altamonte Springs",
-        growth_from_2000_to_2013: "2.0%",
-        latitude: 28.6611089,
-        longitude: -81.3656242,
-        population: "42150",
-        rank: "873",
-        state: "Florida",
-    },
-    {
-        city: "Hutchinson",
-        growth_from_2000_to_2013: "0.1%",
-        latitude: 38.0608445,
-        longitude: -97.92977429999999,
-        population: "41889",
-        rank: "874",
-        state: "Kansas",
-    },
-    {
-        city: "Buffalo Grove",
-        growth_from_2000_to_2013: "-3.4%",
-        latitude: 42.1662831,
-        longitude: -87.9631308,
-        population: "41778",
-        rank: "875",
-        state: "Illinois",
-    },
-    {
-        city: "Urbandale",
-        growth_from_2000_to_2013: "41.5%",
-        latitude: 41.6266555,
-        longitude: -93.71216559999999,
-        population: "41776",
-        rank: "876",
-        state: "Iowa",
-    },
-    {
-        city: "State College",
-        growth_from_2000_to_2013: "8.7%",
-        latitude: 40.7933949,
-        longitude: -77.8600012,
-        population: "41757",
-        rank: "877",
-        state: "Pennsylvania",
-    },
-    {
-        city: "Urbana",
-        growth_from_2000_to_2013: "10.3%",
-        latitude: 40.1105875,
-        longitude: -88.2072697,
-        population: "41752",
-        rank: "878",
-        state: "Illinois",
-    },
-    {
-        city: "Plainfield",
-        growth_from_2000_to_2013: "203.6%",
-        latitude: 41.632223,
-        longitude: -88.2120315,
-        population: "41734",
-        rank: "879",
-        state: "Illinois",
-    },
-    {
-        city: "Manassas",
-        growth_from_2000_to_2013: "19.5%",
-        latitude: 38.7509488,
-        longitude: -77.47526669999999,
-        population: "41705",
-        rank: "880",
-        state: "Virginia",
-    },
-    {
-        city: "Bartlett",
-        growth_from_2000_to_2013: "13.1%",
-        latitude: 41.9950276,
-        longitude: -88.1856301,
-        population: "41679",
-        rank: "881",
-        state: "Illinois",
-    },
-    {
-        city: "Kearny",
-        growth_from_2000_to_2013: "2.8%",
-        latitude: 40.7684342,
-        longitude: -74.1454214,
-        population: "41664",
-        rank: "882",
-        state: "New Jersey",
-    },
-    {
-        city: "Oro Valley",
-        growth_from_2000_to_2013: "27.0%",
-        latitude: 32.3909071,
-        longitude: -110.966488,
-        population: "41627",
-        rank: "883",
-        state: "Arizona",
-    },
-    {
-        city: "Findlay",
-        growth_from_2000_to_2013: "5.8%",
-        latitude: 41.04422,
-        longitude: -83.6499321,
-        population: "41512",
-        rank: "884",
-        state: "Ohio",
-    },
-    {
-        city: "Rohnert Park",
-        growth_from_2000_to_2013: "0.0%",
-        latitude: 38.3396367,
-        longitude: -122.7010984,
-        population: "41398",
-        rank: "885",
-        state: "California",
-    },
-    {
-        city: "Westfield",
-        growth_from_2000_to_2013: "3.0%",
-        latitude: 42.1250929,
-        longitude: -72.749538,
-        population: "41301",
-        rank: "887",
-        state: "Massachusetts",
-    },
-    {
-        city: "Linden",
-        growth_from_2000_to_2013: "4.7%",
-        latitude: 40.6220478,
-        longitude: -74.24459019999999,
-        population: "41301",
-        rank: "886",
-        state: "New Jersey",
-    },
-    {
-        city: "Sumter",
-        growth_from_2000_to_2013: "1.3%",
-        latitude: 33.9204354,
-        longitude: -80.3414693,
-        population: "41190",
-        rank: "888",
-        state: "South Carolina",
-    },
-    {
-        city: "Wilkes-Barre",
-        growth_from_2000_to_2013: "-4.3%",
-        latitude: 41.2459149,
-        longitude: -75.88130749999999,
-        population: "41108",
-        rank: "889",
-        state: "Pennsylvania",
-    },
-    {
-        city: "Woonsocket",
-        growth_from_2000_to_2013: "-5.2%",
-        latitude: 42.00287609999999,
-        longitude: -71.51478390000001,
-        population: "41026",
-        rank: "890",
-        state: "Rhode Island",
-    },
-    {
-        city: "Leominster",
-        growth_from_2000_to_2013: "-1.1%",
-        latitude: 42.5250906,
-        longitude: -71.759794,
-        population: "41002",
-        rank: "891",
-        state: "Massachusetts",
-    },
-    {
-        city: "Shelton",
-        growth_from_2000_to_2013: "7.3%",
-        latitude: 41.3164856,
-        longitude: -73.0931641,
-        population: "40999",
-        rank: "892",
-        state: "Connecticut",
-    },
-    {
-        city: "Brea",
-        growth_from_2000_to_2013: "15.2%",
-        latitude: 33.9166805,
-        longitude: -117.9000604,
-        population: "40963",
-        rank: "893",
-        state: "California",
-    },
-    {
-        city: "Covington",
-        growth_from_2000_to_2013: "-4.7%",
-        latitude: 39.0836712,
-        longitude: -84.5085536,
-        population: "40956",
-        rank: "894",
-        state: "Kentucky",
-    },
-    {
-        city: "Rockwall",
-        growth_from_2000_to_2013: "117.2%",
-        latitude: 32.93123360000001,
-        longitude: -96.4597089,
-        population: "40922",
-        rank: "895",
-        state: "Texas",
-    },
-    {
-        city: "Meridian",
-        growth_from_2000_to_2013: "-0.9%",
-        latitude: 32.3643098,
-        longitude: -88.703656,
-        population: "40921",
-        rank: "896",
-        state: "Mississippi",
-    },
-    {
-        city: "Riverton",
-        growth_from_2000_to_2013: "61.6%",
-        latitude: 40.521893,
-        longitude: -111.9391023,
-        population: "40921",
-        rank: "897",
-        state: "Utah",
-    },
-    {
-        city: "St. Cloud",
-        growth_from_2000_to_2013: "86.2%",
-        latitude: 28.2489016,
-        longitude: -81.2811801,
-        population: "40918",
-        rank: "898",
-        state: "Florida",
-    },
-    {
-        city: "Quincy",
-        growth_from_2000_to_2013: "0.5%",
-        latitude: 39.9356016,
-        longitude: -91.4098726,
-        population: "40915",
-        rank: "899",
-        state: "Illinois",
-    },
-    {
-        city: "Morgan Hill",
-        growth_from_2000_to_2013: "19.5%",
-        latitude: 37.1305012,
-        longitude: -121.6543901,
-        population: "40836",
-        rank: "900",
-        state: "California",
-    },
-    {
-        city: "Warren",
-        growth_from_2000_to_2013: "-15.2%",
-        latitude: 41.2375569,
-        longitude: -80.81841659999999,
-        population: "40768",
-        rank: "901",
-        state: "Ohio",
-    },
-    {
-        city: "Edmonds",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 47.8106521,
-        longitude: -122.3773552,
-        population: "40727",
-        rank: "902",
-        state: "Washington",
-    },
-    {
-        city: "Burleson",
-        growth_from_2000_to_2013: "85.3%",
-        latitude: 32.5420821,
-        longitude: -97.3208492,
-        population: "40714",
-        rank: "903",
-        state: "Texas",
-    },
-    {
-        city: "Beverly",
-        growth_from_2000_to_2013: "2.0%",
-        latitude: 42.5584283,
-        longitude: -70.880049,
-        population: "40664",
-        rank: "904",
-        state: "Massachusetts",
-    },
-    {
-        city: "Mankato",
-        growth_from_2000_to_2013: "24.7%",
-        latitude: 44.1635775,
-        longitude: -93.99939959999999,
-        population: "40641",
-        rank: "905",
-        state: "Minnesota",
-    },
-    {
-        city: "Hagerstown",
-        growth_from_2000_to_2013: "10.4%",
-        latitude: 39.6417629,
-        longitude: -77.71999319999999,
-        population: "40612",
-        rank: "906",
-        state: "Maryland",
-    },
-    {
-        city: "Prescott",
-        growth_from_2000_to_2013: "18.1%",
-        latitude: 34.5400242,
-        longitude: -112.4685025,
-        population: "40590",
-        rank: "907",
-        state: "Arizona",
-    },
-    {
-        city: "Campbell",
-        growth_from_2000_to_2013: "4.2%",
-        latitude: 37.2871651,
-        longitude: -121.9499568,
-        population: "40584",
-        rank: "908",
-        state: "California",
-    },
-    {
-        city: "Cedar Falls",
-        growth_from_2000_to_2013: "12.0%",
-        latitude: 42.5348993,
-        longitude: -92.4453161,
-        population: "40566",
-        rank: "909",
-        state: "Iowa",
-    },
-    {
-        city: "Beaumont",
-        growth_from_2000_to_2013: "254.5%",
-        latitude: 33.9294606,
-        longitude: -116.977248,
-        population: "40481",
-        rank: "910",
-        state: "California",
-    },
-    {
-        city: "La Puente",
-        growth_from_2000_to_2013: "-1.6%",
-        latitude: 34.0200114,
-        longitude: -117.9495083,
-        population: "40435",
-        rank: "911",
-        state: "California",
-    },
-    {
-        city: "Crystal Lake",
-        growth_from_2000_to_2013: "5.3%",
-        latitude: 42.2411344,
-        longitude: -88.31619649999999,
-        population: "40388",
-        rank: "912",
-        state: "Illinois",
-    },
-    {
-        city: "Fitchburg",
-        growth_from_2000_to_2013: "3.5%",
-        latitude: 42.5834228,
-        longitude: -71.8022955,
-        population: "40383",
-        rank: "913",
-        state: "Massachusetts",
-    },
-    {
-        city: "Carol Stream",
-        growth_from_2000_to_2013: "-0.2%",
-        latitude: 41.91252859999999,
-        longitude: -88.13479269999999,
-        population: "40379",
-        rank: "914",
-        state: "Illinois",
-    },
-    {
-        city: "Hickory",
-        growth_from_2000_to_2013: "7.0%",
-        latitude: 35.7344538,
-        longitude: -81.3444573,
-        population: "40361",
-        rank: "915",
-        state: "North Carolina",
-    },
-    {
-        city: "Streamwood",
-        growth_from_2000_to_2013: "10.1%",
-        latitude: 42.0255827,
-        longitude: -88.17840849999999,
-        population: "40351",
-        rank: "916",
-        state: "Illinois",
-    },
-    {
-        city: "Norwich",
-        growth_from_2000_to_2013: "11.6%",
-        latitude: 41.5242649,
-        longitude: -72.07591049999999,
-        population: "40347",
-        rank: "917",
-        state: "Connecticut",
-    },
-    {
-        city: "Coppell",
-        growth_from_2000_to_2013: "10.3%",
-        latitude: 32.9545687,
-        longitude: -97.01500779999999,
-        population: "40342",
-        rank: "918",
-        state: "Texas",
-    },
-    {
-        city: "San Gabriel",
-        growth_from_2000_to_2013: "0.9%",
-        latitude: 34.09611110000001,
-        longitude: -118.1058333,
-        population: "40275",
-        rank: "919",
-        state: "California",
-    },
-    {
-        city: "Holyoke",
-        growth_from_2000_to_2013: "0.9%",
-        latitude: 42.2042586,
-        longitude: -72.6162009,
-        population: "40249",
-        rank: "920",
-        state: "Massachusetts",
-    },
-    {
-        city: "Bentonville",
-        growth_from_2000_to_2013: "97.7%",
-        latitude: 36.3728538,
-        longitude: -94.2088172,
-        population: "40167",
-        rank: "921",
-        state: "Arkansas",
-    },
-    {
-        city: "Florence",
-        growth_from_2000_to_2013: "10.2%",
-        latitude: 34.79981,
-        longitude: -87.677251,
-        population: "40059",
-        rank: "922",
-        state: "Alabama",
-    },
-    {
-        city: "Peachtree Corners",
-        growth_from_2000_to_2013: "",
-        latitude: 33.9698929,
-        longitude: -84.2214551,
-        population: "40059",
-        rank: "923",
-        state: "Georgia",
-    },
-    {
-        city: "Brentwood",
-        growth_from_2000_to_2013: "51.9%",
-        latitude: 36.0331164,
-        longitude: -86.78277720000001,
-        population: "40021",
-        rank: "924",
-        state: "Tennessee",
-    },
-    {
-        city: "Bozeman",
-        growth_from_2000_to_2013: "41.9%",
-        latitude: 45.6769979,
-        longitude: -111.0429339,
-        population: "39860",
-        rank: "925",
-        state: "Montana",
-    },
-    {
-        city: "New Berlin",
-        growth_from_2000_to_2013: "3.6%",
-        latitude: 42.9764027,
-        longitude: -88.1084224,
-        population: "39834",
-        rank: "926",
-        state: "Wisconsin",
-    },
-    {
-        city: "Goose Creek",
-        growth_from_2000_to_2013: "26.1%",
-        latitude: 32.9810059,
-        longitude: -80.03258670000001,
-        population: "39823",
-        rank: "927",
-        state: "South Carolina",
-    },
-    {
-        city: "Huntsville",
-        growth_from_2000_to_2013: "13.2%",
-        latitude: 30.7235263,
-        longitude: -95.55077709999999,
-        population: "39795",
-        rank: "928",
-        state: "Texas",
-    },
-    {
-        city: "Prescott Valley",
-        growth_from_2000_to_2013: "62.9%",
-        latitude: 34.6100243,
-        longitude: -112.315721,
-        population: "39791",
-        rank: "929",
-        state: "Arizona",
-    },
-    {
-        city: "Maplewood",
-        growth_from_2000_to_2013: "12.3%",
-        latitude: 44.9530215,
-        longitude: -92.9952153,
-        population: "39765",
-        rank: "930",
-        state: "Minnesota",
-    },
-    {
-        city: "Romeoville",
-        growth_from_2000_to_2013: "79.5%",
-        latitude: 41.6475306,
-        longitude: -88.0895061,
-        population: "39650",
-        rank: "931",
-        state: "Illinois",
-    },
-    {
-        city: "Duncanville",
-        growth_from_2000_to_2013: "9.7%",
-        latitude: 32.6518004,
-        longitude: -96.9083366,
-        population: "39605",
-        rank: "932",
-        state: "Texas",
-    },
-    {
-        city: "Atlantic City",
-        growth_from_2000_to_2013: "-2.2%",
-        latitude: 39.3642834,
-        longitude: -74.4229266,
-        population: "39551",
-        rank: "933",
-        state: "New Jersey",
-    },
-    {
-        city: "Clovis",
-        growth_from_2000_to_2013: "21.3%",
-        latitude: 34.4047987,
-        longitude: -103.2052272,
-        population: "39508",
-        rank: "934",
-        state: "New Mexico",
-    },
-    {
-        city: "The Colony",
-        growth_from_2000_to_2013: "45.7%",
-        latitude: 33.0806083,
-        longitude: -96.89283089999999,
-        population: "39458",
-        rank: "935",
-        state: "Texas",
-    },
-    {
-        city: "Culver City",
-        growth_from_2000_to_2013: "1.3%",
-        latitude: 34.0211224,
-        longitude: -118.3964665,
-        population: "39428",
-        rank: "936",
-        state: "California",
-    },
-    {
-        city: "Marlborough",
-        growth_from_2000_to_2013: "7.6%",
-        latitude: 42.3459271,
-        longitude: -71.5522874,
-        population: "39414",
-        rank: "937",
-        state: "Massachusetts",
-    },
-    {
-        city: "Hilton Head Island",
-        growth_from_2000_to_2013: "16.0%",
-        latitude: 32.216316,
-        longitude: -80.752608,
-        population: "39412",
-        rank: "938",
-        state: "South Carolina",
-    },
-    {
-        city: "Moorhead",
-        growth_from_2000_to_2013: "21.3%",
-        latitude: 46.8737648,
-        longitude: -96.76780389999999,
-        population: "39398",
-        rank: "939",
-        state: "Minnesota",
-    },
-    {
-        city: "Calexico",
-        growth_from_2000_to_2013: "44.0%",
-        latitude: 32.6789476,
-        longitude: -115.4988834,
-        population: "39389",
-        rank: "940",
-        state: "California",
-    },
-    {
-        city: "Bullhead City",
-        growth_from_2000_to_2013: "15.9%",
-        latitude: 35.1359386,
-        longitude: -114.5285981,
-        population: "39383",
-        rank: "941",
-        state: "Arizona",
-    },
-    {
-        city: "Germantown",
-        growth_from_2000_to_2013: "4.1%",
-        latitude: 35.0867577,
-        longitude: -89.8100858,
-        population: "39375",
-        rank: "942",
-        state: "Tennessee",
-    },
-    {
-        city: "La Quinta",
-        growth_from_2000_to_2013: "59.9%",
-        latitude: 33.6633573,
-        longitude: -116.3100095,
-        population: "39331",
-        rank: "943",
-        state: "California",
-    },
-    {
-        city: "Lancaster",
-        growth_from_2000_to_2013: "10.7%",
-        latitude: 39.7136754,
-        longitude: -82.5993294,
-        population: "39325",
-        rank: "944",
-        state: "Ohio",
-    },
-    {
-        city: "Wausau",
-        growth_from_2000_to_2013: "1.7%",
-        latitude: 44.9591352,
-        longitude: -89.6301221,
-        population: "39309",
-        rank: "945",
-        state: "Wisconsin",
-    },
-    {
-        city: "Sherman",
-        growth_from_2000_to_2013: "11.6%",
-        latitude: 33.6356618,
-        longitude: -96.6088805,
-        population: "39296",
-        rank: "946",
-        state: "Texas",
-    },
-    {
-        city: "Ocoee",
-        growth_from_2000_to_2013: "57.9%",
-        latitude: 28.5691677,
-        longitude: -81.5439619,
-        population: "39172",
-        rank: "947",
-        state: "Florida",
-    },
-    {
-        city: "Shakopee",
-        growth_from_2000_to_2013: "85.7%",
-        latitude: 44.7973962,
-        longitude: -93.5272861,
-        population: "39167",
-        rank: "948",
-        state: "Minnesota",
-    },
-    {
-        city: "Woburn",
-        growth_from_2000_to_2013: "4.4%",
-        latitude: 42.4792618,
-        longitude: -71.1522765,
-        population: "39083",
-        rank: "949",
-        state: "Massachusetts",
-    },
-    {
-        city: "Bremerton",
-        growth_from_2000_to_2013: "4.9%",
-        latitude: 47.5673202,
-        longitude: -122.6329356,
-        population: "39056",
-        rank: "950",
-        state: "Washington",
-    },
-    {
-        city: "Rock Island",
-        growth_from_2000_to_2013: "-1.9%",
-        latitude: 41.5094771,
-        longitude: -90.5787476,
-        population: "38877",
-        rank: "951",
-        state: "Illinois",
-    },
-    {
-        city: "Muskogee",
-        growth_from_2000_to_2013: "-0.7%",
-        latitude: 35.7478769,
-        longitude: -95.3696909,
-        population: "38863",
-        rank: "952",
-        state: "Oklahoma",
-    },
-    {
-        city: "Cape Girardeau",
-        growth_from_2000_to_2013: "9.4%",
-        latitude: 37.3058839,
-        longitude: -89.51814759999999,
-        population: "38816",
-        rank: "953",
-        state: "Missouri",
-    },
-    {
-        city: "Annapolis",
-        growth_from_2000_to_2013: "7.6%",
-        latitude: 38.9784453,
-        longitude: -76.4921829,
-        population: "38722",
-        rank: "954",
-        state: "Maryland",
-    },
-    {
-        city: "Greenacres",
-        growth_from_2000_to_2013: "35.5%",
-        latitude: 26.6276276,
-        longitude: -80.1353896,
-        population: "38696",
-        rank: "955",
-        state: "Florida",
-    },
-    {
-        city: "Ormond Beach",
-        growth_from_2000_to_2013: "5.8%",
-        latitude: 29.2858129,
-        longitude: -81.0558894,
-        population: "38661",
-        rank: "956",
-        state: "Florida",
-    },
-    {
-        city: "Hallandale Beach",
-        growth_from_2000_to_2013: "12.4%",
-        latitude: 25.9812024,
-        longitude: -80.14837899999999,
-        population: "38632",
-        rank: "957",
-        state: "Florida",
-    },
-    {
-        city: "Stanton",
-        growth_from_2000_to_2013: "2.8%",
-        latitude: 33.8025155,
-        longitude: -117.9931165,
-        population: "38623",
-        rank: "958",
-        state: "California",
-    },
-    {
-        city: "Puyallup",
-        growth_from_2000_to_2013: "11.8%",
-        latitude: 47.1853785,
-        longitude: -122.2928974,
-        population: "38609",
-        rank: "959",
-        state: "Washington",
-    },
-    {
-        city: "Pacifica",
-        growth_from_2000_to_2013: "0.5%",
-        latitude: 37.6138253,
-        longitude: -122.4869194,
-        population: "38606",
-        rank: "960",
-        state: "California",
-    },
-    {
-        city: "Hanover Park",
-        growth_from_2000_to_2013: "0.6%",
-        latitude: 41.9994722,
-        longitude: -88.1450735,
-        population: "38510",
-        rank: "961",
-        state: "Illinois",
-    },
-    {
-        city: "Hurst",
-        growth_from_2000_to_2013: "5.8%",
-        latitude: 32.8234621,
-        longitude: -97.1705678,
-        population: "38448",
-        rank: "962",
-        state: "Texas",
-    },
-    {
-        city: "Lima",
-        growth_from_2000_to_2013: "-8.1%",
-        latitude: 40.742551,
-        longitude: -84.1052256,
-        population: "38355",
-        rank: "963",
-        state: "Ohio",
-    },
-    {
-        city: "Marana",
-        growth_from_2000_to_2013: "166.2%",
-        latitude: 32.436381,
-        longitude: -111.2224422,
-        population: "38290",
-        rank: "964",
-        state: "Arizona",
-    },
-    {
-        city: "Carpentersville",
-        growth_from_2000_to_2013: "22.8%",
-        latitude: 42.1211364,
-        longitude: -88.2578582,
-        population: "38241",
-        rank: "965",
-        state: "Illinois",
-    },
-    {
-        city: "Oakley",
-        growth_from_2000_to_2013: "47.7%",
-        latitude: 37.9974219,
-        longitude: -121.7124536,
-        population: "38194",
-        rank: "966",
-        state: "California",
-    },
-    {
-        city: "Huber Heights",
-        growth_from_2000_to_2013: "-0.2%",
-        latitude: 39.843947,
-        longitude: -84.12466080000002,
-        population: "38142",
-        rank: "967",
-        state: "Ohio",
-    },
-    {
-        city: "Lancaster",
-        growth_from_2000_to_2013: "46.4%",
-        latitude: 32.5920798,
-        longitude: -96.7561082,
-        population: "38071",
-        rank: "968",
-        state: "Texas",
-    },
-    {
-        city: "Montclair",
-        growth_from_2000_to_2013: "12.1%",
-        latitude: 34.0775104,
-        longitude: -117.6897776,
-        population: "38027",
-        rank: "969",
-        state: "California",
-    },
-    {
-        city: "Wheeling",
-        growth_from_2000_to_2013: "4.8%",
-        latitude: 42.1391927,
-        longitude: -87.9289591,
-        population: "38015",
-        rank: "970",
-        state: "Illinois",
-    },
-    {
-        city: "Brookfield",
-        growth_from_2000_to_2013: "-1.9%",
-        latitude: 43.0605671,
-        longitude: -88.1064787,
-        population: "37999",
-        rank: "971",
-        state: "Wisconsin",
-    },
-    {
-        city: "Park Ridge",
-        growth_from_2000_to_2013: "0.1%",
-        latitude: 42.0111412,
-        longitude: -87.84061919999999,
-        population: "37839",
-        rank: "972",
-        state: "Illinois",
-    },
-    {
-        city: "Florence",
-        growth_from_2000_to_2013: "19.8%",
-        latitude: 34.1954331,
-        longitude: -79.7625625,
-        population: "37792",
-        rank: "973",
-        state: "South Carolina",
-    },
-    {
-        city: "Roy",
-        growth_from_2000_to_2013: "13.3%",
-        latitude: 41.1616108,
-        longitude: -112.0263313,
-        population: "37733",
-        rank: "974",
-        state: "Utah",
-    },
-    {
-        city: "Winter Garden",
-        growth_from_2000_to_2013: "142.5%",
-        latitude: 28.5652787,
-        longitude: -81.58618469999999,
-        population: "37711",
-        rank: "975",
-        state: "Florida",
-    },
-    {
-        city: "Chelsea",
-        growth_from_2000_to_2013: "7.3%",
-        latitude: 42.3917638,
-        longitude: -71.0328284,
-        population: "37670",
-        rank: "976",
-        state: "Massachusetts",
-    },
-    {
-        city: "Valley Stream",
-        growth_from_2000_to_2013: "3.6%",
-        latitude: 40.6642699,
-        longitude: -73.70846449999999,
-        population: "37659",
-        rank: "977",
-        state: "New York",
-    },
-    {
-        city: "Spartanburg",
-        growth_from_2000_to_2013: "-6.2%",
-        latitude: 34.9495672,
-        longitude: -81.9320482,
-        population: "37647",
-        rank: "978",
-        state: "South Carolina",
-    },
-    {
-        city: "Lake Oswego",
-        growth_from_2000_to_2013: "5.3%",
-        latitude: 45.42067489999999,
-        longitude: -122.6706498,
-        population: "37610",
-        rank: "979",
-        state: "Oregon",
-    },
-    {
-        city: "Friendswood",
-        growth_from_2000_to_2013: "28.6%",
-        latitude: 29.5293998,
-        longitude: -95.2010447,
-        population: "37587",
-        rank: "980",
-        state: "Texas",
-    },
-    {
-        city: "Westerville",
-        growth_from_2000_to_2013: "5.7%",
-        latitude: 40.1261743,
-        longitude: -82.92906959999999,
-        population: "37530",
-        rank: "981",
-        state: "Ohio",
-    },
-    {
-        city: "Northglenn",
-        growth_from_2000_to_2013: "15.5%",
-        latitude: 39.8961821,
-        longitude: -104.9811468,
-        population: "37499",
-        rank: "982",
-        state: "Colorado",
-    },
-    {
-        city: "Phenix City",
-        growth_from_2000_to_2013: "31.9%",
-        latitude: 32.4709761,
-        longitude: -85.0007653,
-        population: "37498",
-        rank: "983",
-        state: "Alabama",
-    },
-    {
-        city: "Grove City",
-        growth_from_2000_to_2013: "35.6%",
-        latitude: 39.88145189999999,
-        longitude: -83.0929644,
-        population: "37490",
-        rank: "984",
-        state: "Ohio",
-    },
-    {
-        city: "Texarkana",
-        growth_from_2000_to_2013: "7.4%",
-        latitude: 33.425125,
-        longitude: -94.04768820000001,
-        population: "37442",
-        rank: "985",
-        state: "Texas",
-    },
-    {
-        city: "Addison",
-        growth_from_2000_to_2013: "2.6%",
-        latitude: 41.931696,
-        longitude: -87.9889556,
-        population: "37385",
-        rank: "986",
-        state: "Illinois",
-    },
-    {
-        city: "Dover",
-        growth_from_2000_to_2013: "16.0%",
-        latitude: 39.158168,
-        longitude: -75.5243682,
-        population: "37366",
-        rank: "987",
-        state: "Delaware",
-    },
-    {
-        city: "Lincoln Park",
-        growth_from_2000_to_2013: "-6.7%",
-        latitude: 42.2505943,
-        longitude: -83.1785361,
-        population: "37313",
-        rank: "988",
-        state: "Michigan",
-    },
-    {
-        city: "Calumet City",
-        growth_from_2000_to_2013: "-4.5%",
-        latitude: 41.6155909,
-        longitude: -87.5294871,
-        population: "37240",
-        rank: "989",
-        state: "Illinois",
-    },
-    {
-        city: "Muskegon",
-        growth_from_2000_to_2013: "-7.1%",
-        latitude: 43.2341813,
-        longitude: -86.24839209999999,
-        population: "37213",
-        rank: "990",
-        state: "Michigan",
-    },
-    {
-        city: "Aventura",
-        growth_from_2000_to_2013: "47.2%",
-        latitude: 25.9564812,
-        longitude: -80.1392121,
-        population: "37199",
-        rank: "991",
-        state: "Florida",
-    },
-    {
-        city: "Martinez",
-        growth_from_2000_to_2013: "3.4%",
-        latitude: 38.0193657,
-        longitude: -122.1341321,
-        population: "37165",
-        rank: "992",
-        state: "California",
-    },
-    {
-        city: "Greenfield",
-        growth_from_2000_to_2013: "4.8%",
-        latitude: 42.9614039,
-        longitude: -88.0125865,
-        population: "37159",
-        rank: "993",
-        state: "Wisconsin",
-    },
-    {
-        city: "Apache Junction",
-        growth_from_2000_to_2013: "15.7%",
-        latitude: 33.4150485,
-        longitude: -111.5495777,
-        population: "37130",
-        rank: "994",
-        state: "Arizona",
-    },
-    {
-        city: "Monrovia",
-        growth_from_2000_to_2013: "0.2%",
-        latitude: 34.1442616,
-        longitude: -118.0019482,
-        population: "37101",
-        rank: "995",
-        state: "California",
-    },
-    {
-        city: "Weslaco",
-        growth_from_2000_to_2013: "28.8%",
-        latitude: 26.1595194,
-        longitude: -97.9908366,
-        population: "37093",
-        rank: "996",
-        state: "Texas",
-    },
-    {
-        city: "Keizer",
-        growth_from_2000_to_2013: "14.4%",
-        latitude: 44.9901194,
-        longitude: -123.0262077,
-        population: "37064",
-        rank: "997",
-        state: "Oregon",
-    },
-    {
-        city: "Spanish Fork",
-        growth_from_2000_to_2013: "78.1%",
-        latitude: 40.114955,
-        longitude: -111.654923,
-        population: "36956",
-        rank: "998",
-        state: "Utah",
-    },
-    {
-        city: "Beloit",
-        growth_from_2000_to_2013: "2.9%",
-        latitude: 42.5083482,
-        longitude: -89.03177649999999,
-        population: "36888",
-        rank: "999",
-        state: "Wisconsin",
-    },
-    {
         city: "Panama City",
         growth_from_2000_to_2013: "0.1%",
         latitude: 30.1588129,
@@ -8999,4 +4778,4107 @@ module.exports = [
         rank: "1000",
         state: "Florida",
     },
+    {
+        "city": "Toronto",
+        "latitude": 43.65107,
+        "longitude": -79.347015,
+        "state": "Ontario"
+    },
+    {
+        "city": "Vancouver",
+        "latitude": 49.28273,
+        "longitude": -123.120735,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Montreal",
+        "latitude": 45.50169,
+        "longitude": -73.567253,
+        "state": "Quebec"
+    },
+    {
+        "city": "Calgary",
+        "latitude": 51.044733,
+        "longitude": -114.071883,
+        "state": "Alberta"
+    },
+    {
+        "city": "Ottawa",
+        "latitude": 45.421532,
+        "longitude": -75.697189,
+        "state": "Ontario"
+    },
+    {
+        "city": "Edmonton",
+        "latitude": 53.546125,
+        "longitude": -113.493823,
+        "state": "Alberta"
+    },
+    {
+        "city": "Winnipeg",
+        "latitude": 49.895138,
+        "longitude": -97.138374,
+        "state": "Manitoba"
+    },
+    {
+        "city": "Quebec City",
+        "latitude": 46.813878,
+        "longitude": -71.207981,
+        "state": "Quebec"
+    },
+    {
+        "city": "Hamilton",
+        "latitude": 43.255722,
+        "longitude": -79.871102,
+        "state": "Ontario"
+    },
+    {
+        "city": "Kitchener",
+        "latitude": 43.451639,
+        "longitude": -80.492533,
+        "state": "Ontario"
+    },
+    {
+        "city": "London",
+        "latitude": 42.984923,
+        "longitude": -81.245277,
+        "state": "Ontario"
+    },
+    {
+        "city": "Halifax",
+        "latitude": 44.648764,
+        "longitude": -63.575239,
+        "state": "Nova Scotia"
+    },
+    {
+        "city": "Victoria",
+        "latitude": 48.428421,
+        "longitude": -123.365644,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Saskatoon",
+        "latitude": 52.157929,
+        "longitude": -106.670045,
+        "state": "Saskatchewan"
+    },
+    {
+        "city": "Regina",
+        "latitude": 50.445211,
+        "longitude": -104.618894,
+        "state": "Saskatchewan"
+    },
+    {
+        "city": "St. John's",
+        "latitude": 47.561509,
+        "longitude": -52.712577,
+        "state": "Newfoundland and Labrador"
+    },
+    {
+        "city": "Windsor",
+        "latitude": 42.314937,
+        "longitude": -83.036363,
+        "state": "Ontario"
+    },
+    {
+        "city": "Oshawa",
+        "latitude": 43.897545,
+        "longitude": -78.865634,
+        "state": "Ontario"
+    },
+    {
+        "city": "Guelph",
+        "latitude": 43.544805,
+        "longitude": -80.248167,
+        "state": "Ontario"
+    },
+    {
+        "city": "Thunder Bay",
+        "latitude": 48.380895,
+        "longitude": -89.247682,
+        "state": "Ontario"
+    },
+    {
+        "city": "Kelowna",
+        "latitude": 49.888,
+        "longitude": -119.49601,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Barrie",
+        "latitude": 44.389356,
+        "longitude": -79.690332,
+        "state": "Ontario"
+    },
+    {
+        "city": "Sherbrooke",
+        "latitude": 45.400992,
+        "longitude": -71.882428,
+        "state": "Quebec"
+    },
+    {
+        "city": "Sudbury",
+        "latitude": 46.491932,
+        "longitude": -80.99303,
+        "state": "Ontario"
+    },
+    {
+        "city": "Abbotsford",
+        "latitude": 49.050437,
+        "longitude": -122.30447,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Kingston",
+        "latitude": 44.231172,
+        "longitude": -76.485954,
+        "state": "Ontario"
+    },
+    {
+        "city": "Trois-Rivières",
+        "latitude": 46.345158,
+        "longitude": -72.547693,
+        "state": "Quebec"
+    },
+    {
+        "city": "Chicoutimi",
+        "latitude": 48.429303,
+        "longitude": -71.052816,
+        "state": "Quebec"
+    },
+    {
+        "city": "Moncton",
+        "latitude": 46.087816,
+        "longitude": -64.778231,
+        "state": "New Brunswick"
+    },
+    {
+        "city": "Fredericton",
+        "latitude": 45.963589,
+        "longitude": -66.643115,
+        "state": "New Brunswick"
+    },
+    {
+        "city": "Prince George",
+        "latitude": 53.917064,
+        "longitude": -122.749669,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Red Deer",
+        "latitude": 52.268112,
+        "longitude": -113.811239,
+        "state": "Alberta"
+    },
+    {
+        "city": "Lethbridge",
+        "latitude": 49.69349,
+        "longitude": -112.84184,
+        "state": "Alberta"
+    },
+    {
+        "city": "Saint John",
+        "latitude": 45.273315,
+        "longitude": -66.063308,
+        "state": "New Brunswick"
+    },
+    {
+        "city": "Kamloops",
+        "latitude": 50.674522,
+        "longitude": -120.327267,
+        "state": "British Columbia"
+    },
+    {
+        "city": "Drummondville",
+        "latitude": 45.880996,
+        "longitude": -72.484334,
+        "state": "Quebec"
+    },
+    {
+        "city": "Sarnia",
+        "latitude": 42.978407,
+        "longitude": -82.404068,
+        "state": "Ontario"
+    },
+    {
+        "city": "Brantford",
+        "latitude": 43.139386,
+        "longitude": -80.264425,
+        "state": "Ontario"
+    },
+    {
+        "city": "Saint-Hyacinthe",
+        "latitude": 45.63082,
+        "longitude": -72.956679,
+        "state": "Quebec"
+    },
+    {
+        "city": "Medicine Hat",
+        "latitude": 50.040548,
+        "longitude": -110.676425,
+        "state": "Alberta"
+    },
+    {
+        "city": "Granby",
+        "latitude": 45.398331,
+        "longitude": -72.721702,
+        "state": "Quebec"
+    },
+    {
+        "city": "Moose Jaw",
+        "latitude": 50.393641,
+        "longitude": -105.551444,
+        "state": "Saskatchewan"
+    },
+    {
+        "city": "Cornwall",
+        "latitude": 45.027491,
+        "longitude": -74.740741,
+        "state": "Ontario"
+    },
+    {
+        "city": "Prince Albert",
+        "latitude": 53.203349,
+        "longitude": -105.753071,
+        "state": "Saskatchewan"
+    },
+    {
+        "city": "Saint-Georges",
+        "latitude": 46.118881,
+        "longitude": -70.669182,
+        "state": "Quebec"
+    },
+    {
+        "city": "Joliette",
+        "latitude": 46.020854,
+        "longitude": -73.432707,
+        "state": "Quebec"
+    },
+    {
+        "city": "Chatham",
+        "latitude": 42.404801,
+        "longitude": -82.191037,
+        "state": "Ontario"
+    },
+    {
+        "city": "Belleville",
+        "latitude": 44.162759,
+        "longitude": -77.383231,
+        "state": "Ontario"
+    },
+    {
+        "city": "North Bay",
+        "latitude": 46.309115,
+        "longitude": -79.460821,
+        "state": "Ontario"
+    },
+    {
+        "city": "Mumbai",
+        "latitude": 19.0760,
+        "longitude": 72.8777,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Delhi",
+        "latitude": 28.6139,
+        "longitude": 77.2090,
+        "state": "Delhi"
+    },
+    {
+        "city": "Bengaluru",
+        "latitude": 12.9716,
+        "longitude": 77.5946,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Hyderabad",
+        "latitude": 17.3850,
+        "longitude": 78.4867,
+        "state": "Telangana"
+    },
+    {
+        "city": "Chennai",
+        "latitude": 13.0827,
+        "longitude": 80.2707,
+        "state": "Tamil Nadu"
+    },
+    {
+        "city": "Kolkata",
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "state": "West Bengal"
+    },
+    {
+        "city": "Ahmedabad",
+        "latitude": 23.0225,
+        "longitude": 72.5714,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Surat",
+        "latitude": 21.1702,
+        "longitude": 72.8311,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Vadodara",
+        "latitude": 22.3074,
+        "longitude": 73.1812,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Rajkot",
+        "latitude": 22.3039,
+        "longitude": 70.8022,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Gandhinagar",
+        "latitude": 23.2156,
+        "longitude": 72.6369,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Junagadh",
+        "latitude": 21.5216,
+        "longitude": 70.4577,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Bhuj",
+        "latitude": 23.2472,
+        "longitude": 69.6682,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Valsad",
+        "latitude": 20.6244,
+        "longitude": 72.9279,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Navsari",
+        "latitude": 20.9468,
+        "longitude": 72.9434,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Patan",
+        "latitude": 24.1247,
+        "longitude": 72.1500,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Mehsana",
+        "latitude": 23.5920,
+        "longitude": 72.3844,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Anand",
+        "latitude": 22.5570,
+        "longitude": 72.9286,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Amreli",
+        "latitude": 21.5964,
+        "longitude": 84.7276,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Daman",
+        "latitude": 20.4250,
+        "longitude": 72.8347,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Gandhidham",
+        "latitude": 23.0778,
+        "longitude": 70.1326,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Jamnagar",
+        "latitude": 22.4707,
+        "longitude": 70.0577,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Surendranagar",
+        "latitude": 22.7252,
+        "longitude": 71.6337,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Godhra",
+        "latitude": 22.7721,
+        "longitude": 73.6194,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Sabarmati",
+        "latitude": 23.0350,
+        "longitude": 72.5588,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Kutch",
+        "latitude": 23.3060,
+        "longitude": 69.6650,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Bharuch",
+        "latitude": 21.7060,
+        "longitude": 72.9458,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Vapi",
+        "latitude": 20.3675,
+        "longitude": 72.9214,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Pune",
+        "latitude": 18.5204,
+        "longitude": 73.8567,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Jaipur",
+        "latitude": 26.9124,
+        "longitude": 75.7873,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Surat",
+        "latitude": 21.1702,
+        "longitude": 72.8311,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Lucknow",
+        "latitude": 26.8467,
+        "longitude": 80.9462,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Kanpur",
+        "latitude": 26.4499,
+        "longitude": 80.3319,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Nagpur",
+        "latitude": 21.1458,
+        "longitude": 79.0882,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Indore",
+        "latitude": 22.7196,
+        "longitude": 75.8577,
+        "state": "Madhya Pradesh"
+    },
+    {
+        "city": "Bhopal",
+        "latitude": 23.2599,
+        "longitude": 77.4126,
+        "state": "Madhya Pradesh"
+    },
+    {
+        "city": "Visakhapatnam",
+        "latitude": 17.6868,
+        "longitude": 83.2185,
+        "state": "Andhra Pradesh"
+    },
+    {
+        "city": "Chandigarh",
+        "latitude": 30.7333,
+        "longitude": 76.7794,
+        "state": "Chandigarh"
+    },
+    {
+        "city": "Bhubaneswar",
+        "latitude": 20.2961,
+        "longitude": 85.8189,
+        "state": "Odisha"
+    },
+    {
+        "city": "Coimbatore",
+        "latitude": 11.0168,
+        "longitude": 76.9558,
+        "state": "Tamil Nadu"
+    },
+    {
+        "city": "Patna",
+        "latitude": 25.5941,
+        "longitude": 85.1376,
+        "state": "Bihar"
+    },
+    {
+        "city": "Ludhiana",
+        "latitude": 30.9009,
+        "longitude": 75.8573,
+        "state": "Punjab"
+    },
+    {
+        "city": "Agra",
+        "latitude": 27.1767,
+        "longitude": 78.0081,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Nashik",
+        "latitude": 20.0116,
+        "longitude": 73.7744,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Ranchi",
+        "latitude": 23.3441,
+        "longitude": 85.3096,
+        "state": "Jharkhand"
+    },
+    {
+        "city": "Meerut",
+        "latitude": 28.9865,
+        "longitude": 77.7000,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Kochi",
+        "latitude": 9.9312,
+        "longitude": 76.2673,
+        "state": "Kerala"
+    },
+    {
+        "city": "Dehradun",
+        "latitude": 30.3165,
+        "longitude": 78.0322,
+        "state": "Uttarakhand"
+    },
+    {
+        "city": "Bikaner",
+        "latitude": 28.0167,
+        "longitude": 73.3167,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Jodhpur",
+        "latitude": 26.2389,
+        "longitude": 73.0243,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Tiruchirappalli",
+        "latitude": 10.7905,
+        "longitude": 78.7047,
+        "state": "Tamil Nadu"
+    },
+    {
+        "city": "Raipur",
+        "latitude": 21.2514,
+        "longitude": 81.6296,
+        "state": "Chhattisgarh"
+    },
+    {
+        "city": "Jabalpur",
+        "latitude": 23.1815,
+        "longitude": 79.9864,
+        "state": "Madhya Pradesh"
+    },
+    {
+        "city": "Kota",
+        "latitude": 25.2138,
+        "longitude": 75.8580,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Shimla",
+        "latitude": 31.1048,
+        "longitude": 77.1734,
+        "state": "Himachal Pradesh"
+    },
+    {
+        "city": "Gwalior",
+        "latitude": 26.2183,
+        "longitude": 78.1828,
+        "state": "Madhya Pradesh"
+    },
+    {
+        "city": "Thrissur",
+        "latitude": 10.5276,
+        "longitude": 76.2144,
+        "state": "Kerala"
+    },
+    {
+        "city": "Guwahati",
+        "latitude": 26.1445,
+        "longitude": 91.7362,
+        "state": "Assam"
+    },
+    {
+        "city": "Bhilai",
+        "latitude": 21.2087,
+        "longitude": 81.3792,
+        "state": "Chhattisgarh"
+    },
+    {
+        "city": "Rourkela",
+        "latitude": 22.2632,
+        "longitude": 84.8311,
+        "state": "Odisha"
+    },
+    {
+        "city": "Siliguri",
+        "latitude": 26.7270,
+        "longitude": 88.6115,
+        "state": "West Bengal"
+    },
+    {
+        "city": "Vijayawada",
+        "latitude": 16.5062,
+        "longitude": 80.6480,
+        "state": "Andhra Pradesh"
+    },
+    {
+        "city": "Mysuru",
+        "latitude": 12.2958,
+        "longitude": 76.6394,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Aligarh",
+        "latitude": 27.8974,
+        "longitude": 78.0880,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Warangal",
+        "latitude": 17.9784,
+        "longitude": 79.5941,
+        "state": "Telangana"
+    },
+    {
+        "city": "Ambala",
+        "latitude": 30.3782,
+        "longitude": 76.7800,
+        "state": "Haryana"
+    },
+    {
+        "city": "Dibrugarh",
+        "latitude": 27.4728,
+        "longitude": 94.9050,
+        "state": "Assam"
+    },
+    {
+        "city": "Hoshiarpur",
+        "latitude": 31.5340,
+        "longitude": 75.9172,
+        "state": "Punjab"
+    },
+    {
+        "city": "Udaipur",
+        "latitude": 24.5710,
+        "longitude": 73.6915,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Jhansi",
+        "latitude": 25.4484,
+        "longitude": 78.5692,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Jalandhar",
+        "latitude": 31.3260,
+        "longitude": 75.5762,
+        "state": "Punjab"
+    },
+    {
+        "city": "Durgapur",
+        "latitude": 23.5500,
+        "longitude": 87.2917,
+        "state": "West Bengal"
+    },
+    {
+        "city": "Kakinada",
+        "latitude": 16.9333,
+        "longitude": 82.2333,
+        "state": "Andhra Pradesh"
+    },
+    {
+        "city": "Kota",
+        "latitude": 25.2138,
+        "longitude": 75.8580,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Chandrapur",
+        "latitude": 19.9597,
+        "longitude": 79.3001,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Jammu",
+        "latitude": 32.7331,
+        "longitude": 74.8572,
+        "state": "Jammu and Kashmir"
+    },
+    {
+        "city": "Mangalore",
+        "latitude": 12.9141,
+        "longitude": 74.8560,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Bhubaneswar",
+        "latitude": 20.2961,
+        "longitude": 85.8189,
+        "state": "Odisha"
+    },
+    {
+        "city": "Haldia",
+        "latitude": 22.0661,
+        "longitude": 88.0744,
+        "state": "West Bengal"
+    },
+    {
+        "city": "Rishikesh",
+        "latitude": 30.0869,
+        "longitude": 78.2676,
+        "state": "Uttarakhand"
+    },
+    {
+        "city": "Haridwar",
+        "latitude": 29.9457,
+        "longitude": 78.1642,
+        "state": "Uttarakhand"
+    },
+    {
+        "city": "Sambalpur",
+        "latitude": 21.4666,
+        "longitude": 83.7790,
+        "state": "Odisha"
+    },
+    {
+        "city": "Muzaffarpur",
+        "latitude": 26.1223,
+        "longitude": 85.3940,
+        "state": "Bihar"
+    },
+    {
+        "city": "Mau",
+        "latitude": 26.0768,
+        "longitude": 83.5580,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Kangra",
+        "latitude": 32.0805,
+        "longitude": 76.2705,
+        "state": "Himachal Pradesh"
+    },
+    {
+        "city": "Bilaspur",
+        "latitude": 22.0796,
+        "longitude": 82.1503,
+        "state": "Chhattisgarh"
+    },
+    {
+        "city": "Tirunelveli",
+        "latitude": 8.7108,
+        "longitude": 77.7554,
+        "state": "Tamil Nadu"
+    },
+    {
+        "city": "Nellore",
+        "latitude": 14.4426,
+        "longitude": 79.9864,
+        "state": "Andhra Pradesh"
+    },
+    {
+        "city": "Puducherry",
+        "latitude": 11.9416,
+        "longitude": 79.8083,
+        "state": "Puducherry"
+    },
+    {
+        "city": "Mysore",
+        "latitude": 12.2958,
+        "longitude": 76.6394,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Bikaner",
+        "latitude": 28.0167,
+        "longitude": 73.3167,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Patiala",
+        "latitude": 30.3398,
+        "longitude": 76.3865,
+        "state": "Punjab"
+    },
+    {
+        "city": "Raigarh",
+        "latitude": 21.8982,
+        "longitude": 83.3982,
+        "state": "Chhattisgarh"
+    },
+    {
+        "city": "Dhanbad",
+        "latitude": 23.7957,
+        "longitude": 86.4346,
+        "state": "Jharkhand"
+    },
+    {
+        "city": "Silchar",
+        "latitude": 24.8333,
+        "longitude": 92.7667,
+        "state": "Assam"
+    },
+    {
+        "city": "Sonipat",
+        "latitude": 28.9930,
+        "longitude": 77.0156,
+        "state": "Haryana"
+    },
+    {
+        "city": "Agartala",
+        "latitude": 23.8315,
+        "longitude": 91.2860,
+        "state": "Tripura"
+    },
+    {
+        "city": "Kolkata",
+        "latitude": 22.5726,
+        "longitude": 88.3639,
+        "state": "West Bengal"
+    },
+    {
+        "city": "Shimoga",
+        "latitude": 13.9290,
+        "longitude": 75.5644,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Jabalpur",
+        "latitude": 23.1815,
+        "longitude": 79.9864,
+        "state": "Madhya Pradesh"
+    },
+    {
+        "city": "Latur",
+        "latitude": 18.4131,
+        "longitude": 76.5647,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Alwar",
+        "latitude": 27.5379,
+        "longitude": 76.6370,
+        "state": "Rajasthan"
+    },
+    {
+        "city": "Gandhinagar",
+        "latitude": 23.2156,
+        "longitude": 72.6369,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Sangli",
+        "latitude": 16.8604,
+        "longitude": 74.5814,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Udhampur",
+        "latitude": 32.9359,
+        "longitude": 75.1506,
+        "state": "Jammu and Kashmir"
+    },
+    {
+        "city": "Vapi",
+        "latitude": 20.3640,
+        "longitude": 72.9167,
+        "state": "Gujarat"
+    },
+    {
+        "city": "Hosur",
+        "latitude": 12.7378,
+        "longitude": 77.8979,
+        "state": "Karnataka"
+    },
+    {
+        "city": "Chandrapur",
+        "latitude": 19.9597,
+        "longitude": 79.3001,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Nanded",
+        "latitude": 19.1592,
+        "longitude": 77.2910,
+        "state": "Maharashtra"
+    },
+    {
+        "city": "Anantapur",
+        "latitude": 14.6811,
+        "longitude": 77.5917,
+        "state": "Andhra Pradesh"
+    },
+    {
+        "city": "Rae Bareli",
+        "latitude": 26.2267,
+        "longitude": 81.2500,
+        "state": "Uttar Pradesh"
+    },
+    {
+        "city": "Bokaro",
+        "latitude": 23.7480,
+        "longitude": 85.9000,
+        "state": "Jharkhand"
+    },
+    {
+        "city": "London",
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "state": "Greater London"
+    },
+    {
+        "city": "Birmingham",
+        "latitude": 52.4862,
+        "longitude": -1.8904,
+        "state": "West Midlands"
+    },
+    {
+        "city": "Manchester",
+        "latitude": 53.4830,
+        "longitude": -2.2416,
+        "state": "Greater Manchester"
+    },
+    {
+        "city": "Glasgow",
+        "latitude": 55.8642,
+        "longitude": -4.2518,
+        "state": "Glasgow City"
+    },
+    {
+        "city": "Liverpool",
+        "latitude": 53.4084,
+        "longitude": -2.9916,
+        "state": "Merseyside"
+    },
+    {
+        "city": "Newcastle upon Tyne",
+        "latitude": 54.9784,
+        "longitude": -1.6170,
+        "state": "Tyne and Wear"
+    },
+    {
+        "city": "Sheffield",
+        "latitude": 53.3811,
+        "longitude": -1.4701,
+        "state": "South Yorkshire"
+    },
+    {
+        "city": "Leeds",
+        "latitude": 53.8008,
+        "longitude": -1.5491,
+        "state": "West Yorkshire"
+    },
+    {
+        "city": "Bristol",
+        "latitude": 51.4545,
+        "longitude": -2.5879,
+        "state": "Bristol"
+    },
+    {
+        "city": "Edinburgh",
+        "latitude": 55.9533,
+        "longitude": -3.1883,
+        "state": "City of Edinburgh"
+    },
+    {
+        "city": "Leicester",
+        "latitude": 52.6369,
+        "longitude": -1.1398,
+        "state": "Leicestershire"
+    },
+    {
+        "city": "Coventry",
+        "latitude": 52.4058,
+        "longitude": -1.5103,
+        "state": "West Midlands"
+    },
+    {
+        "city": "Nottingham",
+        "latitude": 52.9548,
+        "longitude": -1.1581,
+        "state": "Nottinghamshire"
+    },
+    {
+        "city": "Hull",
+        "latitude": 53.7444,
+        "longitude": -0.3369,
+        "state": "Kingston upon Hull"
+    },
+    {
+        "city": "Bradford",
+        "latitude": 53.7950,
+        "longitude": -1.7594,
+        "state": "West Yorkshire"
+    },
+    {
+        "city": "Cardiff",
+        "latitude": 51.4816,
+        "longitude": -3.1791,
+        "state": "Cardiff"
+    },
+    {
+        "city": "Stoke-on-Trent",
+        "latitude": 53.0027,
+        "longitude": -2.1794,
+        "state": "Stoke-on-Trent"
+    },
+    {
+        "city": "Wolverhampton",
+        "latitude": 52.5864,
+        "longitude": -2.1280,
+        "state": "West Midlands"
+    },
+    {
+        "city": "Sunderland",
+        "latitude": 54.9068,
+        "longitude": -1.3824,
+        "state": "Tyne and Wear"
+    },
+    {
+        "city": "Derby",
+        "latitude": 52.9220,
+        "longitude": -1.4746,
+        "state": "Derbyshire"
+    },
+    {
+        "city": "Plymouth",
+        "latitude": 50.3755,
+        "longitude": -4.1427,
+        "state": "Plymouth"
+    },
+    {
+        "city": "Swindon",
+        "latitude": 51.5556,
+        "longitude": -1.7790,
+        "state": "Swindon"
+    },
+    {
+        "city": "Reading",
+        "latitude": 51.4543,
+        "longitude": -0.9781,
+        "state": "Berkshire"
+    },
+    {
+        "city": "Milton Keynes",
+        "latitude": 52.0406,
+        "longitude": -0.7595,
+        "state": "Milton Keynes"
+    },
+    {
+        "city": "Northampton",
+        "latitude": 52.2405,
+        "longitude": -0.9027,
+        "state": "Northamptonshire"
+    },
+    {
+        "city": "Luton",
+        "latitude": 51.8787,
+        "longitude": -0.4216,
+        "state": "Bedfordshire"
+    },
+    {
+        "city": "Watford",
+        "latitude": 51.6569,
+        "longitude": -0.3956,
+        "state": "Hertfordshire"
+    },
+    {
+        "city": "Southampton",
+        "latitude": 50.9097,
+        "longitude": -1.4044,
+        "state": "Hampshire"
+    },
+    {
+        "city": "Maidstone",
+        "latitude": 51.2735,
+        "longitude": 0.5274,
+        "state": "Kent"
+    },
+    {
+        "city": "Blackpool",
+        "latitude": 54.8170,
+        "longitude": -3.0369,
+        "state": "Lancashire"
+    },
+    {
+        "city": "Brighton",
+        "latitude": 50.8225,
+        "longitude": -0.1372,
+        "state": "East Sussex"
+    },
+    {
+        "city": "Belfast",
+        "latitude": 54.5973,
+        "longitude": -5.9301,
+        "state": "Northern Ireland"
+    },
+    {
+        "city": "Derry",
+        "latitude": 54.9961,
+        "longitude": -7.3085,
+        "state": "Northern Ireland"
+    },
+    {
+        "city": "Aberdeen",
+        "latitude": 57.1497,
+        "longitude": -2.0943,
+        "state": "Aberdeenshire"
+    },
+    {
+        "city": "Dundee",
+        "latitude": 56.4620,
+        "longitude": -2.9707,
+        "state": "Dundee City"
+    },
+    {
+        "city": "Inverness",
+        "latitude": 57.4778,
+        "longitude": -4.2247,
+        "state": "Highland"
+    },
+    {
+        "city": "Stirling",
+        "latitude": 56.1160,
+        "longitude": -3.9360,
+        "state": "Stirling"
+    },
+    {
+        "city": "Perth",
+        "latitude": 56.3960,
+        "longitude": -3.4374,
+        "state": "Perth and Kinross"
+    },
+    {
+        "city": "Llandudno",
+        "latitude": 53.3258,
+        "longitude": -3.8341,
+        "state": "Conwy"
+    },
+    {
+        "city": "Bangor",
+        "latitude": 54.1915,
+        "longitude": -4.1298,
+        "state": "Gwynedd"
+    },
+    {
+        "city": "Basingstoke",
+        "latitude": 51.2662,
+        "longitude": -1.0931,
+        "state": "Hampshire"
+    },
+    {
+        "city": "Cheltenham",
+        "latitude": 51.8992,
+        "longitude": -2.0780,
+        "state": "Gloucestershire"
+    },
+    {
+        "city": "Dover",
+        "latitude": 51.1290,
+        "longitude": 1.3185,
+        "state": "Kent"
+    },
+    {
+        "city": "Ashford",
+        "latitude": 51.1468,
+        "longitude": 0.8817,
+        "state": "Kent"
+    },
+    {
+        "city": "Exeter",
+        "latitude": 50.7210,
+        "longitude": -3.5333,
+        "state": "Devon"
+    },
+    {
+        "city": "Swansea",
+        "latitude": 51.6214,
+        "longitude": -3.9436,
+        "state": "Swansea"
+    },
+    {
+        "city": "Newport",
+        "latitude": 51.5842,
+        "longitude": -2.9988,
+        "state": "Newport"
+    },
+    {
+        "city": "Barrow-in-Furness",
+        "latitude": 54.1133,
+        "longitude": -3.2280,
+        "state": "Cumbria"
+    },
+    {
+        "city": "Hartlepool",
+        "latitude": 54.6888,
+        "longitude": -1.2113,
+        "state": "state Durham"
+    },
+    {
+        "city": "Berlin",
+        "latitude": 52.5200,
+        "longitude": 13.4050,
+        "state": "Berlin"
+    },
+    {
+        "city": "Hamburg",
+        "latitude": 53.5511,
+        "longitude": 9.9937,
+        "state": "Hamburg"
+    },
+    {
+        "city": "Munich",
+        "latitude": 48.1351,
+        "longitude": 11.5820,
+        "state": "Bavaria"
+    },
+    {
+        "city": "Cologne",
+        "latitude": 50.9375,
+        "longitude": 6.9603,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Frankfurt",
+        "latitude": 50.1109,
+        "longitude": 8.6821,
+        "state": "Hesse"
+    },
+    {
+        "city": "Stuttgart",
+        "latitude": 48.7758,
+        "longitude": 9.1829,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Düsseldorf",
+        "latitude": 51.2254,
+        "longitude": 6.7761,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Dortmund",
+        "latitude": 51.5136,
+        "longitude": 7.4653,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Essen",
+        "latitude": 51.4566,
+        "longitude": 7.0134,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Bremen",
+        "latitude": 53.0793,
+        "longitude": 8.8017,
+        "state": "Bremen"
+    },
+    {
+        "city": "Dresden",
+        "latitude": 51.0504,
+        "longitude": 13.7373,
+        "state": "Saxony"
+    },
+    {
+        "city": "Leipzig",
+        "latitude": 51.3397,
+        "longitude": 12.3731,
+        "state": "Saxony"
+    },
+    {
+        "city": "Hannover",
+        "latitude": 52.3759,
+        "longitude": 9.7320,
+        "state": "Lower Saxony"
+    },
+    {
+        "city": "Nuremberg",
+        "latitude": 49.4521,
+        "longitude": 11.0767,
+        "state": "Bavaria"
+    },
+    {
+        "city": "Duisburg",
+        "latitude": 51.4344,
+        "longitude": 6.7610,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Bochum",
+        "latitude": 51.4818,
+        "longitude": 7.2162,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Wuppertal",
+        "latitude": 51.2562,
+        "longitude": 7.1508,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Bielefeld",
+        "latitude": 52.0302,
+        "longitude": 8.5326,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Bonn",
+        "latitude": 50.7374,
+        "longitude": 7.0982,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Münster",
+        "latitude": 51.9607,
+        "longitude": 7.6261,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Karlsruhe",
+        "latitude": 49.0069,
+        "longitude": 8.4037,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Augsburg",
+        "latitude": 48.4011,
+        "longitude": 10.8988,
+        "state": "Bavaria"
+    },
+    {
+        "city": "Gelsenkirchen",
+        "latitude": 51.5177,
+        "longitude": 7.0857,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Mannheim",
+        "latitude": 49.4875,
+        "longitude": 8.4660,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Hagen",
+        "latitude": 51.3671,
+        "longitude": 7.4669,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Rostock",
+        "latitude": 54.0924,
+        "longitude": 12.1003,
+        "state": "Mecklenburg-Vorpommern"
+    },
+    {
+        "city": "Kiel",
+        "latitude": 54.3233,
+        "longitude": 10.1347,
+        "state": "Schleswig-Holstein"
+    },
+    {
+        "city": "Magdeburg",
+        "latitude": 52.1205,
+        "longitude": 11.6276,
+        "state": "Saxony-Anhalt"
+    },
+    {
+        "city": "Freiburg",
+        "latitude": 47.9990,
+        "longitude": 7.8421,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Chemnitz",
+        "latitude": 50.8278,
+        "longitude": 12.9214,
+        "state": "Saxony"
+    },
+    {
+        "city": "Halle",
+        "latitude": 51.4967,
+        "longitude": 11.9686,
+        "state": "Saxony-Anhalt"
+    },
+    {
+        "city": "Darmstadt",
+        "latitude": 49.8728,
+        "longitude": 8.6512,
+        "state": "Hesse"
+    },
+    {
+        "city": "Heidelberg",
+        "latitude": 49.3983,
+        "longitude": 8.6724,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Ulm",
+        "latitude": 48.4011,
+        "longitude": 9.9876,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Potsdam",
+        "latitude": 52.3906,
+        "longitude": 13.0645,
+        "state": "Brandenburg"
+    },
+    {
+        "city": "Würzburg",
+        "latitude": 49.7913,
+        "longitude": 9.9534,
+        "state": "Bavaria"
+    },
+    {
+        "city": "Erfurt",
+        "latitude": 50.9787,
+        "longitude": 11.0299,
+        "state": "Thuringia"
+    },
+    {
+        "city": "Jena",
+        "latitude": 50.9294,
+        "longitude": 11.5894,
+        "state": "Thuringia"
+    },
+    {
+        "city": "Lübeck",
+        "latitude": 53.8668,
+        "longitude": 10.6876,
+        "state": "Schleswig-Holstein"
+    },
+    {
+        "city": "Tübingen",
+        "latitude": 48.5205,
+        "longitude": 9.0551,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Konstanz",
+        "latitude": 47.6770,
+        "longitude": 9.1738,
+        "state": "Baden-Württemberg"
+    },
+    {
+        "city": "Aachen",
+        "latitude": 50.7753,
+        "longitude": 6.0839,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Göttingen",
+        "latitude": 51.5331,
+        "longitude": 9.9338,
+        "state": "Lower Saxony"
+    },
+    {
+        "city": "Bamberg",
+        "latitude": 49.8918,
+        "longitude": 10.8867,
+        "state": "Bavaria"
+    },
+    {
+        "city": "Ludwigshafen",
+        "latitude": 49.4774,
+        "longitude": 8.4452,
+        "state": "Rhineland-Palatinate"
+    },
+    {
+        "city": "Mülheim",
+        "latitude": 51.4332,
+        "longitude": 6.8233,
+        "state": "North Rhine-Westphalia"
+    },
+    {
+        "city": "Rheinberg",
+        "latitude": 51.6333,
+        "longitude": 6.5833,
+        "state": "North Rhine-Westphalia"
+    }, {
+        "city": "Rome",
+        "latitude": 41.9028,
+        "longitude": 12.4964,
+        "state": "Lazio"
+    },
+    {
+        "city": "Milan",
+        "latitude": 45.4642,
+        "longitude": 9.1900,
+        "state": "Lombardy"
+    },
+    {
+        "city": "Naples",
+        "latitude": 40.8522,
+        "longitude": 14.2681,
+        "state": "Campania"
+    },
+    {
+        "city": "Turin",
+        "latitude": 45.0703,
+        "longitude": 7.6869,
+        "state": "Piedmont"
+    },
+    {
+        "city": "Palermo",
+        "latitude": 38.1157,
+        "longitude": 13.3615,
+        "state": "Sicily"
+    },
+    {
+        "city": "Genoa",
+        "latitude": 44.4056,
+        "longitude": 8.9462,
+        "state": "Liguria"
+    },
+    {
+        "city": "Bologna",
+        "latitude": 44.4937,
+        "longitude": 11.3387,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "Florence",
+        "latitude": 43.7696,
+        "longitude": 11.2558,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Bari",
+        "latitude": 41.1177,
+        "longitude": 16.8719,
+        "state": "Apulia"
+    },
+    {
+        "city": "Catania",
+        "latitude": 37.5079,
+        "longitude": 15.0830,
+        "state": "Sicily"
+    },
+    {
+        "city": "Verona",
+        "latitude": 45.4384,
+        "longitude": 10.9916,
+        "state": "Veneto"
+    },
+    {
+        "city": "Messina",
+        "latitude": 38.1938,
+        "longitude": 15.5540,
+        "state": "Sicily"
+    },
+    {
+        "city": "Padua",
+        "latitude": 45.4064,
+        "longitude": 11.8768,
+        "state": "Veneto"
+    },
+    {
+        "city": "Trieste",
+        "latitude": 45.6495,
+        "longitude": 13.7768,
+        "state": "Friuli Venezia Giulia"
+    },
+    {
+        "city": "Taranto",
+        "latitude": 40.4165,
+        "longitude": 17.2210,
+        "state": "Apulia"
+    },
+    {
+        "city": "Cagliari",
+        "latitude": 39.2167,
+        "longitude": 9.1167,
+        "state": "Sardinia"
+    },
+    {
+        "city": "Reggio Calabria",
+        "latitude": 38.1110,
+        "longitude": 15.6501,
+        "state": "Calabria"
+    },
+    {
+        "city": "Modena",
+        "latitude": 44.6471,
+        "longitude": 10.9252,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "Prato",
+        "latitude": 43.8801,
+        "longitude": 11.0963,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Parma",
+        "latitude": 44.8015,
+        "longitude": 10.3280,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "Perugia",
+        "latitude": 43.1107,
+        "longitude": 12.3908,
+        "state": "Umbria"
+    },
+    {
+        "city": "Livorno",
+        "latitude": 43.5475,
+        "longitude": 10.3106,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Salerno",
+        "latitude": 40.6826,
+        "longitude": 14.7591,
+        "state": "Campania"
+    },
+    {
+        "city": "Ravenna",
+        "latitude": 44.4166,
+        "longitude": 12.2038,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "Siena",
+        "latitude": 43.3188,
+        "longitude": 11.3308,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Arezzo",
+        "latitude": 43.4614,
+        "longitude": 11.8767,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Foggia",
+        "latitude": 41.4580,
+        "longitude": 15.5462,
+        "state": "Apulia"
+    },
+    {
+        "city": "Forlì",
+        "latitude": 44.2239,
+        "longitude": 12.0417,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "La Spezia",
+        "latitude": 44.1024,
+        "longitude": 9.8282,
+        "state": "Liguria"
+    },
+    {
+        "city": "Terni",
+        "latitude": 42.5666,
+        "longitude": 12.6416,
+        "state": "Umbria"
+    },
+    {
+        "city": "Sassari",
+        "latitude": 40.7277,
+        "longitude": 8.5744,
+        "state": "Sardinia"
+    },
+    {
+        "city": "Grosseto",
+        "latitude": 42.7650,
+        "longitude": 11.1076,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Varese",
+        "latitude": 45.8184,
+        "longitude": 8.8200,
+        "state": "Lombardy"
+    },
+    {
+        "city": "Cremona",
+        "latitude": 45.1333,
+        "longitude": 10.0333,
+        "state": "Lombardy"
+    },
+    {
+        "city": "Catanzaro",
+        "latitude": 38.9050,
+        "longitude": 16.5920,
+        "state": "Calabria"
+    },
+    {
+        "city": "Sondrio",
+        "latitude": 46.1675,
+        "longitude": 9.8708,
+        "state": "Lombardy"
+    },
+    {
+        "city": "Trento",
+        "latitude": 46.0653,
+        "longitude": 11.1210,
+        "state": "Trentino-Alto Adige/Südtirol"
+    },
+    {
+        "city": "Vicenza",
+        "latitude": 45.5456,
+        "longitude": 11.5461,
+        "state": "Veneto"
+    },
+    {
+        "city": "Bolzano",
+        "latitude": 46.4983,
+        "longitude": 11.3542,
+        "state": "Trentino-Alto Adige/Südtirol"
+    },
+    {
+        "city": "Ancona",
+        "latitude": 43.6158,
+        "longitude": 13.4184,
+        "state": "Marche"
+    },
+    {
+        "city": "Ascoli Piceno",
+        "latitude": 42.8558,
+        "longitude": 13.5818,
+        "state": "Marche"
+    },
+    {
+        "city": "Vercelli",
+        "latitude": 45.3222,
+        "longitude": 8.4222,
+        "state": "Piedmont"
+    },
+    {
+        "city": "Massa",
+        "latitude": 44.0433,
+        "longitude": 10.1220,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Pisa",
+        "latitude": 43.7228,
+        "longitude": 10.4017,
+        "state": "Tuscany"
+    },
+    {
+        "city": "Rimini",
+        "latitude": 44.0658,
+        "longitude": 12.5655,
+        "state": "Emilia-Romagna"
+    },
+    {
+        "city": "Bergamo",
+        "latitude": 45.6984,
+        "longitude": 9.6706,
+        "state": "Lombardy"
+    },
+    {
+        "city": "Laquila",
+        "latitude": 42.3491,
+        "longitude": 13.3996,
+        "state": "Abruzzo"
+    },
+    {
+        "city": "Alessandria",
+        "latitude": 44.9144,
+        "longitude": 8.6110,
+        "state": "Piedmont"
+    },
+    {
+        "city": "Sydney",
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Melbourne",
+        "latitude": -37.8136,
+        "longitude": 144.9631,
+        "state": "Victoria"
+    },
+    {
+        "city": "Brisbane",
+        "latitude": -27.4698,
+        "longitude": 153.0251,
+        "state": "Queensland"
+    },
+    {
+        "city": "Perth",
+        "latitude": -31.9505,
+        "longitude": 115.8605,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Adelaide",
+        "latitude": -34.9285,
+        "longitude": 138.6007,
+        "state": "South Australia"
+    },
+    {
+        "city": "Canberra",
+        "latitude": -35.2809,
+        "longitude": 149.1300,
+        "state": "Australian Capital Territory"
+    },
+    {
+        "city": "Hobart",
+        "latitude": -42.8821,
+        "longitude": 147.3272,
+        "state": "Tasmania"
+    },
+    {
+        "city": "Darwin",
+        "latitude": -12.4634,
+        "longitude": 130.8456,
+        "state": "Northern Territory"
+    },
+    {
+        "city": "Gold Coast",
+        "latitude": -28.0167,
+        "longitude": 153.4000,
+        "state": "Queensland"
+    },
+    {
+        "city": "Newcastle",
+        "latitude": -32.9283,
+        "longitude": 151.7817,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Central Coast",
+        "latitude": -33.4274,
+        "longitude": 151.3414,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Wollongong",
+        "latitude": -34.4278,
+        "longitude": 150.8931,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Geelong",
+        "latitude": -38.1499,
+        "longitude": 144.3617,
+        "state": "Victoria"
+    },
+    {
+        "city": "Townsville",
+        "latitude": -19.2596,
+        "longitude": 146.8183,
+        "state": "Queensland"
+    },
+    {
+        "city": "Cairns",
+        "latitude": -16.9203,
+        "longitude": 145.7710,
+        "state": "Queensland"
+    },
+    {
+        "city": "Launceston",
+        "latitude": -41.4332,
+        "longitude": 147.1384,
+        "state": "Tasmania"
+    },
+    {
+        "city": "Mackay",
+        "latitude": -21.1414,
+        "longitude": 149.1660,
+        "state": "Queensland"
+    },
+    {
+        "city": "Rockhampton",
+        "latitude": -23.3790,
+        "longitude": 150.5066,
+        "state": "Queensland"
+    },
+    {
+        "city": "Bundaberg",
+        "latitude": -24.8664,
+        "longitude": 152.3481,
+        "state": "Queensland"
+    },
+    {
+        "city": "Toowoomba",
+        "latitude": -27.5590,
+        "longitude": 151.9550,
+        "state": "Queensland"
+    },
+    {
+        "city": "Hervey Bay",
+        "latitude": -25.2912,
+        "longitude": 152.8443,
+        "state": "Queensland"
+    },
+    {
+        "city": "Gladstone",
+        "latitude": -23.8484,
+        "longitude": 151.2564,
+        "state": "Queensland"
+    },
+    {
+        "city": "Alice Springs",
+        "latitude": -23.6980,
+        "longitude": 133.8807,
+        "state": "Northern Territory"
+    },
+    {
+        "city": "Katherine",
+        "latitude": -14.4667,
+        "longitude": 132.2667,
+        "state": "Northern Territory"
+    },
+    {
+        "city": "Nhulunbuy",
+        "latitude": -12.2333,
+        "longitude": 136.7833,
+        "state": "Northern Territory"
+    },
+    {
+        "city": "Port Hedland",
+        "latitude": -20.3167,
+        "longitude": 118.5667,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Broome",
+        "latitude": -17.9612,
+        "longitude": 122.2354,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Albany",
+        "latitude": -35.0267,
+        "longitude": 117.8848,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Geraldton",
+        "latitude": -28.7743,
+        "longitude": 114.6126,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Kalgoorlie",
+        "latitude": -30.7415,
+        "longitude": 121.4673,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Bunbury",
+        "latitude": -33.3205,
+        "longitude": 115.6416,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Mandurah",
+        "latitude": -32.5211,
+        "longitude": 115.7112,
+        "state": "Western Australia"
+    },
+    {
+        "city": "Melton",
+        "latitude": -37.6977,
+        "longitude": 144.5857,
+        "state": "Victoria"
+    },
+    {
+        "city": "Ballarat",
+        "latitude": -37.5622,
+        "longitude": 143.8503,
+        "state": "Victoria"
+    },
+    {
+        "city": "Bendigo",
+        "latitude": -36.7576,
+        "longitude": 144.2804,
+        "state": "Victoria"
+    },
+    {
+        "city": "Mildura",
+        "latitude": -34.2005,
+        "longitude": 142.1540,
+        "state": "Victoria"
+    },
+    {
+        "city": "Shepparton",
+        "latitude": -36.3833,
+        "longitude": 145.3833,
+        "state": "Victoria"
+    },
+    {
+        "city": "Wangaratta",
+        "latitude": -36.3639,
+        "longitude": 146.3141,
+        "state": "Victoria"
+    },
+    {
+        "city": "Albury",
+        "latitude": -36.0800,
+        "longitude": 146.9100,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Tamworth",
+        "latitude": -31.0917,
+        "longitude": 150.9314,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Orange",
+        "latitude": -33.2833,
+        "longitude": 149.1000,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Coffs Harbour",
+        "latitude": -30.2981,
+        "longitude": 153.1137,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Port Macquarie",
+        "latitude": -31.4333,
+        "longitude": 152.9167,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Wagga Wagga",
+        "latitude": -35.1057,
+        "longitude": 147.3590,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Armidale",
+        "latitude": -30.5111,
+        "longitude": 151.6140,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Grafton",
+        "latitude": -29.6935,
+        "longitude": 152.9318,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Bega",
+        "latitude": -36.6730,
+        "longitude": 149.8395,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Broken Hill",
+        "latitude": -31.9505,
+        "longitude": 141.4555,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Mudgee",
+        "latitude": -32.5833,
+        "longitude": 149.5833,
+        "state": "New South Wales"
+    },
+    {
+        "city": "Jakarta",
+        "latitude": -6.2088,
+        "longitude": 106.8456,
+        "state": "Jakarta"
+    },
+    {
+        "city": "Surabaya",
+        "latitude": -7.2575,
+        "longitude": 112.7521,
+        "state": "East Java"
+    },
+    {
+        "city": "Bandung",
+        "latitude": -6.9175,
+        "longitude": 107.6191,
+        "state": "West Java"
+    },
+    {
+        "city": "Medan",
+        "latitude": 3.5952,
+        "longitude": 98.6722,
+        "state": "North Sumatra"
+    },
+    {
+        "city": "Bekasi",
+        "latitude": -6.2348,
+        "longitude": 106.9941,
+        "state": "West Java"
+    },
+    {
+        "city": "Semarang",
+        "latitude": -6.9934,
+        "longitude": 110.4218,
+        "state": "Central Java"
+    },
+    {
+        "city": "Palembang",
+        "latitude": -2.9916,
+        "longitude": 104.7561,
+        "state": "South Sumatra"
+    },
+    {
+        "city": "Tangerang",
+        "latitude": -6.1745,
+        "longitude": 106.6314,
+        "state": "Banten"
+    },
+    {
+        "city": "Batam",
+        "latitude": 1.1214,
+        "longitude": 104.0394,
+        "state": "Riau Islands"
+    },
+    {
+        "city": "Makassar",
+        "latitude": -5.1477,
+        "longitude": 119.4328,
+        "state": "South Sulawesi"
+    },
+    {
+        "city": "Yogyakarta",
+        "latitude": -7.7956,
+        "longitude": 110.3695,
+        "state": "Special state of Yogyakarta"
+    },
+    {
+        "city": "Denpasar",
+        "latitude": -8.6712,
+        "longitude": 115.2126,
+        "state": "Bali"
+    },
+    {
+        "city": "Mataram",
+        "latitude": -8.5833,
+        "longitude": 116.1167,
+        "state": "West Nusa Tenggara"
+    },
+    {
+        "city": "Pontianak",
+        "latitude": -0.0268,
+        "longitude": 109.3426,
+        "state": "West Kalimantan"
+    },
+    {
+        "city": "Jambi",
+        "latitude": -1.6074,
+        "longitude": 103.6146,
+        "state": "Jambi"
+    },
+    {
+        "city": "Banjarmasin",
+        "latitude": -3.3190,
+        "longitude": 114.5909,
+        "state": "South Kalimantan"
+    },
+    {
+        "city": "Palu",
+        "latitude": -0.8968,
+        "longitude": 119.8708,
+        "state": "Central Sulawesi"
+    },
+    {
+        "city": "Ambon",
+        "latitude": -3.6958,
+        "longitude": 128.1891,
+        "state": "Maluku"
+    },
+    {
+        "city": "Kupang",
+        "latitude": -10.1614,
+        "longitude": 123.6581,
+        "state": "East Nusa Tenggara"
+    },
+    {
+        "city": "Manado",
+        "latitude": 1.4911,
+        "longitude": 124.8450,
+        "state": "North Sulawesi"
+    },
+    {
+        "city": "Samarinda",
+        "latitude": -0.5026,
+        "longitude": 117.1538,
+        "state": "East Kalimantan"
+    },
+    {
+        "city": "Batu",
+        "latitude": -7.8975,
+        "longitude": 112.5211,
+        "state": "East Java"
+    },
+    {
+        "city": "Cirebon",
+        "latitude": -6.7333,
+        "longitude": 108.5667,
+        "state": "West Java"
+    },
+    {
+        "city": "Tegal",
+        "latitude": -6.8681,
+        "longitude": 109.1371,
+        "state": "Central Java"
+    },
+    {
+        "city": "Pekalongan",
+        "latitude": -6.8919,
+        "longitude": 109.6168,
+        "state": "Central Java"
+    },
+    {
+        "city": "Karawang",
+        "latitude": -6.3346,
+        "longitude": 107.2932,
+        "state": "West Java"
+    },
+    {
+        "city": "Sukabumi",
+        "latitude": -6.9302,
+        "longitude": 106.9270,
+        "state": "West Java"
+    },
+    {
+        "city": "Banjarmasin",
+        "latitude": -3.3190,
+        "longitude": 114.5909,
+        "state": "South Kalimantan"
+    },
+    {
+        "city": "Madiun",
+        "latitude": -7.6308,
+        "longitude": 111.5290,
+        "state": "East Java"
+    },
+    {
+        "city": "Kediri",
+        "latitude": -7.8050,
+        "longitude": 112.0150,
+        "state": "East Java"
+    },
+    {
+        "city": "Blitar",
+        "latitude": -8.0658,
+        "longitude": 112.1584,
+        "state": "East Java"
+    },
+    {
+        "city": "Sidoarjo",
+        "latitude": -7.4468,
+        "longitude": 112.7214,
+        "state": "East Java"
+    },
+    {
+        "city": "Jember",
+        "latitude": -8.1681,
+        "longitude": 113.6920,
+        "state": "East Java"
+    },
+    {
+        "city": "Probolinggo",
+        "latitude": -7.7667,
+        "longitude": 113.2167,
+        "state": "East Java"
+    },
+    {
+        "city": "Situbondo",
+        "latitude": -7.6950,
+        "longitude": 114.0056,
+        "state": "East Java"
+    },
+    {
+        "city": "Tuban",
+        "latitude": -6.8925,
+        "longitude": 112.0703,
+        "state": "East Java"
+    },
+    {
+        "city": "Bojonegoro",
+        "latitude": -7.1636,
+        "longitude": 111.8875,
+        "state": "East Java"
+    },
+    {
+        "city": "Lamongan",
+        "latitude": -7.1250,
+        "longitude": 112.3689,
+        "state": "East Java"
+    },
+    {
+        "city": "Pasuruan",
+        "latitude": -7.6411,
+        "longitude": 112.9031,
+        "state": "East Java"
+    },
+    {
+        "city": "Tegal",
+        "latitude": -6.8681,
+        "longitude": 109.1371,
+        "state": "Central Java"
+    },
+    {
+        "city": "Purwokerto",
+        "latitude": -7.4200,
+        "longitude": 109.2375,
+        "state": "Central Java"
+    },
+    {
+        "city": "Salatiga",
+        "latitude": -7.3314,
+        "longitude": 110.5108,
+        "state": "Central Java"
+    },
+    {
+        "city": "Cilacap",
+        "latitude": -7.7167,
+        "longitude": 108.9333,
+        "state": "Central Java"
+    },
+    {
+        "city": "Pati",
+        "latitude": -6.7667,
+        "longitude": 111.0167,
+        "state": "Central Java"
+    },
+    {
+        "city": "Tegal",
+        "latitude": -6.8681,
+        "longitude": 109.1371,
+        "state": "Central Java"
+    },
+    {
+        "city": "Brebes",
+        "latitude": -6.8494,
+        "longitude": 109.1272,
+        "state": "Central Java"
+    },
+    {
+        "city": "Jepara",
+        "latitude": -6.5667,
+        "longitude": 110.5833,
+        "state": "Central Java"
+    },
+    {
+        "city": "Kendal",
+        "latitude": -7.0130,
+        "longitude": 109.3898,
+        "state": "Central Java"
+    },
+    {
+        "city": "Wonosobo",
+        "latitude": -7.3667,
+        "longitude": 109.9833,
+        "state": "Central Java"
+    },
+    {
+        "city": "Tokyo",
+        "latitude": 35.6762,
+        "longitude": 139.6503,
+        "state": "Tokyo"
+    },
+    {
+        "city": "Osaka",
+        "latitude": 34.6937,
+        "longitude": 135.5023,
+        "state": "Osaka"
+    },
+    {
+        "city": "Kyoto",
+        "latitude": 35.0116,
+        "longitude": 135.7681,
+        "state": "Kyoto"
+    },
+    {
+        "city": "Nagoya",
+        "latitude": 35.1815,
+        "longitude": 136.9066,
+        "state": "Aichi"
+    },
+    {
+        "city": "Yokohama",
+        "latitude": 35.4437,
+        "longitude": 139.6371,
+        "state": "Kanagawa"
+    },
+    {
+        "city": "Fukuoka",
+        "latitude": 33.5902,
+        "longitude": 130.4017,
+        "state": "Fukuoka"
+    },
+    {
+        "city": "Kobe",
+        "latitude": 34.6901,
+        "longitude": 135.1955,
+        "state": "Hyogo"
+    },
+    {
+        "city": "Sapporo",
+        "latitude": 43.0618,
+        "longitude": 141.3545,
+        "state": "Hokkaido"
+    },
+    {
+        "city": "Hiroshima",
+        "latitude": 34.3853,
+        "longitude": 132.4553,
+        "state": "Hiroshima"
+    },
+    {
+        "city": "Sendai",
+        "latitude": 38.2682,
+        "longitude": 140.8694,
+        "state": "Miyagi"
+    },
+    {
+        "city": "Saitama",
+        "latitude": 35.8561,
+        "longitude": 139.6489,
+        "state": "Saitama"
+    },
+    {
+        "city": "Chiba",
+        "latitude": 35.6074,
+        "longitude": 140.1063,
+        "state": "Chiba"
+    },
+    {
+        "city": "Kumamoto",
+        "latitude": 32.8031,
+        "longitude": 130.7079,
+        "state": "Kumamoto"
+    },
+    {
+        "city": "Okinawa",
+        "latitude": 26.2124,
+        "longitude": 127.6792,
+        "state": "Okinawa"
+    },
+    {
+        "city": "Nagasaki",
+        "latitude": 32.7503,
+        "longitude": 129.8777,
+        "state": "Nagasaki"
+    },
+    {
+        "city": "Shizuoka",
+        "latitude": 34.9664,
+        "longitude": 138.3830,
+        "state": "Shizuoka"
+    },
+    {
+        "city": "Kanazawa",
+        "latitude": 36.5613,
+        "longitude": 136.6562,
+        "state": "Ishikawa"
+    },
+    {
+        "city": "Okayama",
+        "latitude": 34.6618,
+        "longitude": 133.9344,
+        "state": "Okayama"
+    },
+    {
+        "city": "Kochi",
+        "latitude": 33.5597,
+        "longitude": 133.5311,
+        "state": "Kochi"
+    },
+    {
+        "city": "Matsuyama",
+        "latitude": 33.8396,
+        "longitude": 132.7658,
+        "state": "Ehime"
+    },
+    {
+        "city": "Nara",
+        "latitude": 34.6851,
+        "longitude": 135.8048,
+        "state": "Nara"
+    },
+    {
+        "city": "Himeji",
+        "latitude": 34.8178,
+        "longitude": 134.6853,
+        "state": "Hyogo"
+    },
+    {
+        "city": "Utsunomiya",
+        "latitude": 36.5655,
+        "longitude": 139.8830,
+        "state": "Tochigi"
+    },
+    {
+        "city": "Nagano",
+        "latitude": 36.6481,
+        "longitude": 138.1810,
+        "state": "Nagano"
+    },
+    {
+        "city": "Takamatsu",
+        "latitude": 34.3401,
+        "longitude": 134.0461,
+        "state": "Kagawa"
+    },
+    {
+        "city": "Yamagata",
+        "latitude": 38.2404,
+        "longitude": 140.3633,
+        "state": "Yamagata"
+    },
+    {
+        "city": "Akita",
+        "latitude": 39.7196,
+        "longitude": 140.1024,
+        "state": "Akita"
+    },
+    {
+        "city": "Kagoshima",
+        "latitude": 31.5966,
+        "longitude": 130.5572,
+        "state": "Kagoshima"
+    },
+    {
+        "city": "Mito",
+        "latitude": 36.3710,
+        "longitude": 140.4718,
+        "state": "Ibaraki"
+    },
+    {
+        "city": "Toyama",
+        "latitude": 36.6953,
+        "longitude": 137.2114,
+        "state": "Toyama"
+    },
+    {
+        "city": "Fukui",
+        "latitude": 36.0608,
+        "longitude": 136.2216,
+        "state": "Fukui"
+    },
+    {
+        "city": "Miyazaki",
+        "latitude": 31.9116,
+        "longitude": 131.4230,
+        "state": "Miyazaki"
+    },
+    {
+        "city": "Sasebo",
+        "latitude": 33.1787,
+        "longitude": 129.7320,
+        "state": "Nagasaki"
+    },
+    {
+        "city": "Hiratsuka",
+        "latitude": 35.3447,
+        "longitude": 139.1525,
+        "state": "Kanagawa"
+    },
+    {
+        "city": "Ibaraki",
+        "latitude": 34.0331,
+        "longitude": 134.5671,
+        "state": "Ibaraki"
+    },
+    {
+        "city": "Kashiwa",
+        "latitude": 35.8616,
+        "longitude": 139.9702,
+        "state": "Chiba"
+    },
+    {
+        "city": "Tachikawa",
+        "latitude": 35.6944,
+        "longitude": 139.4112,
+        "state": "Tokyo"
+    },
+    {
+        "city": "Tama",
+        "latitude": 35.6138,
+        "longitude": 139.4383,
+        "state": "Tokyo"
+    },
+    {
+        "city": "Hachioji",
+        "latitude": 35.6556,
+        "longitude": 139.3366,
+        "state": "Tokyo"
+    },
+    {
+        "city": "Fujisawa",
+        "latitude": 35.3425,
+        "longitude": 139.4854,
+        "state": "Kanagawa"
+    },
+    {
+        "city": "Chigasaki",
+        "latitude": 35.3361,
+        "longitude": 139.4019,
+        "state": "Kanagawa"
+    },
+    {
+        "city": "Otsu",
+        "latitude": 35.0167,
+        "longitude": 135.8667,
+        "state": "Shiga"
+    },
+    {
+        "city": "Kawagoe",
+        "latitude": 35.9108,
+        "longitude": 139.4911,
+        "state": "Saitama"
+    },
+    {
+        "city": "Nagasaki",
+        "latitude": 32.7503,
+        "longitude": 129.8777,
+        "state": "Nagasaki"
+    },
+    {
+        "city": "Nihonbashi",
+        "latitude": 35.6836,
+        "longitude": 139.7730,
+        "state": "Tokyo"
+    },
+    {
+        "city": "Urawa",
+        "latitude": 35.8617,
+        "longitude": 139.6517,
+        "state": "Saitama"
+    },
+    {
+        "city": "Himeji",
+        "latitude": 34.8178,
+        "longitude": 134.6853,
+        "state": "Hyogo"
+    },
+    {
+        "city": "Riyadh",
+        "latitude": 24.7136,
+        "longitude": 46.6753,
+        "state": "Riyadh"
+    },
+    {
+        "city": "Jeddah",
+        "latitude": 21.2854,
+        "longitude": 39.2376,
+        "state": "Makkah"
+    },
+    {
+        "city": "Dammam",
+        "latitude": 26.4207,
+        "longitude": 49.9782,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Khobar",
+        "latitude": 26.2392,
+        "longitude": 50.1971,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Mecca",
+        "latitude": 21.3891,
+        "longitude": 39.8579,
+        "state": "Makkah"
+    },
+    {
+        "city": "Medina",
+        "latitude": 24.4667,
+        "longitude": 39.6000,
+        "state": "Madina"
+    },
+    {
+        "city": "Taif",
+        "latitude": 21.2854,
+        "longitude": 40.4172,
+        "state": "Makkah"
+    },
+    {
+        "city": "Buraidah",
+        "latitude": 26.3376,
+        "longitude": 43.9754,
+        "state": "Qassim"
+    },
+    {
+        "city": "Jubail",
+        "latitude": 27.0164,
+        "longitude": 49.6500,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Abha",
+        "latitude": 18.2164,
+        "longitude": 42.5053,
+        "state": "Asir"
+    },
+    {
+        "city": "Najran",
+        "latitude": 17.4915,
+        "longitude": 44.1319,
+        "state": "Najran"
+    },
+    {
+        "city": "Hail",
+        "latitude": 27.5147,
+        "longitude": 41.7209,
+        "state": "Hail"
+    },
+    {
+        "city": "Khamis Mushait",
+        "latitude": 18.3096,
+        "longitude": 42.7355,
+        "state": "Asir"
+    },
+    {
+        "city": "Al Khobar",
+        "latitude": 26.2392,
+        "longitude": 50.1971,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Al Qassim",
+        "latitude": 26.3351,
+        "longitude": 43.9756,
+        "state": "Qassim"
+    },
+    {
+        "city": "Al Jubail",
+        "latitude": 27.0164,
+        "longitude": 49.6500,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Al Baha",
+        "latitude": 20.0175,
+        "longitude": 40.3175,
+        "state": "Al Baha"
+    },
+    {
+        "city": "Riyadh",
+        "latitude": 24.7136,
+        "longitude": 46.6753,
+        "state": "Riyadh"
+    },
+    {
+        "city": "Jeddah",
+        "latitude": 21.2854,
+        "longitude": 39.2376,
+        "state": "Makkah"
+    },
+    {
+        "city": "Dammam",
+        "latitude": 26.4207,
+        "longitude": 49.9782,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Khobar",
+        "latitude": 26.2392,
+        "longitude": 50.1971,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Mecca",
+        "latitude": 21.3891,
+        "longitude": 39.8579,
+        "state": "Makkah"
+    },
+    {
+        "city": "Medina",
+        "latitude": 24.4667,
+        "longitude": 39.6000,
+        "state": "Madina"
+    },
+    {
+        "city": "Taif",
+        "latitude": 21.2854,
+        "longitude": 40.4172,
+        "state": "Makkah"
+    },
+    {
+        "city": "Buraidah",
+        "latitude": 26.3376,
+        "longitude": 43.9754,
+        "state": "Qassim"
+    },
+    {
+        "city": "Jubail",
+        "latitude": 27.0164,
+        "longitude": 49.6500,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Abha",
+        "latitude": 18.2164,
+        "longitude": 42.5053,
+        "state": "Asir"
+    },
+    {
+        "city": "Najran",
+        "latitude": 17.4915,
+        "longitude": 44.1319,
+        "state": "Najran"
+    },
+    {
+        "city": "Hail",
+        "latitude": 27.5147,
+        "longitude": 41.7209,
+        "state": "Hail"
+    },
+    {
+        "city": "Khamis Mushait",
+        "latitude": 18.3096,
+        "longitude": 42.7355,
+        "state": "Asir"
+    },
+    {
+        "city": "Al Khobar",
+        "latitude": 26.2392,
+        "longitude": 50.1971,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Al Qassim",
+        "latitude": 26.3351,
+        "longitude": 43.9756,
+        "state": "Qassim"
+    },
+    {
+        "city": "Al Jubail",
+        "latitude": 27.0164,
+        "longitude": 49.6500,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Al Baha",
+        "latitude": 20.0175,
+        "longitude": 40.3175,
+        "state": "Al Baha"
+    },
+    {
+        "city": "Al Kharj",
+        "latitude": 24.1644,
+        "longitude": 47.3828,
+        "state": "Riyadh"
+    },
+    {
+        "city": "Sakaka",
+        "latitude": 29.9810,
+        "longitude": 40.2075,
+        "state": "Jouf"
+    },
+    {
+        "city": "Arar",
+        "latitude": 30.9167,
+        "longitude": 41.0667,
+        "state": "Northern Borders"
+    },
+    {
+        "city": "Jizan",
+        "latitude": 16.8870,
+        "longitude": 42.5561,
+        "state": "Jizan"
+    },
+    {
+        "city": "Dhahran",
+        "latitude": 26.2950,
+        "longitude": 50.2027,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Qatif",
+        "latitude": 26.4739,
+        "longitude": 50.0468,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Riyadh",
+        "latitude": 24.7136,
+        "longitude": 46.6753,
+        "state": "Riyadh"
+    },
+    {
+        "city": "Jeddah",
+        "latitude": 21.2854,
+        "longitude": 39.2376,
+        "state": "Makkah"
+    },
+    {
+        "city": "Dammam",
+        "latitude": 26.4207,
+        "longitude": 49.9782,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Khobar",
+        "latitude": 26.2392,
+        "longitude": 50.1971,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Mecca",
+        "latitude": 21.3891,
+        "longitude": 39.8579,
+        "state": "Makkah"
+    },
+    {
+        "city": "Medina",
+        "latitude": 24.4667,
+        "longitude": 39.6000,
+        "state": "Madina"
+    },
+    {
+        "city": "Taif",
+        "latitude": 21.2854,
+        "longitude": 40.4172,
+        "state": "Makkah"
+    },
+    {
+        "city": "Buraidah",
+        "latitude": 26.3376,
+        "longitude": 43.9754,
+        "state": "Qassim"
+    },
+    {
+        "city": "Jubail",
+        "latitude": 27.0164,
+        "longitude": 49.6500,
+        "state": "Eastern state"
+    },
+    {
+        "city": "Lagos",
+        "latitude": 6.5244,
+        "longitude": 3.3792,
+        "state": "Nigeria"
+    },
+    {
+        "city": "Cairo",
+        "latitude": 30.0444,
+        "longitude": 31.2357,
+        "state": "Egypt"
+    },
+    {
+        "city": "Kinshasa",
+        "latitude": -4.4419,
+        "longitude": 15.2663,
+        "state": "Democratic Republic of the Congo"
+    },
+    {
+        "city": "Johannesburg",
+        "latitude": -26.2041,
+        "longitude": 28.0473,
+        "state": "South Africa"
+    },
+    {
+        "city": "Nairobi",
+        "latitude": -1.2864,
+        "longitude": 36.8172,
+        "state": "Kenya"
+    },
+    {
+        "city": "Addis Ababa",
+        "latitude": 9.1450,
+        "longitude": 40.4897,
+        "state": "Ethiopia"
+    },
+    {
+        "city": "Accra",
+        "latitude": 5.6037,
+        "longitude": -0.1870,
+        "state": "Ghana"
+    },
+    {
+        "city": "Abuja",
+        "latitude": 9.0578,
+        "longitude": 7.4951,
+        "state": "Nigeria"
+    },
+    {
+        "city": "Casablanca",
+        "latitude": 33.5731,
+        "longitude": -7.5890,
+        "state": "Morocco"
+    },
+    {
+        "city": "Algiers",
+        "latitude": 36.737232,
+        "longitude": 3.086472,
+        "state": "Algeria"
+    },
+    {
+        "city": "Cape Town",
+        "latitude": -33.9249,
+        "longitude": 18.4241,
+        "state": "South Africa"
+    },
+    {
+        "city": "Dakar",
+        "latitude": 14.6928,
+        "longitude": -17.4467,
+        "state": "Senegal"
+    },
+    {
+        "city": "Lusaka",
+        "latitude": -15.3875,
+        "longitude": 28.3228,
+        "state": "Zambia"
+    },
+    {
+        "city": "Dar es Salaam",
+        "latitude": -6.7924,
+        "longitude": 39.2083,
+        "state": "Tanzania"
+    },
+    {
+        "city": "Maputo",
+        "latitude": -25.9682,
+        "longitude": 32.5892,
+        "state": "Mozambique"
+    },
+    {
+        "city": "Kampala",
+        "latitude": 0.3476,
+        "longitude": 32.5825,
+        "state": "Uganda"
+    },
+    {
+        "city": "Tripoli",
+        "latitude": 32.8872,
+        "longitude": 13.1913,
+        "state": "Libya"
+    },
+    {
+        "city": "Harare",
+        "latitude": -17.8292,
+        "longitude": 31.0522,
+        "state": "Zimbabwe"
+    },
+    {
+        "city": "Luanda",
+        "latitude": -8.8390,
+        "longitude": 13.2894,
+        "state": "Angola"
+    },
+    {
+        "city": "N'Djamena",
+        "latitude": 12.6392,
+        "longitude": 14.0674,
+        "state": "Chad"
+    },
+    {
+        "city": "Bujumbura",
+        "latitude": -3.3610,
+        "longitude": 29.3599,
+        "state": "Burundi"
+    },
+    {
+        "city": "Conakry",
+        "latitude": 9.6412,
+        "longitude": -13.5784,
+        "state": "Guinea"
+    },
+    {
+        "city": "Ouagadougou",
+        "latitude": 12.3714,
+        "longitude": -1.5192,
+        "state": "Burkina Faso"
+    },
+    {
+        "city": "Kigali",
+        "latitude": -1.9680,
+        "longitude": 30.1044,
+        "state": "Rwanda"
+    },
+    {
+        "city": "Bamako",
+        "latitude": 12.6392,
+        "longitude": -8.0029,
+        "state": "Mali"
+    },
+    {
+        "city": "Asmara",
+        "latitude": 15.3384,
+        "longitude": 38.9310,
+        "state": "Eritrea"
+    },
+    {
+        "city": "Libreville",
+        "latitude": 0.3893,
+        "longitude": 9.4544,
+        "state": "Gabon"
+    },
+    {
+        "city": "Tunis",
+        "latitude": 36.8065,
+        "longitude": 10.1815,
+        "state": "Tunisia"
+    },
+    {
+        "city": "Nairobi",
+        "latitude": -1.2864,
+        "longitude": 36.8172,
+        "state": "Kenya"
+    },
+    {
+        "city": "Freetown",
+        "latitude": 8.4657,
+        "longitude": -13.2317,
+        "state": "Sierra Leone"
+    },
+    {
+        "city": "Douala",
+        "latitude": 4.0511,
+        "longitude": 9.7085,
+        "state": "Cameroon"
+    },
+    {
+        "city": "Port Harcourt",
+        "latitude": 4.8157,
+        "longitude": 7.0498,
+        "state": "Nigeria"
+    },
+    {
+        "city": "Mogadishu",
+        "latitude": 2.0469,
+        "longitude": 45.3182,
+        "state": "Somalia"
+    },
+    {
+        "city": "Gaborone",
+        "latitude": -24.6282,
+        "longitude": 25.9231,
+        "state": "Botswana"
+    },
+    {
+        "city": "Windhoek",
+        "latitude": -22.5597,
+        "longitude": 17.0832,
+        "state": "Namibia"
+    },
+    {
+        "city": "Yamoussoukro",
+        "latitude": 6.8276,
+        "longitude": -5.2893,
+        "state": "Ivory Coast"
+    },
+    {
+        "city": "Banjul",
+        "latitude": 13.4530,
+        "longitude": -16.5774,
+        "state": "Gambia"
+    },
+    {
+        "city": "Zinder",
+        "latitude": 13.7831,
+        "longitude": 8.9833,
+        "state": "Niger"
+    },
+    {
+        "city": "Djibouti",
+        "latitude": 11.8251,
+        "longitude": 42.5903,
+        "state": "Djibouti"
+    },
+    {
+        "city": "Juba",
+        "latitude": 4.8594,
+        "longitude": 31.5713,
+        "state": "South Sudan"
+    },
+    {
+        "city": "Bujumbura",
+        "latitude": -3.3610,
+        "longitude": 29.3599,
+        "state": "Burundi"
+    },
+    {
+        "city": "Malabo",
+        "latitude": 3.7500,
+        "longitude": 8.7833,
+        "state": "Equatorial Guinea"
+    },
+    {
+        "city": "Lagos",
+        "latitude": 6.5244,
+        "longitude": 3.3792,
+        "state": "Nigeria"
+    },
+    {
+        "city": "Cairo",
+        "latitude": 30.0444,
+        "longitude": 31.2357,
+        "state": "Egypt"
+    },
+    {
+        "city": "Kinshasa",
+        "latitude": -4.4419,
+        "longitude": 15.2663,
+        "state": "Democratic Republic of the Congo"
+    },
+    {
+        "city": "Johannesburg",
+        "latitude": -26.2041,
+        "longitude": 28.0473,
+        "state": "South Africa"
+    },
+    {
+        "city": "Nairobi",
+        "latitude": -1.2864,
+        "longitude": 36.8172,
+        "state": "Kenya"
+    },
+    {
+        "city": "Addis Ababa",
+        "latitude": 9.1450,
+        "longitude": 40.4897,
+        "state": "Ethiopia"
+    },
+    {
+        "city": "Accra",
+        "latitude": 5.6037,
+        "longitude": -0.1870,
+        "state": "Ghana"
+    },
+    {
+        "city": "São Paulo",
+        "latitude": -23.5505,
+        "longitude": -46.6333,
+        "state": "Brazil"
+    },
+    {
+        "city": "Buenos Aires",
+        "latitude": -34.6037,
+        "longitude": -58.3816,
+        "state": "Argentina"
+    },
+    {
+        "city": "Rio de Janeiro",
+        "latitude": -22.9068,
+        "longitude": -43.1729,
+        "state": "Brazil"
+    },
+    {
+        "city": "Santiago",
+        "latitude": -33.4489,
+        "longitude": -70.6693,
+        "state": "Chile"
+    },
+    {
+        "city": "Bogotá",
+        "latitude": 4.6102,
+        "longitude": -74.0825,
+        "state": "Colombia"
+    },
+    {
+        "city": "Lima",
+        "latitude": -12.0464,
+        "longitude": -77.0428,
+        "state": "Peru"
+    },
+    {
+        "city": "Caracas",
+        "latitude": 10.4916,
+        "longitude": -66.9023,
+        "state": "Venezuela"
+    },
+    {
+        "city": "Quito",
+        "latitude": -0.1807,
+        "longitude": -78.4678,
+        "state": "Ecuador"
+    },
+    {
+        "city": "Asunción",
+        "latitude": -25.2637,
+        "longitude": -57.5759,
+        "state": "Paraguay"
+    },
+    {
+        "city": "Montevideo",
+        "latitude": -34.6037,
+        "longitude": -56.0000,
+        "state": "Uruguay"
+    },
+    {
+        "city": "Salvador",
+        "latitude": -12.9714,
+        "longitude": -38.5014,
+        "state": "Brazil"
+    },
+    {
+        "city": "Recife",
+        "latitude": -8.0476,
+        "longitude": -34.8770,
+        "state": "Brazil"
+    },
+    {
+        "city": "Porto Alegre",
+        "latitude": -30.0346,
+        "longitude": -51.2177,
+        "state": "Brazil"
+    },
+    {
+        "city": "Brasília",
+        "latitude": -15.7801,
+        "longitude": -47.9292,
+        "state": "Brazil"
+    },
+    {
+        "city": "Medellín",
+        "latitude": 6.2442,
+        "longitude": -75.5812,
+        "state": "Colombia"
+    },
+    {
+        "city": "Cali",
+        "latitude": 3.4516,
+        "longitude": -76.5320,
+        "state": "Colombia"
+    },
+    {
+        "city": "Guayaquil",
+        "latitude": -2.1864,
+        "longitude": -79.9150,
+        "state": "Ecuador"
+    },
+    {
+        "city": "La Paz",
+        "latitude": -16.5000,
+        "longitude": -68.1193,
+        "state": "Bolivia"
+    },
+    {
+        "city": "Sucre",
+        "latitude": -19.0333,
+        "longitude": -65.2628,
+        "state": "Bolivia"
+    },
+    {
+        "city": "San Salvador",
+        "latitude": 13.6929,
+        "longitude": -89.2182,
+        "state": "El Salvador"
+    },
+    {
+        "city": "Tegucigalpa",
+        "latitude": 14.1050,
+        "longitude": -87.2084,
+        "state": "Honduras"
+    },
+    {
+        "city": "San José",
+        "latitude": 9.9281,
+        "longitude": -84.0907,
+        "state": "Costa Rica"
+    },
+    {
+        "city": "Panama City",
+        "latitude": 8.9824,
+        "longitude": -79.5190,
+        "state": "Panama"
+    },
+    {
+        "city": "Montevideo",
+        "latitude": -34.6037,
+        "longitude": -56.0000,
+        "state": "Uruguay"
+    },
+    {
+        "city": "Sao Luis",
+        "latitude": -2.5387,
+        "longitude": -44.2824,
+        "state": "Brazil"
+    },
+    {
+        "city": "Belo Horizonte",
+        "latitude": -19.9167,
+        "longitude": -43.9345,
+        "state": "Brazil"
+    },
+    {
+        "city": "Curitiba",
+        "latitude": -25.4284,
+        "longitude": -49.2733,
+        "state": "Brazil"
+    },
+    {
+        "city": "Belém",
+        "latitude": -1.4553,
+        "longitude": -48.4902,
+        "state": "Brazil"
+    },
+    {
+        "city": "La Plata",
+        "latitude": -34.9208,
+        "longitude": -57.9560,
+        "state": "Argentina"
+    },
+    {
+        "city": "Mendoza",
+        "latitude": -32.8895,
+        "longitude": -68.8458,
+        "state": "Argentina"
+    },
+    {
+        "city": "Cordoba",
+        "latitude": -31.4201,
+        "longitude": -64.1888,
+        "state": "Argentina"
+    },
+    {
+        "city": "Rosario",
+        "latitude": -32.9468,
+        "longitude": -60.6393,
+        "state": "Argentina"
+    },
+    {
+        "city": "San Miguel de Tucumán",
+        "latitude": -26.8244,
+        "longitude": -65.2224,
+        "state": "Argentina"
+    },
+    {
+        "city": "Santa Fe",
+        "latitude": -31.6308,
+        "longitude": -60.7250,
+        "state": "Argentina"
+    },
+    {
+        "city": "Punta Arenas",
+        "latitude": -53.1638,
+        "longitude": -70.9161,
+        "state": "Chile"
+    },
+    {
+        "city": "Valparaíso",
+        "latitude": -33.0472,
+        "longitude": -71.6127,
+        "state": "Chile"
+    },
+    {
+        "city": "Antofagasta",
+        "latitude": -23.6500,
+        "longitude": -70.4000,
+        "state": "Chile"
+    },
+    {
+        "city": "Iquique",
+        "latitude": -20.2159,
+        "longitude": -70.1328,
+        "state": "Chile"
+    },
+    {
+        "city": "Temuco",
+        "latitude": -38.7351,
+        "longitude": -72.5900,
+        "state": "Chile"
+    },
+    {
+        "city": "Maturín",
+        "latitude": 9.7500,
+        "longitude": -63.1667,
+        "state": "Venezuela"
+    },
+    {
+        "city": "Maracaibo",
+        "latitude": 10.6310,
+        "longitude": -71.6016,
+        "state": "Venezuela"
+    },
+    {
+        "city": "Barquisimeto",
+        "latitude": 10.0733,
+        "longitude": -69.3222,
+        "state": "Venezuela"
+    },
+    {
+        "city": "San Cristóbal",
+        "latitude": 7.7667,
+        "longitude": -72.2167,
+        "state": "Venezuela"
+    },
+    {
+        "city": "Ciudad Guayana",
+        "latitude": 8.3500,
+        "longitude": -62.6333,
+        "state": "Venezuela"
+    },
+    {
+        "city": "Sucre",
+        "latitude": -19.0333,
+        "longitude": -65.2628,
+        "state": "Bolivia"
+    },
+    {
+        "city": "Santa Cruz de la Sierra",
+        "latitude": -17.7833,
+        "longitude": -63.1833,
+        "state": "Bolivia"
+    },
+    {
+        "city": "La Paz",
+        "latitude": -16.5000,
+        "longitude": -68.1193,
+        "state": "Bolivia"
+    },
+    {
+        "city": "Salta",
+        "latitude": -24.7820,
+        "longitude": -65.4119,
+        "state": "Argentina"
+    },
+    {
+        "city": "San Juan",
+        "latitude": -31.5378,
+        "longitude": -68.5252,
+        "state": "Argentina"
+    },
+    {
+        "city": "Quito",
+        "latitude": -0.1807,
+        "longitude": -78.4678,
+        "state": "Ecuador"
+    },
+    {
+        "city": "Moscow",
+        "latitude": 55.7558,
+        "longitude": 37.6176,
+        "state": "Moscow"
+    },
+    {
+        "city": "Saint Petersburg",
+        "latitude": 59.9343,
+        "longitude": 30.3351,
+        "state": "Saint Petersburg"
+    },
+    {
+        "city": "Novosibirsk",
+        "latitude": 55.0084,
+        "longitude": 82.9357,
+        "state": "Novosibirsk Oblast"
+    },
+    {
+        "city": "Yekaterinburg",
+        "latitude": 56.8389,
+        "longitude": 60.6057,
+        "state": "Sverdlovsk Oblast"
+    },
+    {
+        "city": "Nizhny Novgorod",
+        "latitude": 56.2965,
+        "longitude": 43.9361,
+        "state": "Nizhny Novgorod Oblast"
+    },
+    {
+        "city": "Kazan",
+        "latitude": 55.8304,
+        "longitude": 49.0661,
+        "state": "Tatarstan"
+    },
+    {
+        "city": "Chelyabinsk",
+        "latitude": 55.1644,
+        "longitude": 61.4368,
+        "state": "Chelyabinsk Oblast"
+    },
+    {
+        "city": "Omsk",
+        "latitude": 54.9924,
+        "longitude": 73.3686,
+        "state": "Omsk Oblast"
+    },
+    {
+        "city": "Rostov-on-Don",
+        "latitude": 47.2357,
+        "longitude": 39.7015,
+        "state": "Rostov Oblast"
+    },
+    {
+        "city": "Ufa",
+        "latitude": 54.7388,
+        "longitude": 55.9721,
+        "state": "Bashkortostan"
+    },
+    {
+        "city": "Volgograd",
+        "latitude": 48.7080,
+        "longitude": 44.5133,
+        "state": "Volgograd Oblast"
+    },
+    {
+        "city": "Krasnoyarsk",
+        "latitude": 56.0153,
+        "longitude": 92.8932,
+        "state": "Krasnoyarsk Krai"
+    },
+    {
+        "city": "Perm",
+        "latitude": 58.0105,
+        "longitude": 56.2500,
+        "state": "Perm Krai"
+    },
+    {
+        "city": "Voronezh",
+        "latitude": 51.6602,
+        "longitude": 39.2003,
+        "state": "Voronezh Oblast"
+    },
+    {
+        "city": "Astrakhan",
+        "latitude": 46.3491,
+        "longitude": 48.0295,
+        "state": "Astrakhan Oblast"
+    },
+    {
+        "city": "Khabarovsk",
+        "latitude": 48.4833,
+        "longitude": 135.0667,
+        "state": "Khabarovsk Krai"
+    },
+    {
+        "city": "Tomsk",
+        "latitude": 56.4977,
+        "longitude": 84.9744,
+        "state": "Tomsk Oblast"
+    },
+    {
+        "city": "Irkutsk",
+        "latitude": 52.2850,
+        "longitude": 104.2806,
+        "state": "Irkutsk Oblast"
+    },
+    {
+        "city": "Ulan-Ude",
+        "latitude": 51.8333,
+        "longitude": 107.5833,
+        "state": "Buryatia"
+    },
+    {
+        "city": "Yaroslavl",
+        "latitude": 57.6261,
+        "longitude": 39.8933,
+        "state": "Yaroslavl Oblast"
+    },
+    {
+        "city": "Tula",
+        "latitude": 54.2000,
+        "longitude": 37.6167,
+        "state": "Tula Oblast"
+    },
+    {
+        "city": "Kaliningrad",
+        "latitude": 54.7104,
+        "longitude": 20.4522,
+        "state": "Kaliningrad Oblast"
+    },
+    {
+        "city": "Chita",
+        "latitude": 52.0486,
+        "longitude": 113.4917,
+        "state": "Zabaykalsky Krai"
+    },
+    {
+        "city": "Kursk",
+        "latitude": 51.7370,
+        "longitude": 36.1876,
+        "state": "Kursk Oblast"
+    },
+    {
+        "city": "Orel",
+        "latitude": 52.9667,
+        "longitude": 36.0833,
+        "state": "Orel Oblast"
+    },
+    {
+        "city": "Lipetsk",
+        "latitude": 52.6167,
+        "longitude": 39.5667,
+        "state": "Lipetsk Oblast"
+    },
+    {
+        "city": "Bryansk",
+        "latitude": 53.2553,
+        "longitude": 34.3700,
+        "state": "Bryansk Oblast"
+    },
+    {
+        "city": "Saratov",
+        "latitude": 51.5333,
+        "longitude": 46.0342,
+        "state": "Saratov Oblast"
+    },
+    {
+        "city": "Kostroma",
+        "latitude": 57.7667,
+        "longitude": 40.9667,
+        "state": "Kostroma Oblast"
+    },
+    {
+        "city": "Vladimir",
+        "latitude": 56.1333,
+        "longitude": 40.4167,
+        "state": "Vladimir Oblast"
+    },
+    {
+        "city": "Naberezhnye Chelny",
+        "latitude": 55.7344,
+        "longitude": 52.5738,
+        "state": "Tatarstan"
+    },
+    {
+        "city": "Tver",
+        "latitude": 56.8594,
+        "longitude": 35.8972,
+        "state": "Tver Oblast"
+    },
+    {
+        "city": "Arkhangelsk",
+        "latitude": 64.5376,
+        "longitude": 40.5158,
+        "state": "Arkhangelsk Oblast"
+    },
+    {
+        "city": "Murmansk",
+        "latitude": 68.9585,
+        "longitude": 33.0827,
+        "state": "Murmansk Oblast"
+    },
+    {
+        "city": "Petrozavodsk",
+        "latitude": 61.7690,
+        "longitude": 34.3441,
+        "state": "Karelia"
+    },
+    {
+        "city": "Vologda",
+        "latitude": 59.2167,
+        "longitude": 39.8833,
+        "state": "Vologda Oblast"
+    },
+    {
+        "city": "Kirov",
+        "latitude": 58.5960,
+        "longitude": 49.6663,
+        "state": "Kirov Oblast"
+    },
+    {
+        "city": "Kursk",
+        "latitude": 51.7370,
+        "longitude": 36.1876,
+        "state": "Kursk Oblast"
+    },
+    {
+        "city": "Volgodonsk",
+        "latitude": 47.5333,
+        "longitude": 42.1167,
+        "state": "Rostov Oblast"
+    },
+    {
+        "city": "Surgut",
+        "latitude": 61.2500,
+        "longitude": 73.4167,
+        "state": "Khanty-Mansi Autonomous Okrug"
+    },
+    {
+        "city": "Sochi",
+        "latitude": 43.5853,
+        "longitude": 39.7203,
+        "state": "Krasnodar Krai"
+    },
+    {
+        "city": "Kislovodsk",
+        "latitude": 43.8674,
+        "longitude": 42.7167,
+        "state": "Stavropol Krai"
+    },
+    {
+        "city": "Nalchik",
+        "latitude": 43.4833,
+        "longitude": 43.6167,
+        "state": "Kabardino-Balkar Republic"
+    },
+    {
+        "city": "Pskov",
+        "latitude": 57.8215,
+        "longitude": 28.3355,
+        "state": "Pskov Oblast"
+    },
+    {
+        "city": "Kursk",
+        "latitude": 51.7370,
+        "longitude": 36.1876,
+        "state": "Kursk Oblast"
+    },
+    {
+        "city": "Taganrog",
+        "latitude": 47.2353,
+        "longitude": 38.8925,
+        "state": "Rostov Oblast"
+    },
+    {
+        "city": "Nizhnekamsk",
+        "latitude": 55.6333,
+        "longitude": 51.8333,
+        "state": "Tatarstan"
+    },
+    {
+        "city": "Yoshkar-Ola",
+        "latitude": 56.6333,
+        "longitude": 47.8833,
+        "state": "Mari El"
+    },
+    {
+        "city": "Syktyvkar",
+        "latitude": 61.6667,
+        "longitude": 50.8333,
+        "state": "Komi Republic"
+    },
+    {
+        "city": "Severodvinsk",
+        "latitude": 64.5667,
+        "longitude": 39.8333,
+        "state": "Arkhangelsk Oblast"
+    },
+    {
+        "city": "Komsomolsk-on-Amur",
+        "latitude": 50.5833,
+        "longitude": 137.0167,
+        "state": "Khabarovsk Krai"
+    },
+    {
+        "city": "Novokuznetsk",
+        "latitude": 53.7500,
+        "longitude": 87.1167,
+        "state": "Kemerovo Oblast"
+    },
+    {
+        "city": "Belgorod",
+        "latitude": 50.6000,
+        "longitude": 36.5833,
+        "state": "Belgorod Oblast"
+    },
+    {
+        "city": "Saratov",
+        "latitude": 51.5333,
+        "longitude": 46.0342,
+        "state": "Saratov Oblast"
+    },
+    {
+        "city": "Voronezh",
+        "latitude": 51.6602,
+        "longitude": 39.2003,
+        "state": "Voronezh Oblast"
+    },
+    {
+        "city": "Togliatti",
+        "latitude": 53.5270,
+        "longitude": 49.4200,
+        "state": "Samara Oblast"
+    },
+    {
+        "city": "Vladikavkaz",
+        "latitude": 43.0225,
+        "longitude": 44.0686,
+        "state": "North Ossetia–Alania"
+    },
+    {
+        "city": "Grozny",
+        "latitude": 43.3167,
+        "longitude": 45.6833,
+        "state": "Chechnya"
+    },
+    {
+        "city": "Nizhny Tagil",
+        "latitude": 57.9167,
+        "longitude": 59.9667,
+        "state": "Sverdlovsk Oblast"
+    },
+    {
+        "city": "Makhachkala",
+        "latitude": 42.9868,
+        "longitude": 47.5049,
+        "state": "Dagestan"
+    },
+    {
+        "city": "Zelenograd",
+        "latitude": 55.9667,
+        "longitude": 37.1833,
+        "state": "Moscow"
+    },
+    {
+        "city": "Cherepovets",
+        "latitude": 59.1333,
+        "longitude": 37.9167,
+        "state": "Vologda Oblast"
+    },
+    {
+        "city": "Veliky Novgorod",
+        "latitude": 58.5167,
+        "longitude": 31.2833,
+        "state": "Novgorod Oblast"
+    },
+    {
+        "city": "Ivanovo",
+        "latitude": 57.0000,
+        "longitude": 40.9667,
+        "state": "Ivanovo Oblast"
+    },
+    {
+        "city": "Dzerzhinsk",
+        "latitude": 56.2366,
+        "longitude": 43.5072,
+        "state": "Nizhny Novgorod Oblast"
+    },
+    {
+        "city": "Orenburg",
+        "latitude": 51.7667,
+        "longitude": 55.1000,
+        "state": "Orenburg Oblast"
+    },
+    {
+        "city": "Ulyanovsk",
+        "latitude": 54.3081,
+        "longitude": 48.3664,
+        "state": "Ulyanovsk Oblast"
+    },
+    {
+        "city": "Kostroma",
+        "latitude": 57.7667,
+        "longitude": 40.9667,
+        "state": "Kostroma Oblast"
+    },
+    {
+        "city": "Syzran",
+        "latitude": 53.1667,
+        "longitude": 48.5167,
+        "state": "Samara Oblast"
+    },
+    {
+        "city": "Ryazan",
+        "latitude": 54.6167,
+        "longitude": 39.7167,
+        "state": "Ryazan Oblast"
+    },
+    {
+        "city": "Kurgan",
+        "latitude": 55.4500,
+        "longitude": 65.3333,
+        "state": "Kurgan Oblast"
+    },
+    {
+        "city": "Kamyshin",
+        "latitude": 50.0500,
+        "longitude": 44.6000,
+        "state": "Volgograd Oblast"
+    },
+    {
+        "city": "Arzamas",
+        "latitude": 55.4167,
+        "longitude": 43.8167,
+        "state": "Nizhny Novgorod Oblast"
+    },
+    {
+        "city": "Novorossiysk",
+        "latitude": 44.7333,
+        "longitude": 37.7667,
+        "state": "Krasnodar Krai"
+    },
+    {
+        "city": "Birobidzhan",
+        "latitude": 48.7833,
+        "longitude": 132.9167,
+        "state": "Jewish Autonomous state"
+    },
+    {
+        "city": "Vladimir",
+        "latitude": 56.1333,
+        "longitude": 40.4167,
+        "state": "Vladimir Oblast"
+    },
+    {
+        "city": "Tula",
+        "latitude": 54.2000,
+        "longitude": 37.6167,
+        "state": "Tula Oblast"
+    },
+    {
+        "city": "Shchekino",
+        "latitude": 53.7333,
+        "longitude": 37.3667,
+        "state": "Tula Oblast"
+    },
+    {
+        "city": "Tver",
+        "latitude": 56.8594,
+        "longitude": 35.8972,
+        "state": "Tver Oblast"
+    },
+    {
+        "city": "Veliky Ustyug",
+        "latitude": 61.5333,
+        "longitude": 46.4167,
+        "state": "Vologda Oblast"
+    },
+    {
+        "city": "Kislovodsk",
+        "latitude": 43.8674,
+        "longitude": 42.7167,
+        "state": "Stavropol Krai"
+    },
+    {
+        "city": "Yessentuki",
+        "latitude": 44.0333,
+        "longitude": 42.9667,
+        "state": "Stavropol Krai"
+    },
+    {
+        "city": "Armavir",
+        "latitude": 45.0167,
+        "longitude": 41.1333,
+        "state": "Krasnodar Krai"
+    },
+    {
+        "city": "Vladivostok",
+        "latitude": 43.1155,
+        "longitude": 131.8827,
+        "state": "Primorsky Krai"
+    },
+    {
+        "city": "Syktyvkar",
+        "latitude": 61.6667,
+        "longitude": 50.8333,
+        "state": "Komi Republic"
+    },
+    {
+        "city": "Nizhnekamsk",
+        "latitude": 55.6333,
+        "longitude": 51.8333,
+        "state": "Tatarstan"
+    }
 ];
