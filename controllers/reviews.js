@@ -12,10 +12,27 @@ module.exports.createReview = async (req, res) => {
     res.redirect(`/campgrounds/${campground._id}`);
 }
 
+// module.exports.deleteReview = async (req, res) => {
+//     const { id, reviewId } = req.params;
+//     await Campground.findByIdAndUpdate(id, { $pull: { reviews: reviewId } });
+//     await Review.findByIdAndDelete(reviewId);
+//     req.flash('success', 'Successfully deleted review')
+//     res.redirect(`/campgrounds/${id}`);
+// }
+
 module.exports.deleteReview = async (req, res) => {
     const { id, reviewId } = req.params;
+
+    console.log(req.user);
     await Campground.findByIdAndUpdate(id, { $pull: { reviews: reviewId } });
-    await Review.findByIdAndDelete(reviewId);
-    req.flash('success', 'Successfully deleted review')
+    const review = await Review.findById(reviewId);
+    if (req.user.isAdmin || review.author.equals(req.user._id)) {
+        
+        await Review.findByIdAndDelete(reviewId);
+        req.flash('success', 'Successfully deleted review!');
+    } else {
+        req.flash('error', 'You do not have permission to do that!');
+    }
+
     res.redirect(`/campgrounds/${id}`);
-}
+};

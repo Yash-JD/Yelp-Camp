@@ -1,0 +1,118 @@
+<% layout('layouts/boilerplate') %>
+
+<style>
+  .users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+
+  .user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .user-info div {
+    margin-bottom: 5px;
+  }
+
+  .user-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .campgrounds-list {
+    margin-top: 15px;
+  }
+
+  .camp-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  .camp-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+
+  .camp-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .block-btn, .delete-camp-btn {
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .block-btn:hover, .delete-camp-btn:hover {
+    background-color: #c82333; /* Darker danger shade */
+  }
+</style>
+<!-- users.ejs -->
+<h1>All Users</h1>
+
+<div class="users-container">
+  <% users.forEach(function(user) { %>
+    <% if (!user.isBlocked) { %>
+      <div class="user-card toggle-camps">
+        <div class="user-header">
+          <div class="user-info">
+            <div><strong>ID:</strong> <%= user._id %></div>
+            <div><strong>Name:</strong> <%= user.username %></div>
+            <div><strong>Email:</strong> <%= user.email %></div>
+          </div>
+          <div class="user-actions">
+              <form action="/users/<%= user._id %>/block?_method=POST" method="POST">
+                <button class="btn btn-danger block-btn">Delete User</button>
+              </form>
+            <!-- Toggle button to show/hide user's campgrounds -->
+            <!-- <button class="btn btn-secondary ">View Campgrounds</button> -->
+          </div>
+        </div>
+
+        <!-- Campgrounds list (initially hidden) -->
+        <div class="campgrounds-list" style="display: none;">
+          <% user.campgrounds.forEach(function(camp) { %>
+            <div class="camp-card">
+              <a href="/campgrounds/<%= camp._id %>" class="camp-link">
+                <%= camp.title %>
+              </a>
+              <div class="camp-actions">
+                <form action="/campgrounds/<%= camp._id %>?_method=DELETE" method="POST">
+                  <button class="btn btn-danger delete-camp-btn">Delete Campground</button>
+                </form>
+              </div>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    <% } %>
+  <% }) %>
+</div>
+
+<!-- Include jQuery or ensure it's included in your layout -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  // Toggle campgrounds list on button click
+  $(document).ready(function() {
+    $('.toggle-camps').click(function() {
+      $(this).closest('.user-card').find('.campgrounds-list').slideToggle();
+    });
+  });
+</script>
