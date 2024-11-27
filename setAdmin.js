@@ -13,7 +13,7 @@ db.once('open', async () => {
     console.log('Database connected');
 
     // Replace 'adminUsername' with the username of the user you want to make an admin
-    const username = 'pratik_dubariya';
+    const username = 'y';
     const user = await User.findOne({ username });
 
     if (user) {
