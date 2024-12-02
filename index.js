@@ -14,13 +14,21 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 const http = require("http");
-const scoketio = require("socket.io");
+const mongoSanitize = require('express-mongo-sanitize');
 
 const userRoutes = require("./routes/users.js");
 const campgroundRoutes = require("./routes/campgrounds.js");
 const reviewRoutes = require("./routes/reviews.js");
 
-mongoose.connect("mongodb://localhost:27017/yelp-camp");
+const MongoStore = require("connect-mongo");
+
+const dbUrl = 'mongodb://localhost:27017/yelp-camp';
+// process.env.DB_URL || 
+
+mongoose.connect(dbUrl, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "connection error:"));
@@ -29,37 +37,6 @@ db.once("open", () => {
 });
 
 const app = express();
-const server = http.createServer(app);
-const io = scoketio(server);
-
-// io for chat
-io.on("connection", (socket) => {
-  console.log("New WebSocket connection");
-
-  socket.on("joinRoom", ({ userId, campgroundId }) => {
-    const room = `${userId}-${campgroundId}`;
-    socket.join(room);
-
-    // Notify the owner that a user has joined the chat
-    socket.broadcast.to(room).emit("message", "A user has joined the chat");
-  });
-
-  // Listen for chat messages
-  socket.on("chatMessage", async ({ roomId, message }) => {
-    const [userId, campgroundId] = roomId.split('-');
-  
-    // Save message to the database
-    const chat = await Chat.findOne({ campgroundId, userId }) || new Chat({ campgroundId, userId });
-    chat.messages.push({ sender: socket.id, text: message });
-    await chat.save();
-
-    io.to(roomId).emit('message', message);
-  });
-
-  socket.on("disconnect", () => {
-    console.log("User has left");
-  });
-});
 
 app.engine("ejs", ejsMate);
 app.set("view engine", "ejs");
@@ -68,9 +45,29 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.urlencoded({ extended: true })); // tell the express to parse url encoded to json body
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
+app.use(mongoSanitize({
+  replaceWith: '_'
+}))
+
+const secret = 'thisshouldbeabettersecret!';
+// process.env.SECRET || 
+
+const store = MongoStore.create({
+  mongoUrl: dbUrl,
+  crypto: {
+    secret
+  },
+  touchAfter: 24 * 60 * 60,
+});
+
+store.on("error", function (e) {
+  console.log("SESSION STORE ERROR", e)
+})
 
 const sessionConfig = {
-  secret: "thisshouldbeabettersecret!",
+  store,
+  name: 'session',
+  secret,
   resave: false,
   saveUninitialized: true,
   cookie: {
@@ -123,6 +120,6 @@ app.use((err, req, res, next) => {
   res.status(statusCode).render("error", { err });
 });
 
-app.listen(3000, () => {
+app.listen(4000, () => {
   console.log("Listening on PORT 3000");
 });
