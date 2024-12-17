@@ -37,5 +37,5 @@
 ### Start the server:
 
 ```bash
-npm start
+nodemon index.js
 ```
