@@ -69,8 +69,24 @@ module.exports.updateCampground = async (req, res) => {
     res.redirect(`/campgrounds/${camp._id}`)
 }
 
+// module.exports.deleteCampground = async (req, res) => {
+//     await Campground.findByIdAndDelete(req.params.id);
+//     req.flash('success', 'Successfully deleted campground');
+//     res.redirect(`/campgrounds`)
+// }
+
 module.exports.deleteCampground = async (req, res) => {
-    await Campground.findByIdAndDelete(req.params.id);
-    req.flash('success', 'Successfully deleted campground');
-    res.redirect(`/campgrounds`)
-}
+    const { id } = req.params;
+    
+    const campground = await Campground.findById(id);
+
+    // Allow deletion if the user is an admin or the author of the campground
+    if (req.user.isAdmin || campground.author.equals(req.user._id)) {
+        await Campground.findByIdAndDelete(id);
+        req.flash('success', 'Successfully deleted campground!');
+        res.redirect('/campgrounds');
+    } else {
+        req.flash('error', 'You do not have permission to do that!');
+        res.redirect(`/campgrounds/${id}`);
+    }
+};
