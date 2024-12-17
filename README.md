@@ -4,14 +4,14 @@
 
 # YelpCamp
 
-A web application for finding and reviewing campgrounds.
-Users can search, post reviews, and share images of campsites.
-Also there is admin which can handle all the functionalities.
+- A web application for finding and reviewing campgrounds.
+- Users can search, post reviews, and share images of campsites.
+- Also there is admin which can handle all the functionalities.
 
 ## About
 
-YelpCamp is a web platform designed for outdoor enthusiasts to share their camping experiences.
-Users can browse campgrounds, post reviews, and view pictures of each campground.
+- YelpCamp is a web platform designed for outdoor enthusiasts to share their camping experiences.
+- Users can browse campgrounds, post reviews, and view pictures of each campground.
 
 ### Prerequisites
 
