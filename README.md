@@ -1,20 +1,17 @@
 ## Watch the Video
 
-You can watch the tutorial video here:
-
-<!-- [Click here to watch the video on Google Drive](https://drive.google.com/file/d/1k6LtNq2acWgLz785-dGborBxi5xSVLjE/preview) -->
-
-<iframe src="https://drive.google.com/file/d/1k6LtNq2acWgLz785-dGborBxi5xSVLjE/preview" width="640" height="360" allow="autoplay"></iframe>
+[Click here to watch the video on Google Drive](https://drive.google.com/file/d/1k6LtNq2acWgLz785-dGborBxi5xSVLjE/preview)
 
 # YelpCamp
 
-A web application for finding and reviewing campgrounds. Users can search, post reviews, and share images of campsites.
+A web application for finding and reviewing campgrounds.
+Users can search, post reviews, and share images of campsites.
+Also there is admin which can handle all the functionalities.
 
 ## About
 
-YelpCamp is a web platform designed for outdoor enthusiasts to share their camping experiences. Users can browse campgrounds, post reviews, and view pictures of each campground.
-
-## Installation
+YelpCamp is a web platform designed for outdoor enthusiasts to share their camping experiences.
+Users can browse campgrounds, post reviews, and view pictures of each campground.
 
 ### Prerequisites
 
