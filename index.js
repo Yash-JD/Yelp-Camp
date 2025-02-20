@@ -14,7 +14,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 const http = require("http");
-const mongoSanitize = require('express-mongo-sanitize');
+const mongoSanitize = require("express-mongo-sanitize");
 
 const userRoutes = require("./routes/users.js");
 const campgroundRoutes = require("./routes/campgrounds.js");
@@ -22,11 +22,11 @@ const reviewRoutes = require("./routes/reviews.js");
 
 const MongoStore = require("connect-mongo");
 
-const dbUrl = 'mongodb://localhost:27017/yelp-camp';
+// const dbUrl = 'mongodb://localhost:27017/yelp-camp';
 
-mongoose.connect(dbUrl, {
+mongoose.connect(process.env.DB_URL, {
   useNewUrlParser: true,
-  useUnifiedTopology: true
+  useUnifiedTopology: true,
 });
 
 const db = mongoose.connection;
@@ -44,27 +44,29 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.urlencoded({ extended: true })); // tell the express to parse url encoded to json body
 app.use(methodOverride("_method"));
 app.use(express.static(path.join(__dirname, "public")));
-app.use(mongoSanitize({
-  replaceWith: '_'
-}))
+app.use(
+  mongoSanitize({
+    replaceWith: "_",
+  })
+);
 
-const secret = 'thisshouldbeabettersecret!';
+const secret = "thisshouldbeabettersecret!";
 
 const store = MongoStore.create({
-  mongoUrl: dbUrl,
+  mongoUrl: process.env.DB_URL,
   crypto: {
-    secret
+    secret,
   },
   touchAfter: 24 * 60 * 60,
 });
 
 store.on("error", function (e) {
-  console.log("SESSION STORE ERROR", e)
-})
+  console.log("SESSION STORE ERROR", e);
+});
 
 const sessionConfig = {
   store,
-  name: 'session',
+  name: "session",
   secret,
   resave: false,
   saveUninitialized: true,
